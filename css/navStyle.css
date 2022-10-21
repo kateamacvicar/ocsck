@@ -75,6 +75,7 @@ nav ul a:focus {
   .dropdown-content {
     display: none;
     position: absolute;
+    justify-content: center;
     border-style: solid;
     border-color: #d4d4d4;
     border-width: 0.3px;
@@ -88,7 +89,7 @@ nav ul a:focus {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: in-line;
+    display: block;
   }
   
   /* Change color of dropdown links on hover */
