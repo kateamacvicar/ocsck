@@ -62,14 +62,6 @@ nav ul a:focus {
     /* position: relative; */
     display: block;
   }
-
-  .downdownHeaders {
-    font-weight: bold;
-  }
-
-  .dropdownSub{
-    display: block;
-  }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
