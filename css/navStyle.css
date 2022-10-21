@@ -75,8 +75,11 @@ nav ul a:focus {
   .dropdown-content {
     display: none;
     position: absolute;
+    border-style: solid;
+    border-color: #d4d4d4;
+    border-width: 0.3px;
     background-color: white;
-    min-width: 100%;
+    min-width: 20%;
     z-index: 1;
   }
   
@@ -89,7 +92,7 @@ nav ul a:focus {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: white; color: #045d38;}
+  .dropdown-content a:hover {color: #045d38;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block; color: #1faa70}
