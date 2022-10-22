@@ -94,3 +94,9 @@ nav ul a:focus {
   .dropdown:hover .dropbtn {color: #045d38; background-color: white;}
 
   
+  .footer {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    margin: auto;
+    display: in-line; 
+}
