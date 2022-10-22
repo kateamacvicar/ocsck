@@ -97,14 +97,3 @@ nav ul a:focus {
     display: in-line; 
 }
 
-.homeHeader {
-    background-color: grey;
-}
-
-.homeBody {
-    display: in-line;
-}
-
-p {
-    font-size: 25px;
-}
