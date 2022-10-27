@@ -34,8 +34,13 @@ h2{
     font-size: 170%;
 }
 
+.aboutMeMain_words{
+    width: 80%;
+    margin: auto;
+}
+
 button {
-    padding: 2% 5%;
+    padding: 1% 4%;
     border-radius: 7px;
     border-style: none;
     background-color: darkgrey;
