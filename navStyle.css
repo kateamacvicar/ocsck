@@ -102,12 +102,12 @@ footer {
   line-height: 1.6;
 }
 
-footer.footerWords{
+.footerWords{
   padding-left: 15%;
   text-align: center;
 }
 
-footer.footerImg{
+.footerImg{
   width: 20%;
   height: 20%;
 }
