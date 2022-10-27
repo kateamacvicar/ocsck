@@ -89,4 +89,9 @@ nav ul a:focus {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {color: #045d38; background-color: white;}
 
+footer {
+  display: flex;
+  font-size: 15px;
+  background-color: black;
+}
   
