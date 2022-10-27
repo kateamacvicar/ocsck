@@ -1,3 +1,45 @@
-h1{
-    color: red;
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.aboutMeIntro{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.aboutMeIntro_words{
+    width: 50%;
+    text-align: center;
+    padding: 3%;
+    font-size: 180%;
+}
+
+.aboutMeIntro_img{
+    width: 50%;
+}
+
+.aboutMeMain{
+    text-align: center;
+    padding: 4%;
+    font-size: 170%;
+}
+
+button {
+    padding: 2% 5%;
+    border-radius: 7px;
+    border-style: none;
+    background-color: darkgrey;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
