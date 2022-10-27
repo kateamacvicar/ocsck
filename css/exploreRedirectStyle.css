@@ -2,21 +2,12 @@ h1{
     text-align: center;
 }
 
-.redirectTable{
-    border-style: solid;
-    border-radius: 0.5px;
-    background-color: grey;
+.grid{
+    display: flex;
 }
 
-tr{
-    font-size: 300%;
-}
-
-th{
-    font-weight: 1px;
-
-}
-
-td{
-    font-weight: 1px;
+button{
+    border-style: none;
+    padding: 10%;
+    font-size: 200%;  
 }
