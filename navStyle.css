@@ -90,8 +90,25 @@ nav ul a:focus {
 .dropdown:hover .dropbtn {color: #045d38; background-color: white;}
 
 footer {
+  /* puts the logo and words next to each other horizontally */
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   background-color: black;
+  color: white;
+  padding-left: 1%;
+  /*aligns the words vertically*/
+  align-items: center;
+  /*increases space between each line of text*/
+  line-height: 1.6;
+}
+
+footer.footerWords{
+  padding-left: 15%;
+  text-align: center;
+}
+
+footer.footerImg{
+  width: 20%;
+  height: 20%;
 }
   
