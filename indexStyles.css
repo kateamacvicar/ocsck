@@ -1,16 +1,24 @@
 h1{
     color: white;
+    font-size: 350%;;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8px;
 }
 
 button {
     padding: 2% 5%;
     border-radius: 7px;
     border-style: none;
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(60, 96, 119);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .homeHeader {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(91, 146, 163);
     padding: 10%;
     text-align: center;
 

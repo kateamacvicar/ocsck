@@ -1,18 +1,17 @@
 
 #navTab{
   text-decoration: none;
-  color: #1faa70;
+  color: grey;
 }
 
 #navTab:hover{
   text-decoration: none;
-  color: #045d38;
+  color: black;
 }
 
 nav {
   margin: auto;
   width: 90%;
-  font-size: 25px;
 }
 
 nav ul {
@@ -20,8 +19,6 @@ nav ul {
   margin: auto;
   display: flex;
   justify-content: center;
-  font-size: 25px;
-  font-weight: bold;
 }
 
 nav ul li {
@@ -33,7 +30,7 @@ nav ul li {
 
 nav ul a:hover, 
 nav ul a:focus {
-  color: #025a35;
+  color: black;
   font-size: 25px;
   font-weight: bold;
 }
@@ -46,7 +43,7 @@ nav ul a:focus {
 /* Dropdown Button */
 .dropbtn {
   background-color: white;
-  color: #1faa70;
+  color: grey;
   font-size: 25px;
   font-weight: bold;
   border: none;
@@ -81,13 +78,13 @@ nav ul a:focus {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {color: #045d38;}
+.dropdown-content a:hover {color: black;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; color: #1faa70}
+.dropdown:hover .dropdown-content {display: block; color: grey}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: #045d38; background-color: white;}
+.dropdown:hover .dropbtn {color: black; background-color: white;}
 
 footer {
   /* puts the logo and words next to each other horizontally */
