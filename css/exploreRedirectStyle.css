@@ -2,8 +2,13 @@ h1{
     text-align: center;
 }
 
-.grid{
+.bigGrid{
     display: flex;
+    justify-content: center;
+}
+
+.grid{
+    padding: 15px;
 }
 
 button{
