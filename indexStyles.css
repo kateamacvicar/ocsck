@@ -12,13 +12,13 @@ button {
     padding: 2% 5%;
     border-radius: 7px;
     border-style: none;
-    background-color: rgb(60, 96, 119);
+    background-color: darkgrey;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .homeHeader {
-    background-color: rgb(91, 146, 163);
+    background-color: grey;
     padding: 10%;
     text-align: center;
 
@@ -27,17 +27,15 @@ button {
 .homeBody {
     display: flex;
     width: 100%;
-    align-items: center;
-}
-
-p {
-    font-size: 25px;
+    align-items: center;'
+    line-height: 1.5px;
 }
 
 .indexWords{
     width: 50%;
     text-align: center;
     padding: 3%;
+    font-size: 180%;
 }
 
 .indexImg{
