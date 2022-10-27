@@ -2,17 +2,19 @@ h1{
     text-align: center;
 }
 
-.bigGrid{
-    display: flex;
-    justify-content: center;
-}
-
-.grid{
-    padding: 15px;
-}
-
 button{
-    border-style: none;
-    padding: 10%;
     font-size: 200%;  
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(203, 203, 203);
+  }
+  .grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
