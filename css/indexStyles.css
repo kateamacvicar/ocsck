@@ -17,6 +17,11 @@ button {
     font-family: 'Times New Roman', Times, serif;
 }
 
+button:hover{
+    background-color: black;
+    color: white;
+}
+
 .homeHeader {
     background-color: grey;
     padding: 10%;
