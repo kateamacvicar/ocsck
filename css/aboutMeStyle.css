@@ -26,17 +26,24 @@ h2{
 
 .aboutMeIntro_img{
     width: 50%;
+    padding: 2%;
 }
 
 .aboutMeMain{
     text-align: center;
     padding: 4%;
+    margin-left: 4%;
+    margin-right: 4%
     font-size: 170%;
 }
 
 .aboutMeMain_words{
     width: 80%;
     margin: auto;
+}
+
+.clickButton_words{
+    font-size: 80%;
 }
 
 button {
