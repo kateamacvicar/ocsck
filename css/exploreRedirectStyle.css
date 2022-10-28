@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1{
     text-align: center;
     margin: auto;
@@ -6,12 +11,12 @@ h1{
     display: grid;
     grid-template-columns: auto auto;
     background-color: rgb(203, 203, 203);
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20%;
+    padding: 15%;
     font-size: 30px;
     text-align: center;
   }
