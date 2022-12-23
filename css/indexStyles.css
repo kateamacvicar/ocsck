@@ -1,3 +1,9 @@
+.grid {
+    display: grid;
+    border-radius: 2px;
+    border-color: blue;
+}
+
 h1{
     color: white;
     font-size: 350%;;
@@ -30,17 +36,20 @@ button:hover{
 }
 
 .homeBody {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     width: 100%;
-    align-items: center;
+    align-content: center;
     line-height: 1.5;
 }
 
 .indexWords{
-    width: 50%;
+    width: 600px;
     text-align: center;
     padding: 3%;
     font-size: 180%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .indexImg{
