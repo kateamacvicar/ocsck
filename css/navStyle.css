@@ -25,28 +25,23 @@ nav ul {
 nav ul li {
   padding: 24px;
   display: block;
-  font-weight: bold;
   font-size: 25px;
 }
 
 nav ul a:hover, 
 nav ul a:focus {
-  color: black;
   font-size: 25px;
-  font-weight: bold;
 }
 
 #dropdownStyle {
   font-size: 20px;
-  font-weight: bold;
 }
 
 /* Dropdown Button */
 .dropbtn {
   background-color: #0F1C23;
-  color: grey;
+  color: #5DBAEF;
   font-size: 25px;
-  font-weight: bold;
   border: none;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -79,13 +74,13 @@ nav ul a:focus {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {color: black;}
+.dropdown-content a:hover {color: #5DBAEF; text-decoration-line: underline; text-decoration-color: #5DBAEF;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; color: grey}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: black; background-color: white;}
+/*.dropdown:hover .dropbtn {color: black; background-color: white;}*/
 
 footer {
   /* puts the logo and words next to each other horizontally */
