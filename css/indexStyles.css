@@ -3,6 +3,10 @@
     border: 2px blue solid;
 }
 
+.headerImg{
+    z-index: 2;
+}
+
 h1{
     color: #060B0E;
     font-size: 350%;
@@ -31,12 +35,11 @@ button {
 }
 
 button:hover{
-    background-color: black;
-    color: white;
+    background-color: #5DBAEF;
+    color: #0F1C23;
 }
 
 .homeHeader {
-    background-image: url("images/0603.jpg");
     padding: 10%;
     text-align: center;
 
