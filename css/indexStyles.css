@@ -5,6 +5,8 @@
 
 .headerImg{
     z-index: 2;
+    height: auto;
+    width: auto;
 }
 
 h1{
@@ -35,12 +37,9 @@ button {
 }
 
 button:hover{
-    background-color: #5DBAEF;
-    color: #0F1C23;
 }
 
 .homeHeader {
-    padding: 10%;
     text-align: center;
 
 }
