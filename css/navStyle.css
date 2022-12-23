@@ -106,10 +106,6 @@ footer {
   height: 20%;
 }
 
-.getInTouch{
-  display: flex;
-}
-
 .getInTouchWords{
   text-decoration-line: underline;
   text-decoration-color: #5DBAEF;
