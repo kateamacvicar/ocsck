@@ -1,7 +1,6 @@
 .grid {
     display: grid;
-    border-radius: 2px;
-    border-color: blue;
+    border: 2px blue solid;
 }
 
 h1{
