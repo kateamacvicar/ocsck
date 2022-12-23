@@ -1,12 +1,13 @@
 
 #navTab{
   text-decoration: none;
-  color: grey;
+  color: #5DBAEF;
 }
 
 #navTab:hover{
-  text-decoration: none;
-  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: #5DBAEF;
+  
 }
 
 nav {
@@ -42,7 +43,7 @@ nav ul a:focus {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: white;
+  background-color: #0F1C23;
   color: grey;
   font-size: 25px;
   font-weight: bold;
@@ -62,16 +63,16 @@ nav ul a:focus {
   position: absolute;
   justify-content: center;
   border-style: solid;
-  border-color: #d4d4d4;
+  border-color: #0F1C23;
   border-width: 0.3px;
-  background-color: white;
+  background-color: #0F1C23;
   min-width: 20%;
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #5DBAEF;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
