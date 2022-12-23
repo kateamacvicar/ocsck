@@ -5,11 +5,13 @@
 
 h1{
     color: #060B0E;
-    font-size: 350%;;
+    font-size: 350%;
+    font-weight: normal;
 }
 
 h2{
     color: white;
+    font-weight: normal;
 }
 
 body{
