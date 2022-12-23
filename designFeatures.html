@@ -91,32 +91,30 @@
     <!-- end of nav bar code -->
 
     <h1> Design Features </h1>
-    <br>
 
-    <h2> Hull </h2> 
-    <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
-        pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
-        inside and out, with 4 oz.fibreglass cloth and clear epoxy, with extra reinforcement at the stems where
-        rock strikes are more likely. All boats are finished with marine varnish to provide UV protection and to
-        give the lustre that all wooden boats deserve 
-    </p>
+    <div class="slideshow-container">
+      <div class="slides" style="display: block;">
+          <img src="images/hull (1).jpg" alt="pic of hull" style="max-width: 15rem;">
+      </div>
+      <div class="slides" style="display: none;">
+          <img src="images/trimcherry.JPG" alt="canoe trim" style="max-width: 15rem;">
+      </div>
+      <div class="slides" style="display: none;">
+          <img src="images/scuppers (1).jpg" alt="canoe scuppers" style="max-width: 15rem;">
+      </div>
+      <div class="slides" style="display: none;">
+        <img src="images/recurve.jpg" alt="canoe recurve" style="max-width: 15rem;">
+    </div>
+  
+      <!--forwards/backwards buttons-->
+      <a class="prevButton" onclick="moveSlide(-1)">❮</a>
+      <a class="nextButton" onclick="moveSlide(1)">❯</a>
+    </div>
 
-    <h2> Trim </h2> 
-    <p> Gunwales, thwarts, seat frames and seat hangers are all made of native cherry. 
-        It has excellent strength and the color tones complement those of the cedar. Decks, which are primarily decorative, are of cedar strip construction.
-    </p>
+    <div style="text-align: center; padding-top: 5px;">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 
-    <h2> Scuppered Gunwales </h2> 
-    <p> Scuppered gunwales allow easy drainage of water from the canoe and provide a place to tie packs and other gear. 
-        They also help to reduce weight without any significant reduction in rigidity.
-    </p>
-    <img class = "designFeatures_img" src = "" alt = "Picture of scuppered gunwales">
-
-    <h2> Recurve </h2> 
-    <p> The accentuated recurve at bow and stern, giving a swept back profile, reduces the area that is
-        presented to wind. As with probably all design features, this is a compromise: 
-        the reduced flare at the bow sheds waves less effectively than other shapes.
-    </p>
-    <img class = "designFeatures_img" src = "" alt = "Picture of canoe recurve">
-
-</body>
+    </body>
