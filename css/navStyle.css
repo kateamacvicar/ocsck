@@ -86,8 +86,8 @@ footer {
   /* puts the logo and words next to each other horizontally */
   display: flex;
   font-size: 20px;
-  background-color: black;
-  color: white;
+  background-color: #0F1C23;
+  color:#5DBAEF;
   padding-left: 1%;
   /*aligns the words vertically*/
   align-items: center;
