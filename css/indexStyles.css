@@ -1,9 +1,4 @@
-.grid {
-    display: grid;
-    width: 98%;
-    height: 98%;
-    border: 2px blue solid;
-}
+
 
 .headerImg{
     z-index: 2;
@@ -71,11 +66,11 @@ button:hover{
 
 .grid {
     border: 2px blue solid;
-    height: 500px;
-    width: 500px;
+    height: 1200px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: 10% 30% 50% 10%;
   }
   
   .box {
@@ -111,4 +106,9 @@ button:hover{
   
   .f{
     background-color: #0F1C23;
+  }
+
+  .g{
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
