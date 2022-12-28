@@ -3,18 +3,13 @@ html{
   font-size: 16px;
 }
 
-.headerImg{
-    z-index: 2;
-    height: 20rem;
-}
-
 h1{
     color: #060B0E;
     font-size: 2rem;
     font-weight: normal;
 }
 
-h2{
+h3{
     color: white;
     font-weight: normal;
 }
@@ -112,4 +107,5 @@ button:hover{
   .g{
     grid-column-start: 1;
     grid-column-end: 4;
+    background-image: url("images/0603.jpg");
   }
