@@ -9,6 +9,11 @@ h1{
     font-weight: normal;
 }
 
+h1 .bannerHeader{
+  position: absolute;
+  z-index: 1;
+  
+}
 h3{
     color: white;
     font-weight: normal;
@@ -107,5 +112,5 @@ button:hover{
   .g{
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url("images/0603.jpg");
+    background-image: url("https://static1.therichestimages.com/wordpress/wp-content/uploads/2015/02/shutterstock_Cute-Dog.jpg");
   }
