@@ -9,10 +9,13 @@ h1{
     font-weight: normal;
 }
 
-h1 .bannerHeader{
+ .bannerHeader{
   position: absolute;
   z-index: 1;
-  
+  display: flex;
+  justify-content: center;
+
+
 }
 h3{
     color: white;
@@ -36,6 +39,7 @@ button {
 }
 
 button:hover{
+  text-decoration: underline;
 }
 
 .homeHeader {
@@ -54,7 +58,7 @@ button:hover{
 .indexWords{
     text-align: center;
     padding: 3%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
 }
@@ -72,7 +76,7 @@ button:hover{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 8% 30% 50% 10%;
+    grid-template-rows: 8% 40% 40% 12%;
   }
   
   .box {
@@ -112,5 +116,4 @@ button:hover{
   .g{
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url("https://static1.therichestimages.com/wordpress/wp-content/uploads/2015/02/shutterstock_Cute-Dog.jpg");
   }
