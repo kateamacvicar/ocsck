@@ -95,14 +95,14 @@ footer {
   line-height: 1.6;
 }
 
-.footerWords{
-  text-align: center;
-  font-size: 130%;
+.footerTitle{
+text-align: center;
+font-size: 1.25em;
+color: #5DBAEF;
 }
 
 .logo{
-  width: 50%;
-  height: 98%;
+  height: 95%;
 }
 
 .getInTouchWords{
