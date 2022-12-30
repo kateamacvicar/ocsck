@@ -50,6 +50,21 @@ button{
   text-align: center;
 }
 
+#bannerButton{
+  font-family: 'Linden Hill';
+  background-color: #0F1C23;
+  color: #5DBAEF;
+  border: 0;
+  margin: auto;
+  font-size: 1.5rem;
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 10%;
+}
+
 .indexWords{
     text-align: center;
     padding: 3%;
@@ -59,7 +74,8 @@ button{
 }
 
 .indexImg{
-    padding: 5%;
+    padding: 3%;
+    overflow:hidden;
 }
 
 .grid {
@@ -81,6 +97,7 @@ button{
   .a {
     grid-column-start: 1;
     grid-column-end: span 4;
+    background-color: #0F1C23;
   }
   
   .b {

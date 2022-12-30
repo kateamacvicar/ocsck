@@ -113,13 +113,16 @@ color: #5DBAEF;
   text-decoration-line: underline;
   text-decoration-color: #5DBAEF;
   color: #5DBAEF;
-  line-height: 0.5px;
   text-align: center;
+  padding:4%;
+  font-size: 1.75rem;
 }
 
 .contactMethods{
   text-align: center;
   font-weight: normal;
+  line-height: 0.5px;
+  font-size: 1.2rem;
 }
 
 .address{
