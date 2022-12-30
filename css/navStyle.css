@@ -111,4 +111,19 @@ color: #5DBAEF;
   color: #5DBAEF;
   line-height: 0.5px;
 }
+
+#mobileNav{
+  display: none;
+}
+
+/* When the screen is smaller than 220px, switch to mobile nav bar */
+@media only screen and (max-width: 220px){
+  nav{
+    display: none;
+  }
+
+  #mobileNav{
+    display: block;
+  }
+}
   
