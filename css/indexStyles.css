@@ -16,6 +16,11 @@ h1{
   height: fit-content;
 }
 
+#bannerTitle{
+  margin:0;
+  padding: 2%;
+}
+
 h3{
     color: white;
     font-weight: normal;
@@ -106,7 +111,7 @@ button:hover{
     grid-column-end: 4;
     display: flex;
     justify-content: center;
-
+    background-image: url("../images/0603.jpg");
   }
 
   
