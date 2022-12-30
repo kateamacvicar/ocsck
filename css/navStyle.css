@@ -121,5 +121,10 @@ color: #5DBAEF;
    ul{
     display: none;
   }
+
+  #mobileNav{
+    display: block;
+    float:right;
+  }
 }
   
