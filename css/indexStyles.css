@@ -4,8 +4,14 @@ html{
   font-family: 'Linden Hill';
   font-weight: normal;
   margin: 0px;
+
   background-color: #4A95BF;
 }
+
+body{
+  margin: 0;
+}
+
 
 h1{
     color: #060B0E;
@@ -22,8 +28,15 @@ h3{
     font-weight: normal;
 }
 
-.bannerInfo{
+button{
+  font-family: 'Linden Hill';
+  background-color: #0F1C23;
+  color:#5DBAEF;
+  border: 0;
+}
 
+.bannerInfo{
+  margin:auto;
 }
 
 #bannerSubHeader{
@@ -34,6 +47,7 @@ h3{
 #bannerTitle{
   margin:0;
   font-size: 3rem;
+  text-align: center;
 }
 
 .indexWords{
@@ -72,6 +86,7 @@ h3{
   .b {
     grid-column-start: 1;
     grid-column-end: span 2;
+    background-color: #0F1C23;
   }
   
   /* 480px of height */
