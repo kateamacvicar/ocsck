@@ -114,6 +114,11 @@ color: #5DBAEF;
   text-decoration-color: #5DBAEF;
   color: #5DBAEF;
   line-height: 0.5px;
+  text-align: center;
+}
+
+.contactMethods{
+  text-align: center;
 }
 
 .address{
