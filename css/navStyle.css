@@ -118,7 +118,7 @@ color: #5DBAEF;
 
 /* When the screen is smaller than 220px, switch to mobile nav bar */
 @media only screen and (min-width: 220px){
-  nav{
+   ul{
     display: none;
   }
 }
