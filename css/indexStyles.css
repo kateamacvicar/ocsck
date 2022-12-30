@@ -2,6 +2,9 @@
 html{
   font-size: 16px;
   font-family: 'Linden Hill';
+  font-weight: normal;
+  margin: 0px;
+  background-color: #4A95BF;
 }
 
 h1{
@@ -10,26 +13,19 @@ h1{
     font-weight: normal;
 }
 
-.bannerImg{
-  width: 100%;
-  overflow: hidden;
-  height: fit-content;
+.bannerSubHeader{
+  text-align: center;
+  color:white;
 }
 
 #bannerTitle{
   margin:0;
-  padding: 2%;
+  margin-top: 50%;
 }
 
 h3{
     color: white;
     font-weight: normal;
-}
-
-body{
-    margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #4A95BF;
 }
 
 button {
