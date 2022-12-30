@@ -115,14 +115,4 @@ color: #5DBAEF;
 #mobileNav{
   display: none;
 }
-
-/* When the screen is smaller than 480px, switch to mobile nav bar */
-/* @media only screen and (max-width: 480px){
-   ul{
-    display: none;
-  }
-  #mobileNav{
-    display: block;
-  }
-} */
   
