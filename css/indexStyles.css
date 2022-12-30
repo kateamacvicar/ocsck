@@ -42,6 +42,9 @@ button{
 #bannerSubHeader{
   text-align: center;
   color:white;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  margin:0;
 }
 
 #bannerTitle{
@@ -58,14 +61,14 @@ button{
   margin: auto;
   font-size: 1.5rem;
   display: flex;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   padding-left: 4%;
   padding-right: 4%;
   border-radius: 10%;
 }
 
-.indexWords{
+#indexWords{
     text-align: center;
     padding: 3%;
     font-size: 1.5rem;
@@ -103,7 +106,6 @@ button{
   .b {
     grid-column-start: 1;
     grid-column-end: span 2;
-    background-color: #0F1C23;
   }
   
   /* 480px of height */
@@ -111,6 +113,8 @@ button{
     grid-column-start: 3;
     grid-column-end: span 2;
     display: flex;
+    margin:auto;
+    flex-wrap:wrap;
   }
   
   .d{
