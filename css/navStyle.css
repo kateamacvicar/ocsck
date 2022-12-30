@@ -116,15 +116,13 @@ color: #5DBAEF;
   display: none;
 }
 
-/* When the screen is smaller than 220px, switch to mobile nav bar */
-@media only screen and (max-width: 480px){
+/* When the screen is smaller than 480px, switch to mobile nav bar */
+/* @media only screen and (max-width: 480px){
    ul{
     display: none;
   }
-
   #mobileNav{
     display: block;
-    float:right;
   }
-}
+} */
   
