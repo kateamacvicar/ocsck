@@ -101,7 +101,7 @@ footer {
 
 .footerTitle{
 text-align: center;
-font-size: 1.25rem;
+font-size: 1.75rem;
 color: #5DBAEF;
 }
 
@@ -119,11 +119,13 @@ color: #5DBAEF;
 
 .contactMethods{
   text-align: center;
+  font-weight: normal;
 }
 
 .address{
   text-align: center;
   font-weight: normal;
+  font-size: 1.25rem;
 }
 
 .creds{
