@@ -32,6 +32,9 @@ button{
   background-color: #0F1C23;
   color:#5DBAEF;
   border: 0;
+}
+
+button:hover{
   text-decoration: underline;
 }
 
@@ -70,7 +73,7 @@ button{
 
 #firstIndexWords{
     text-align: center;
-    padding: 3%;
+    padding: 10%;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
@@ -80,8 +83,8 @@ button{
 
 #secondIndexWords{
   text-align: center;
-  padding: 3%;
-  font-size: 1.1rem;
+  padding: 10%;
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-around;
   padding-top: 0px;
@@ -119,6 +122,10 @@ button{
     grid-column-start: 1;
     grid-column-end: span 2;
     background: rebeccapurple;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
   }
   
   /* 480px of height */
@@ -186,6 +193,14 @@ button{
   @media only screen and (max-width: 800px){
     .grid{
       grid-template-columns: 0.3fr 2fr 0.7fr;
+    }
+
+    #firstIndexWords{
+      padding: 5%;
+    }
+
+    #secondIndexWords{
+      padding:5%;
     }
   }
 
