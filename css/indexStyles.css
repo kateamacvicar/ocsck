@@ -99,7 +99,7 @@ button{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 8% 40% 40% 30%;
+    grid-template-rows: 8% 40% 40% 20%;
   }
   
   .box {
