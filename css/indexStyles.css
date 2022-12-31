@@ -34,10 +34,6 @@ button{
   border: 0;
 }
 
-button:hover{
-  text-decoration: underline;
-}
-
 .bannerInfo{
   margin:auto;
 }
@@ -121,7 +117,6 @@ button:hover{
   .b {
     grid-column-start: 1;
     grid-column-end: span 2;
-    background: rebeccapurple;
     display:flex;
     flex-wrap: wrap;
     align-content: center;
@@ -136,7 +131,6 @@ button:hover{
     align-content: center;
     justify-content: center;
     flex-wrap:wrap;
-    background-color: green;
   }
   
   .d{
