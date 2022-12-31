@@ -98,7 +98,7 @@ button{
     height: 1200px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
     grid-template-rows: 5% 40% 35% 20%;
   }
   
@@ -192,6 +192,12 @@ button{
   @media only screen and (max-width: 650px){
     .grid{
       grid-template-columns: 0.2fr 2.1fr 0.7fr;
+    }
+  }
+
+  @media only screen and (max-width: 524px){
+    .grid{
+      grid-template-columns: 0.1fr 2.1fr 0.8fr;
     }
   }
   

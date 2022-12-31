@@ -120,7 +120,7 @@ footer {
 
 .footerTitle{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #5DBAEF;
   padding:1%;
   margin:0
@@ -130,7 +130,7 @@ footer {
 .address{
   text-align: center;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 2%;
   margin:0;
 }
@@ -145,6 +145,12 @@ footer {
 @media only screen and (max-width: 973px){
   .logo{
     height:80%;
+  }
+  .footerTitle{
+    font-size: 1.5rem;
+  }
+  .address{
+    font-size: 1.25rem;
   }
 }
 
