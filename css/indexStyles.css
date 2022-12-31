@@ -118,6 +118,7 @@ button{
   .b {
     grid-column-start: 1;
     grid-column-end: span 2;
+    background: rebeccapurple;
   }
   
   /* 480px of height */
@@ -125,8 +126,10 @@ button{
     grid-column-start: 3;
     grid-column-end: span 2;
     display: flex;
-    margin:auto;
+    align-content: center;
+    justify-content: center;
     flex-wrap:wrap;
+    background-color: green;
   }
   
   .d{
