@@ -159,7 +159,7 @@ button{
     justify-content: center;
   }
 
-  .g{
+  .pageBanner{
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
@@ -175,7 +175,7 @@ button{
       grid-template-columns: 0.5fr 1.5fr 1fr;
     }
 
-    .e{
+    .footerMid{
       justify-content: center;
     }
   }
