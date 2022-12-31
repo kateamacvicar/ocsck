@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 24px;
+  padding: 15px;
   display: block;
   font-size: 1.5rem;
 }
@@ -98,13 +98,6 @@ footer {
   /*increases space between each line of text*/
   line-height: 1.6;
 }
-
-.footerTitle{
-text-align: center;
-font-size: 1.75rem;
-color: #5DBAEF;
-}
-
 .logo{
   height: 95%;
 }
@@ -125,14 +118,56 @@ color: #5DBAEF;
   font-size: 1.2rem;
 }
 
+.footerTitle{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #5DBAEF;
+  padding:1%;
+  margin:0
+  }
+  
+
 .address{
   text-align: center;
   font-weight: normal;
   font-size: 1.25rem;
+  padding: 2%;
+  margin:0;
 }
 
 .creds{
   text-align: center;
   font-weight: normal;
+  padding: 2%;
+  margin:0;
 }
+
+@media only screen and (max-width: 973px){
+  .logo{
+    height:80%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .footerTitle{
+    font-size: 1.25rem;
+  }
+
+  .address{
+    font-size: 0.9rem;
+  }
+
+  .creds{
+    font-size: 0.9rem;
+  }
+
+  .getInTouchWords{
+    font-size: 1.25rem;
+  }
+
+  .contactMethods{
+    font-size: 1rem;
+  }
+}
+
   

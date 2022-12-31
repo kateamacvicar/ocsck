@@ -4,7 +4,6 @@ html{
   font-family: 'Linden Hill';
   font-weight: normal;
   margin: 0px;
-
   background-color: #4A95BF;
 }
 
@@ -99,7 +98,7 @@ button{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 8% 40% 40% 20%;
+    grid-template-rows: 5% 40% 35% 20%;
   }
   
   .box {
@@ -139,11 +138,23 @@ button{
   .e{
     background-color: #0F1C23;
     color: #5DBAEF;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .container{
+    display:block;
   }
   
   .f{
     background-color: #0F1C23;
     color: #5DBAEF;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
   }
 
   .g{
@@ -154,4 +165,26 @@ button{
     background-image: url("../images/0603.jpg");
   }
 
+
+  @media only screen and (max-width: 790px){
+    /* smaller than 790, hamburger menu */
+
+  }
+
+
+  @media only screen and (max-width: 973px){
+    .grid{
+      grid-template-columns: 0.5fr 1.5fr 1fr;
+    }
+
+    .e{
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    .grid{
+      grid-template-columns: 0.3fr 2fr 0.7fr;
+    }
+  }
   
