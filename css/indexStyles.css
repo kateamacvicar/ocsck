@@ -202,17 +202,59 @@ button:hover{
     #secondIndexWords{
       padding:5%;
     }
+
+    #bannerSubHeader{
+      font-size: 1.25rem;
+    }
+
+    #bannerButton{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
   }
 
   @media only screen and (max-width: 650px){
     .grid{
       grid-template-columns: 0.2fr 2.1fr 0.7fr;
     }
+    #firstIndexWords{
+      font-size: 1.25rem;
+    }
+
+    #secondIndexWords{
+      font-size: 1rem;
+    }
+
+    #bannerButton{
+      font-size: 1.25rem;
+    }
   }
 
   @media only screen and (max-width: 524px){
     .grid{
       grid-template-columns: 0.1fr 2.1fr 0.8fr;
+    }
+
+    #firstIndexWords{
+      font-size: 1rem;
+    }
+
+    #secondIndexWords{
+      font-size: 0.75rem;
+    }
+
+    #bannerTitle{
+      font-size: 2rem;
+    }
+
+    #bannerSubHeader{
+      font-size: 1rem;
+    }
+
+    #bannerButton{
+      font-size: 1.1rem;
     }
   }
   
