@@ -170,4 +170,11 @@ footer {
   }
 }
 
+@media only screen and (max-width: 650px){
+  .logo{
+    display:none;
+  }
+}
+
+
   

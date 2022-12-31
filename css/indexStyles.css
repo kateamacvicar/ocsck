@@ -32,6 +32,7 @@ button{
   background-color: #0F1C23;
   color:#5DBAEF;
   border: 0;
+  text-decoration: underline;
 }
 
 .bannerInfo{
@@ -185,6 +186,12 @@ button{
   @media only screen and (max-width: 800px){
     .grid{
       grid-template-columns: 0.3fr 2fr 0.7fr;
+    }
+  }
+
+  @media only screen and (max-width: 650px){
+    .grid{
+      grid-template-columns: 0.2fr 2.1fr 0.7fr;
     }
   }
   
