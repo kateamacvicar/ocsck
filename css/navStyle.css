@@ -4,6 +4,10 @@ html{
   font-family: 'Linden Hill';
 }
 
+.hamburger{
+  display:none;
+}
+
 #navTab{
   text-decoration: none;
   color: #5DBAEF;
@@ -168,9 +172,11 @@ footer {
     display: none;
   }
 
-/*   display hamburger icon
-
-  display second drop down */
+  .hamburger{
+      display: flex;
+      justify-content: flex-end;
+      color:#5DBAEF;
+  }
 
 }
 
