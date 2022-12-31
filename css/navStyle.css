@@ -25,6 +25,7 @@ nav ul {
   margin: auto;
   display: flex;
   justify-content: center;
+  padding-inline-start: 0;
 }
 
 nav ul li {
@@ -130,7 +131,6 @@ footer {
   text-align: center;
   font-size: 1.75rem;
   color: #5DBAEF;
-  padding:1%;
   margin:0
   }
   
@@ -158,6 +158,19 @@ footer {
   .noHide{
     display:none;
   }
+
+}
+
+@media only screen and (max-width: 780px){
+  /* activate hamburger menu  */
+
+  ul{
+    display:none;
+  }
+
+/*   display hamburger icon
+
+  display second drop down */
 
 }
 
