@@ -62,9 +62,9 @@ button{
   display: flex;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-left: 4%;
-  padding-right: 4%;
-  border-radius: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 5%;
 }
 
 #firstIndexWords{
@@ -108,7 +108,7 @@ button{
     border: 2px dodgerblue solid; */
   }
   
-  .a {
+  .navBar {
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #0F1C23;
@@ -207,8 +207,8 @@ button{
     #bannerButton{
       padding-top: 1%;
       padding-bottom: 1%;
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 4%;
+      padding-right: 4;
     }
   }
 
@@ -227,6 +227,7 @@ button{
     #bannerButton{
       font-size: 1.25rem;
     }
+
   }
 
   @media only screen and (max-width: 524px){
