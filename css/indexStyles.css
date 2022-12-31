@@ -74,7 +74,8 @@ button{
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
-
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #secondIndexWords{
@@ -83,6 +84,8 @@ button{
   font-size: 1.1rem;
   display: flex;
   justify-content: space-around;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .indexImg{
@@ -96,7 +99,7 @@ button{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 8% 40% 40% 20%;
+    grid-template-rows: 8% 40% 40% 30%;
   }
   
   .box {
