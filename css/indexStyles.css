@@ -68,12 +68,21 @@ button{
   border-radius: 10%;
 }
 
-#indexWords{
+#firstIndexWords{
     text-align: center;
     padding: 3%;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
+
+}
+
+#secondIndexWords{
+  text-align: center;
+  padding: 3%;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .indexImg{
