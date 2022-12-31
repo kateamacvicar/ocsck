@@ -7,6 +7,10 @@ html{
   background-color: #4A95BF;
 }
 
+a{
+  text-decoration: none;
+}
+
 body{
   margin: 0;
 }
@@ -129,6 +133,10 @@ button{
   }
   
   .footerLogo{
+    background-color: #0F1C23;
+  }
+
+  .footerLeft{
     background-color: #0F1C23;
   }
   

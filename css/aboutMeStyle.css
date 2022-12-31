@@ -1,57 +1,261 @@
-body{
+
+html{
+    font-size: 16px;
+    font-family: 'Linden Hill';
+    font-weight: normal;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h1{
+    background-color: #4A95BF;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  h1{
+      color: #060B0E;
+      font-size: 2rem;
+      font-weight: normal;
+  }
+  
+  h2{
+    font-weight: normal;
+  }
+  
+  h3{
+      color: white;
+      font-weight: normal;
+  }
+  
+  button{
+    font-family: 'Linden Hill';
+    background-color: #0F1C23;
+    color:#5DBAEF;
+    border: 0;
+  }
+  
+  .bannerInfo{
+    margin:auto;
+  }
+  
+  #bannerSubHeader{
     text-align: center;
-}
-
-h2{
+    color:white;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin:0;
+  }
+  
+  #bannerTitle{
+    margin:0;
+    font-size: 3rem;
     text-align: center;
-}
-
-.aboutMeIntro{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-
-.aboutMeIntro_words{
-    width: 50%;
-    text-align: center;
-    padding: 3%;
-    font-size: 180%;
-}
-
-.aboutMeIntro_img{
-    width: 50%;
-    padding: 2%;
-}
-
-.aboutMeMain{
-    text-align: center;
-    padding: 4%;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
-    font-size: 170%;
-}
-
-.aboutMeMain_words{
-    width: 80%;
+  }
+  
+  #bannerButton{
+    font-family: 'Linden Hill';
+    background-color: #0F1C23;
+    color: #5DBAEF;
+    border: 0;
     margin: auto;
-}
-
-.clickButton_words{
-    font-size: 80%;
-}
-
-button {
-    padding: 1% 4%;
-    border-radius: 7px;
-    border-style: none;
-    background-color: darkgrey;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
+    font-size: 1.5rem;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5%;
+  }
+  
+  #firstIndexWords{
+      text-align: center;
+      padding: 10%;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+  
+  #secondIndexWords{
+    text-align: center;
+    padding: 10%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .indexImg{
+      padding: 3%;
+      overflow:hidden;
+  }
+  
+  .grid {
+      height: 1200px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 0.5fr 1.5fr 1fr;
+      grid-template-rows: 5% 40% 35% 20%;
+    }
+    
+    .box {
+      background-color: #4A95BF;
+      color: black;
+    }
+    
+    .navBar {
+      grid-column-start: 1;
+      grid-column-end: span 4;
+      background-color: #0F1C23;
+    }
+    
+    .wordsMid {
+      grid-column-start: 1;
+      grid-column-end: span 2;
+      display:flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+    
+    .pictureMid{
+      grid-column-start: 3;
+      grid-column-end: span 2;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-wrap:wrap;
+    }
+    
+    .footerLogo{
+      background-color: #0F1C23;
+    }
+  
+    .footerLeft{
+      background-color: #0F1C23;
+    }
+    
+    .footerMid{
+      background-color: #0F1C23;
+      color: #5DBAEF;
+      display:flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+  
+    .container{
+      display:block;
+    }
+    
+    .footerRight{
+      background-color: #0F1C23;
+      color: #5DBAEF;
+      display:flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+  
+    .pageBanner{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      display: flex;
+      justify-content: center;
+      background-image: url("../images/0603.jpg");
+    }
+  
+    /* Start of Media Queries! */
+  
+  
+    @media only screen and (max-width: 973px){
+      .grid{
+        grid-template-columns: 0.5fr 1.5fr 1fr;
+      }
+  
+      .footerMid{
+        justify-content: center;
+      }
+    }
+  
+    @media only screen and (max-width: 800px){
+      .grid{
+        grid-template-columns: 0.3fr 2fr 0.7fr;
+      }
+  
+      #firstIndexWords{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 0;
+  
+      }
+  
+      #secondIndexWords{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0;
+        padding-bottom: 5%;
+      }
+  
+      #bannerSubHeader{
+        font-size: 1.25rem;
+      }
+  
+      #bannerButton{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4;
+      }
+    }
+  
+    @media only screen and (max-width: 650px){
+      .grid{
+        grid-template-columns: 0.2fr 2.1fr 0.7fr;
+      }
+      #firstIndexWords{
+        font-size: 1.25rem;
+      }
+  
+      #secondIndexWords{
+        font-size: 1rem;
+      }
+  
+      #bannerButton{
+        font-size: 1.25rem;
+      }
+  
+    }
+  
+    @media only screen and (max-width: 524px){
+      .grid{
+        grid-template-columns: 0.1fr 2.1fr 0.8fr;
+      }
+  
+      #firstIndexWords{
+        font-size: 1rem;
+      }
+  
+      #secondIndexWords{
+        font-size: 0.75rem;
+      }
+  
+      #bannerTitle{
+        font-size: 2rem;
+      }
+  
+      #bannerSubHeader{
+        font-size: 1rem;
+      }
+  
+      #bannerButton{
+        font-size: 1.1rem;
+      }
+    }
+    
