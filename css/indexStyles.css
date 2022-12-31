@@ -11,7 +11,6 @@ body{
   margin: 0;
 }
 
-
 h1{
     color: #060B0E;
     font-size: 2rem;
@@ -93,7 +92,6 @@ button{
 }
 
 .grid {
-    /* border: 2px blue solid; */
     height: 1200px;
     width: 100%;
     display: grid;
@@ -104,8 +102,6 @@ button{
   .box {
     background-color: #4A95BF;
     color: black;
-/*     border-radius: 5px;
-    border: 2px dodgerblue solid; */
   }
   
   .navBar {
@@ -114,7 +110,7 @@ button{
     background-color: #0F1C23;
   }
   
-  .b {
+  .wordsMid {
     grid-column-start: 1;
     grid-column-end: span 2;
     display:flex;
@@ -123,8 +119,7 @@ button{
     justify-content: center;
   }
   
-  /* 480px of height */
-  .c{
+  .pictureMid{
     grid-column-start: 3;
     grid-column-end: span 2;
     display: flex;
@@ -133,11 +128,11 @@ button{
     flex-wrap:wrap;
   }
   
-  .d{
+  .footerLogo{
     background-color: #0F1C23;
   }
   
-  .e{
+  .footerMid{
     background-color: #0F1C23;
     color: #5DBAEF;
     display:flex;
@@ -150,7 +145,7 @@ button{
     display:block;
   }
   
-  .f{
+  .footerRight{
     background-color: #0F1C23;
     color: #5DBAEF;
     display:flex;
