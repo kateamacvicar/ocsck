@@ -167,11 +167,7 @@ button{
     background-image: url("../images/0603.jpg");
   }
 
-
-  @media only screen and (max-width: 790px){
-    /* smaller than 790, hamburger menu */
-
-  }
+  /* Start of Media Queries! */
 
 
   @media only screen and (max-width: 973px){

@@ -86,6 +86,14 @@ nav ul a:focus {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*.dropdown:hover .dropbtn {color: black; background-color: white;}*/
 
+.hide{
+  display: none;
+}
+
+.noHide{
+  display:block;
+}
+
 footer {
   /* puts the logo and words next to each other horizontally */
   display: flex;
@@ -140,6 +148,17 @@ footer {
   font-weight: normal;
   padding: 2%;
   margin:0;
+}
+
+@media only screen and (max-width: 1021px){
+  .hide{
+    display: block;
+  }
+
+  .noHide{
+    display:none;
+  }
+
 }
 
 @media only screen and (max-width: 973px){
