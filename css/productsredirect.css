@@ -11,6 +11,9 @@ html{
     margin: 0;
   }
   
+  td{
+    background-color: #BACEDA;
+  }
   
   h1{
       color: #060B0E;
