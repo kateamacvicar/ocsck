@@ -164,8 +164,8 @@ footer {
 @media only screen and (max-width: 780px){
   /* activate hamburger menu  */
 
-  ul{
-    display:none;
+  nav ul{
+    display: none;
   }
 
 /*   display hamburger icon
