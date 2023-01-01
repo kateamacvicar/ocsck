@@ -43,7 +43,7 @@ html{
   
   #bannerSubHeader{
     text-align: center;
-    color:white;
+    color:#0F1C23;
     letter-spacing: 1.5px;
     font-weight: bold;
     margin:0;
@@ -167,95 +167,6 @@ html{
       grid-column-end: 4;
       display: flex;
       justify-content: center;
-      background-image: url("../images/0603.jpg");
     }
   
-    /* Start of Media Queries! */
-  
-  
-    @media only screen and (max-width: 973px){
-      .grid{
-        grid-template-columns: 0.5fr 1.5fr 1fr;
-      }
-  
-      .footerMid{
-        justify-content: center;
-      }
-    }
-  
-    @media only screen and (max-width: 800px){
-      .grid{
-        grid-template-columns: 0.3fr 2fr 0.7fr;
-      }
-  
-      #firstIndexWords{
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 5%;
-        padding-bottom: 0;
-  
-      }
-  
-      #secondIndexWords{
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 0;
-        padding-bottom: 5%;
-      }
-  
-      #bannerSubHeader{
-        font-size: 1.25rem;
-      }
-  
-      #bannerButton{
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-left: 4%;
-        padding-right: 4;
-      }
-    }
-  
-    @media only screen and (max-width: 650px){
-      .grid{
-        grid-template-columns: 0.2fr 2.1fr 0.7fr;
-      }
-      #firstIndexWords{
-        font-size: 1.25rem;
-      }
-  
-      #secondIndexWords{
-        font-size: 1rem;
-      }
-  
-      #bannerButton{
-        font-size: 1.25rem;
-      }
-  
-    }
-  
-    @media only screen and (max-width: 524px){
-      .grid{
-        grid-template-columns: 0.1fr 2.1fr 0.8fr;
-      }
-  
-      #firstIndexWords{
-        font-size: 1rem;
-      }
-  
-      #secondIndexWords{
-        font-size: 0.75rem;
-      }
-  
-      #bannerTitle{
-        font-size: 2rem;
-      }
-  
-      #bannerSubHeader{
-        font-size: 1rem;
-      }
-  
-      #bannerButton{
-        font-size: 1.1rem;
-      }
-    }
     
