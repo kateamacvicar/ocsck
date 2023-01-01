@@ -68,8 +68,8 @@ button{
     height: 1200px;
     width: 100%;
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr;
-    grid-template-rows: 5% 30% 55% 20%;
+    /* grid-template-columns: 0.5fr 1.5fr 1fr; */
+    grid-template-rows: 5% 75% 20%;
   }
   
   .box {
@@ -81,24 +81,6 @@ button{
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #0F1C23;
-  }
-  
-  .wordsMid {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    display:flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
-  
-  .pictureMid{
-    grid-column-start: 3;
-    grid-column-end: span 2;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap:wrap;
   }
   
   .footerLogo{
