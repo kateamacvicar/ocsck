@@ -37,69 +37,11 @@ html{
     border: 0;
   }
   
-  .bannerInfo{
-    margin:auto;
-  }
-  
-  #bannerSubHeader{
-    text-align: center;
-    color:#0F1C23;
-    letter-spacing: 1.5px;
-    font-weight: bold;
-    margin:0;
-  }
-  
-  #bannerTitle{
-    margin:0;
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  #bannerButton{
-    font-family: 'Linden Hill';
-    background-color: #0F1C23;
-    color: #5DBAEF;
-    border: 0;
-    margin: auto;
-    font-size: 1.5rem;
-    display: flex;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 5%;
-  }
-  
-  #firstIndexWords{
-      text-align: center;
-      padding: 10%;
-      font-size: 1.5rem;
-      display: flex;
-      justify-content: space-around;
-      padding-top: 0px;
-      padding-bottom: 0px;
-  }
-  
-  #secondIndexWords{
-    text-align: center;
-    padding: 10%;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  
-  .indexImg{
-      padding: 3%;
-      overflow:hidden;
-  }
-  
   .grid {
       height: 1200px;
       width: 100%;
       display: grid;
-      grid-template-columns: 0.5fr 1.5fr 1fr;
+      grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
       grid-template-rows: 5% 10% 30% 35% 20%;
     }
     
@@ -107,14 +49,67 @@ html{
       background-color: #4A95BF;
       color: black;
     }
-    
+
     .navBar {
       grid-column-start: 1;
       grid-column-end: span 4;
       background-color: #0F1C23;
     }
+
+    .pageBanner{
+      grid-column-start: 1;
+      grid-column-end: span 4;
+      display: flex;
+      justify-content: center;
+    }
+    .bannerInfo{
+      margin:auto;
+    }
     
-    .wordsMid {
+    #bannerSubHeader{
+      text-align: center;
+      color:#0F1C23;
+      letter-spacing: 1.5px;
+      margin:0;
+    }
+    
+    #bannerTitle{
+      margin:0;
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+    .indexImg{
+        padding: 3%;
+        overflow:hidden;
+    }
+
+    .intro{
+      grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    }
+    
+    .introWords{
+      font-size: 1.5rem;
+      padding:10%;
+    }
+
+    .introPhoto{
+      grid-column-start: 3;
+      grid-column-end: 5;
+      display: flex;
+      justify-content: center;
+      background-color: #eeb790;
+    }
+
+    #introPic{
+      padding:5%;
+    }
+    
+    .leftWordsMid {
       grid-column-start: 1;
       grid-column-end: span 2;
       display:flex;
@@ -123,7 +118,7 @@ html{
       justify-content: center;
     }
     
-    .pictureMid{
+    .rightWordsMid{
       grid-column-start: 3;
       grid-column-end: span 2;
       display: flex;
@@ -167,22 +162,6 @@ html{
       grid-column-end: 4;
       display: flex;
       justify-content: center;
-    }
-
-    .intro{
-      grid-column-start: 1;
-    grid-column-end: 3;
-    display: flex;
-    justify-content: center;
-    background-color: lightgreen;
-    }
-
-    .photo{
-      grid-column-start: 3;
-      grid-column-end: 4;
-      display: flex;
-      justify-content: center;
-      background-color: #eeb790;
     }
 
     .bottom{

@@ -47,6 +47,7 @@ button{
     grid-column-end: span 4;
     background-color: #0F1C23;
   }
+  
 
   .middle{
     display: grid;
