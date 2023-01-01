@@ -58,7 +58,7 @@ html{
 
     .pageBanner{
       grid-column-start: 1;
-      grid-column-end: span 4;
+      grid-column-end: 5;
       display: flex;
       justify-content: center;
     }
@@ -89,7 +89,7 @@ html{
     grid-column-end: 3;
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
+    
     }
     
     .introWords{
@@ -102,7 +102,7 @@ html{
       grid-column-end: 5;
       display: flex;
       justify-content: center;
-      background-color: #eeb790;
+      
     }
 
     #introPic{
@@ -116,6 +116,9 @@ html{
       flex-wrap: wrap;
       align-content: center;
       justify-content: center;
+      padding:5%;
+      text-align: center;
+      background-color: #BACEDA;
     }
     
     .rightWordsMid{
@@ -125,6 +128,25 @@ html{
       align-content: center;
       justify-content: center;
       flex-wrap:wrap;
+      background-color: #BACEDA;
+    }
+
+    .bottom{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      display: flex;
+      justify-content: center;
+    }
+
+    #bottomP{
+      font-size: 1.25rem;
+    }
+
+    #bottomButton{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 3%;
+      padding-right: 3%;
     }
     
     .footerLogo{
@@ -142,6 +164,8 @@ html{
       flex-wrap: wrap;
       align-content: center;
       justify-content: center;
+      grid-column-start: 2;
+      grid-column-end: span 2;
     }
   
     .container{
@@ -156,20 +180,7 @@ html{
       align-content: center;
       justify-content: center;
     }
-  
-    .pageBanner{
-      grid-column-start: 1;
-      grid-column-end: 4;
-      display: flex;
-      justify-content: center;
-    }
 
-    .bottom{
-      background-color: lightcoral;
-      grid-column-start: 1;
-      grid-column-end: 5;
-      display: flex;
-      justify-content: center;
-    }
+
   
     

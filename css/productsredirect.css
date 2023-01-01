@@ -20,6 +20,7 @@ h1{
     color: #060B0E;
     font-size: 2rem;
     font-weight: normal;
+    text-align: center;
 }
 
 button{
@@ -33,7 +34,7 @@ button{
     height: 1200px;
     width: 100%;
     display: grid;
-    /* grid-template-columns: 0.5fr 1.5fr 1fr; */
+    grid-template-columns: 0.5fr 1.5fr 1fr;
     grid-template-rows: 5% 75% 20%;
   }
   
@@ -42,7 +43,7 @@ button{
     color: black;
   }
   
-  .navBar {
+  .a {
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #0F1C23;
