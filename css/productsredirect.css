@@ -47,6 +47,12 @@ button{
     grid-column-end: span 4;
     background-color: #0F1C23;
   }
+
+  .middle{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
   
   .footerLogo{
     background-color: #0F1C23;
@@ -63,10 +69,6 @@ button{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-  }
-
-  .container{
-    display:block;
   }
   
   .footerRight{
