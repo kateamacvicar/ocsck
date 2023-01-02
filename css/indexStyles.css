@@ -80,7 +80,6 @@ button{
   display:none;
   grid-column-start: 1;
   grid-column-end: span 2;
-  display:flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
@@ -291,18 +290,46 @@ button{
 
   @media only screen and (max-width: 400px){
     /* adjust the grid so that the "nestled in the..." line is a new row above the rest of the index info. */
+    #bannerSubHeader{
+      font-size: 0.8rem;
+    }
+    
     .indexBanner{
       display:block;
+    }
+
+    #firstIndexWords{
+      font-size: 1.05rem;
+    }
+
+    #secondIndexWords{
+      font-size: 0.9rem;
     }
 
     .wordsMidSmall{
       display:flex;
     }
 
+    .wordsMid{
+      display:none;
+    }
+
     .grid{
       height:960px;
+      grid-template-rows: 5% 25% 15% 35% 20%;
     }
-  }
+    }
+
+    @media only screen and (max-width: 370px){
+      #secondIndexWords{
+        font-size: 0.8rem;
+      }
+
+      .grid{
+        grid-template-rows: 5% 25% 15% 30% 25%
+      }
+    }
+  
 
 
   
