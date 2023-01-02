@@ -218,12 +218,16 @@ html{
     }
   }
 
-  @media only screen and (max-width: 880px){
+  @media only screen and (max-width: 870px){
     .introWords{
       font-size: 1.35rem;
     }
     .introPic{
       height:75%;
+    }
+
+    .rightWordsMid{
+      font-size: 1.1rem;
     }
   }
 
@@ -234,7 +238,30 @@ html{
     .introPic{
       height:60%;
     }
+    .rightWordsMid{
+      font-size: 1rem;
+    }
   }
+
+  @media only screen and (max-width: 680px){
+    #bannerTitle{
+      font-size: 2.3rem;
+    }
+    #bannerSubHeader{
+      font-size: 1.3rem;
+    }
+    h1{
+      font-size: 1.7rem;
+    }
+    .rightWordsMid{
+      font-size: 0.8rem;
+    }
+
+    .grid{
+      grid-template-columns: 1fr 1.5fr;
+    }
+    }
+
 
 
   
