@@ -102,14 +102,19 @@ html{
       grid-column-start: 3;
       grid-column-end: 5;
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       overflow: hidden;
-      
+      align-content: center;
     }
 
     #introPic{
-      padding:5%;
+      padding: 5%;
       overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
     }
     
     .leftWordsMid {
@@ -208,7 +213,7 @@ html{
   }
 
   @media only screen and (max-width: 1042px){
-    .introPhoto{
+    .introPic{
       height:85%;
     }
   }
@@ -217,7 +222,7 @@ html{
     .introWords{
       font-size: 1.35rem;
     }
-    .introPhoto{
+    .introPic{
       height:75%;
     }
   }
@@ -226,7 +231,7 @@ html{
     .introWords{
       font-size: 1.15rem;
     }
-    .introPhoto{
+    .introPic{
       height:60%;
     }
   }
