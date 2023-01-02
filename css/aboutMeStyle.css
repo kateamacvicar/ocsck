@@ -93,8 +93,9 @@ html{
     }
     
     .introWords{
-      font-size: 1.5rem;
-      padding:10%;
+      font-size: 1.75rem;
+      padding:5%;
+      text-align: center;
     }
 
     .introPhoto{
@@ -102,11 +103,13 @@ html{
       grid-column-end: 5;
       display: flex;
       justify-content: center;
+      overflow: hidden;
       
     }
 
     #introPic{
       padding:5%;
+      overflow: hidden;
     }
     
     .leftWordsMid {
@@ -185,6 +188,51 @@ html{
       justify-content: center;
     }
 
+    /* Start of Media Queries! */
+
+
+  @media only screen and (max-width: 973px){
+    .grid{
+      grid-template-columns: 0.5fr 1.5fr 1fr;
+    }
+
+    .footerMid{
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 1100px){
+    .introWords{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1042px){
+    .introPhoto{
+      height:85%;
+    }
+  }
+
+  @media only screen and (max-width: 880px){
+    .introWords{
+      font-size: 1.35rem;
+    }
+    .introPhoto{
+      height:75%;
+    }
+  }
+
+  @media only screen and (max-width: 770px){
+    .introWords{
+      font-size: 1.15rem;
+    }
+    .introPhoto{
+      height:60%;
+    }
+  }
+
+
+  
 
   
     

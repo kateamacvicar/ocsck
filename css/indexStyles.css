@@ -183,6 +183,13 @@ button{
     }
   }
 
+  @media only screen and (max-width: 973px) and (max-height:1368){
+    .grid{
+      height: 1400px;
+      grid-template-columns: 0.5fr 1.5fr 1fr;
+    }
+  }
+
   @media only screen and (max-width: 800px){
     .grid{
       grid-template-columns: 0.3fr 2fr 0.7fr;
@@ -217,8 +224,13 @@ button{
 
   @media only screen and (max-width: 650px){
     .grid{
+      height: 1100px;
       grid-template-columns: 0.2fr 2.1fr 0.7fr;
     }
+    #bannerTitle{
+      font-size: 2.5rem;
+    }
+
     #firstIndexWords{
       font-size: 1.25rem;
     }
@@ -238,16 +250,16 @@ button{
       grid-template-columns: 0.1fr 2.1fr 0.8fr;
     }
 
+    #bannerTitle{
+      font-size: 2rem;
+    }
+
     #firstIndexWords{
       font-size: 1rem;
     }
 
     #secondIndexWords{
       font-size: 0.75rem;
-    }
-
-    #bannerTitle{
-      font-size: 2rem;
     }
 
     #bannerSubHeader{
@@ -258,4 +270,16 @@ button{
       font-size: 1.1rem;
     }
   }
+
+  /* for the Samsung Galaxy s20 Ultra  */
+  @media only screen and (max-width: 450) and (max-height: 915px){
+    .grid{
+      height: 950px;
+      grid-template-rows: 5% 30% 45% 20%;
+    }
+
+    /* fix footer font size */
+  }
+
+
   
