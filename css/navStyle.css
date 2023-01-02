@@ -6,6 +6,7 @@ html{
 
 .hamburger{
   display:none;
+  color: white;
 }
 
 #navTab{
@@ -14,8 +15,7 @@ html{
 }
 
 #navTab:hover{
-  text-decoration-line: underline;
-  text-decoration-color: #5DBAEF;
+  text-decoration-color: #BACEDA;
   
 }
 

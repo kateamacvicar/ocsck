@@ -70,6 +70,24 @@ button{
   border-radius: 5%;
 }
 
+/* start of css rules that hide info until the screen is small enough */
+.indexBanner{
+  display:none;
+  font-size: 1.2rem;
+}
+
+.wordsMidSmall {
+  display:none;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+/* end of css rules */
+
 #firstIndexWords{
     text-align: center;
     padding: 10%;
@@ -175,7 +193,7 @@ button{
 
   @media only screen and (max-width: 973px){
     .grid{
-      grid-template-columns: 0.5fr 1.5fr 1fr;
+      grid-template-columns: 0.5fr 1.5fr 1.5fr;
     }
 
     .footerMid{
@@ -192,7 +210,7 @@ button{
 
   @media only screen and (max-width: 800px){
     .grid{
-      grid-template-columns: 0.3fr 2fr 0.7fr;
+      grid-template-columns: 0.3fr 2fr 2fr;
     }
 
     #firstIndexWords{
@@ -225,7 +243,7 @@ button{
   @media only screen and (max-width: 650px){
     .grid{
       height: 1100px;
-      grid-template-columns: 0.2fr 2.1fr 0.7fr;
+      grid-template-columns: 0.2fr 2.1fr 1.5fr;
     }
     #bannerTitle{
       font-size: 2.5rem;
@@ -247,7 +265,7 @@ button{
 
   @media only screen and (max-width: 524px){
     .grid{
-      grid-template-columns: 0.1fr 2.1fr 0.8fr;
+      grid-template-columns: 0.1fr 2.1fr 1.5fr;
     }
 
     #bannerTitle{
@@ -271,14 +289,19 @@ button{
     }
   }
 
-  /* for the Samsung Galaxy s20 Ultra  */
-  @media only screen and (max-width: 450) and (max-height: 915px){
-    .grid{
-      height: 950px;
-      grid-template-rows: 5% 30% 45% 20%;
+  @media only screen and (max-width: 400px){
+    /* adjust the grid so that the "nestled in the..." line is a new row above the rest of the index info. */
+    .indexBanner{
+      display:block;
     }
 
-    /* fix footer font size */
+    .wordsMidSmall{
+      display:flex;
+    }
+
+    .grid{
+      height:960px;
+    }
   }
 
 
