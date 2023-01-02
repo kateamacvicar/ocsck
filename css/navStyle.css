@@ -111,6 +111,7 @@ footer {
   /*increases space between each line of text*/
   line-height: 1.6;
 }
+
 .logo{
   height: 95%;
 }
@@ -211,6 +212,9 @@ footer {
 
   .contactMethods{
     font-size: 1rem;
+  }
+  .logo{
+    height:70%;
   }
 }
 

@@ -96,6 +96,9 @@ html{
       font-size: 1.75rem;
       padding:5%;
       text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
     }
 
     .introPhoto{
@@ -160,6 +163,12 @@ html{
       padding-left: 3%;
       padding-right: 3%;
     }
+
+    .footerDiv{
+      display: grid;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
     
     .footerLogo{
       background-color: #0F1C23;
@@ -176,8 +185,8 @@ html{
       flex-wrap: wrap;
       align-content: center;
       justify-content: center;
-      grid-column-start: 2;
-      grid-column-end: span 2;
+/*       grid-column-start: 2;
+      grid-column-end: span 2; */
     }
   
     .container{
@@ -206,7 +215,7 @@ html{
     }
   }
 
-  @media only screen and (max-width: 1100px){
+  @media only screen and (max-width: 1200px){
     .introWords{
       font-size: 1.5rem;
     }
@@ -229,11 +238,17 @@ html{
     .rightWordsMid{
       font-size: 1.1rem;
     }
+
+    .grid{
+      height: 1100px;
+    }
   }
 
   @media only screen and (max-width: 770px){
     .introWords{
       font-size: 1.15rem;
+      margin:0;
+      padding:3%;
     }
     .introPic{
       height:60%;
@@ -255,10 +270,6 @@ html{
     }
     .rightWordsMid{
       font-size: 0.8rem;
-    }
-
-    .grid{
-      grid-template-columns: 1fr 1.5fr;
     }
     }
 

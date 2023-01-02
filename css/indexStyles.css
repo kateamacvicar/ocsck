@@ -290,12 +290,18 @@ button{
 
   @media only screen and (max-width: 400px){
     /* adjust the grid so that the "nestled in the..." line is a new row above the rest of the index info. */
+    .pageBanner{
+      grid-column-end: 5;
+    }
+
     #bannerSubHeader{
       font-size: 0.8rem;
     }
     
     .indexBanner{
       display:block;
+      grid-column-start: 1;
+      grid-column-end: 5;
     }
 
     #firstIndexWords{
@@ -322,7 +328,7 @@ button{
 
     @media only screen and (max-width: 370px){
       #secondIndexWords{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
 
       .grid{
