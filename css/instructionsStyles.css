@@ -11,16 +11,26 @@ html{
     margin:0px;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   button{
     font-family: 'Linden Hill';
+    background-color: #0F1C23;
+    color:#5DBAEF;
   }
 
   h1{
     font-weight: normal;
   }
+
+  p{
+    text-align: center;
+  }
   
 .grid{
-    height: 1200px;
+    height: 1000px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,12 +50,17 @@ html{
   .middle{
     grid-column-start: 1;
     grid-column-end: span 3;
-    background-color: aquamarine;
+    background-color:#4A95BF;
+    padding:2%;
   }
 
   .title{
     background-color: #0F1C23;
     color:#4A95BF;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
   }
   
     

@@ -168,11 +168,16 @@ html{
       display:none;
       grid-column-start: 1;
       grid-column-end: span 4;
+      padding:3%;
+      background-color: #BACEDA;
     }
 
     .combinedWordsMid{
       background-color: #BACEDA;
-      padding:5%;
+    }
+
+    .smallerP{
+      font-size:0.7rem;
     }
 
     /* Start of Media Queries! */
@@ -259,6 +264,11 @@ html{
     .rightWordsMid{
       display:none;
     }
+
+    h1{
+      font-size: 1.6rem;
+    }
+
   }
 
   @media only screen and (max-width: 420px){
