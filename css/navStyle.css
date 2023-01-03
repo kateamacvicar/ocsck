@@ -116,6 +116,48 @@ footer {
   height: 95%;
 }
 
+
+.footerDiv{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0F1C23;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  padding:3%;
+}
+
+.footerLogo{
+  background-color: #0F1C23;
+}
+
+.footerLeft{
+  background-color: #0F1C23;
+}
+
+.footerMid{
+  background-color: #0F1C23;
+  color: #5DBAEF;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+/*       grid-column-start: 2;
+  grid-column-end: span 2; */
+}
+
+.container{
+  display:block;
+}
+
+.footerRight{
+  background-color: #0F1C23;
+  color: #5DBAEF;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
 .getInTouchWords{
   text-decoration-line: underline;
   text-decoration-color: #5DBAEF;
