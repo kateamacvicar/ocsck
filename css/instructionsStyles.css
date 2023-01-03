@@ -3,8 +3,20 @@ html{
     font-size: 16px;
     font-family: 'Linden Hill';
     font-weight: normal;
-    margin: 0px;
+    margin: 0;
     background-color: #4A95BF;
+  }
+
+  body{
+    margin:0px;
+  }
+
+  button{
+    font-family: 'Linden Hill';
+  }
+
+  h1{
+    font-weight: normal;
   }
   
 .grid{
@@ -29,6 +41,11 @@ html{
     grid-column-start: 1;
     grid-column-end: span 3;
     background-color: aquamarine;
+  }
+
+  .title{
+    background-color: #0F1C23;
+    color:#4A95BF;
   }
   
     
