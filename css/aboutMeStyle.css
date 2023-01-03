@@ -164,6 +164,15 @@ html{
       padding-right: 3%;
     }
 
+    .hiddenWords{
+      display:none;
+    }
+
+    .combinedWordsMid{
+      grid-column-start: 1;
+      grid-column-end: span 4;
+    }
+
     /* Start of Media Queries! */
 
   @media only screen and (max-width: 1200px){
@@ -228,12 +237,25 @@ html{
   }
     }
 
+    /* this media query changes the mid words so that they are stacked.*/
   @media only screen and (max-width: 500px){
     .introWords{
       font-size: 1rem;
     }
     h1{
       font-size: 1.4rem;
+    }
+
+    .hiddenWords{
+      display:flex
+    }
+
+    .leftWordsMid{
+      display:none;
+    }
+
+    .rightWordsMid{
+      display:none;
     }
   }
 
