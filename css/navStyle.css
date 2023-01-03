@@ -123,7 +123,6 @@ footer {
   background-color: #0F1C23;
   grid-column-start: 1;
   grid-column-end: span 4;
-  padding:3%;
 }
 
 .footerLogo{

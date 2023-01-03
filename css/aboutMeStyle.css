@@ -19,6 +19,7 @@ html{
       color: #060B0E;
       font-size: 2rem;
       font-weight: normal;
+      text-align: center;
   }
   
   h2{
@@ -46,7 +47,6 @@ html{
     }
     
     .box {
-      background-color: #4A95BF;
       color: black;
     }
 
@@ -166,11 +166,13 @@ html{
 
     .hiddenWords{
       display:none;
+      grid-column-start: 1;
+      grid-column-end: span 4;
     }
 
     .combinedWordsMid{
-      grid-column-start: 1;
-      grid-column-end: span 4;
+      background-color: #BACEDA;
+      padding:5%;
     }
 
     /* Start of Media Queries! */
@@ -239,11 +241,11 @@ html{
 
     /* this media query changes the mid words so that they are stacked.*/
   @media only screen and (max-width: 500px){
+    .grid{
+      height: 1000px;
+    }
     .introWords{
       font-size: 1rem;
-    }
-    h1{
-      font-size: 1.4rem;
     }
 
     .hiddenWords{
@@ -256,6 +258,26 @@ html{
 
     .rightWordsMid{
       display:none;
+    }
+  }
+
+  @media only screen and (max-width: 420px){
+    .grid{
+      height:950px;
+    }
+    #bannerTitle{
+      font-size: 2rem;
+    }
+
+    #bannerSubHeader{
+      font-size: 1.1rem;
+    }
+    .introWords{
+      font-size: 0.8rem;
+    }
+
+    h1{
+      font-size: 1.4rem;
     }
   }
 

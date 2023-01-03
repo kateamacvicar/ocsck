@@ -1,0 +1,37 @@
+
+html{
+    font-size: 16px;
+    font-family: 'Linden Hill';
+    font-weight: normal;
+    margin: 0px;
+    background-color: #4A95BF;
+  }
+  
+.grid{
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 75% 20%;
+}
+
+.box {
+    color: black;
+  }
+
+  .navBar {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #0F1C23;
+  }
+
+  .middle{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color: aquamarine;
+  }
+  
+    
+  
+  
+    
