@@ -78,6 +78,73 @@ html{
     width:60%;
     margin:auto;
   }
+
+   /* Start of Media Queries! */
+
+@media only screen and (max-width: 852px){
+    .title{
+        width: 70%;
+    }
+
+    #instructionsList{
+        width:70%;
+    }
+
+    p{
+        width:70%;
+    }
+}
+
+@media only screen and (max-width: 710px){
+        .title{
+        width: 80%;
+    }
+
+    #instructionsList{
+        width:80%;
+    }
+
+    p{
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 610px){
+    h1{
+        1.7rem;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+
+    #instructionsList{
+    font-size: 0.9rem;
+    }
+    .grid{
+        grid-template-rows: 5% 65% 30%;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    h1{
+        1.5rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    #instructionsList{
+    font-size: 0.8rem;
+    }
+
+    button{
+        font-size: 1.1rem;
+    }
+
+
+}
   
     
   
