@@ -41,7 +41,7 @@ html{
       height: 1200px;
       width: 100%;
       display: grid;
-      grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
       grid-template-rows: 5% 10% 30% 35% 20%;
     }
     
@@ -165,9 +165,11 @@ html{
     }
 
     .footerDiv{
-      display: grid;
+      display: flex;
+      justify-content: space-around;
+      background-color: #0F1C23;
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: span 4;
     }
     
     .footerLogo{
