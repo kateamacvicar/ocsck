@@ -373,7 +373,7 @@ Query will stack "Sole proprietor... visual elegance" and the photo vertically.
     ipad air: 820 x 1180
     ipad pro: 1024 x 1366
     */
-    @media only screen and (min-width:760px) and (max-width:1025px) and (min-height: 820px) and (max-height: 1200px){
+    @media only screen and (min-width:760px) and (max-width:1030px) and (min-height: 820px) and (max-height: 1400px){
       .grid{
         height:1400px;
       }
@@ -381,6 +381,5 @@ Query will stack "Sole proprietor... visual elegance" and the photo vertically.
 
 /* Messed Up Screens:
 1. Galaxy fold 
-2. Surface Pro 7
-3. iPad Pro */
+ */
   
