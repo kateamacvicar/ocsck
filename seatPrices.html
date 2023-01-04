@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap" rel="stylesheet">
+    <title>Instructions Page </title>
+
+    <!-- Links to my CSS pages -->
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/priceStyles.css">
+</head>
+<body>
+
+  <div class="grid">
+
+    <div class="box navBar">
+     <div role="navigation" aria-label="Nav bar">
+      <div class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+      </svg>
+    </div>
+        <nav>
+          <ul>
+            <li><a id="navTab" href="index.html">home</a></li>
+            <!-- about me drop down -->
+            <li>
+              <div class="dropdown">
+              <button class="dropbtn">about me</button>
+              <div class="dropdown-content">
+                <a id="dropdownStyle" href="aboutMe.html">about me</a>
+                <a id="dropdownStyle" href="#">additional links</a>
+              </div>
+              </div>
+            </li>
+            <!-- products dropdown -->
+            <div class = "noHide"> 
+            <li>
+                <div class="dropdown">
+                <button class="dropbtn">products</button>
+                <div class="dropdown-content">
+                    <table>
+                        <tbody><tr>
+                          <th><a id="dropdownStyle">canoes</a></th>
+                          <th> <a id="dropdownStyle" href="#">special orders</a> </th>
+                          <th> <a id="dropdownStyle" href="#">paddles</a></th>
+                          <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="#">models</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="#">solo options</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="#">seat options</a></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                </div>
+              </li>
+            </div>
+            <!-- products drop down small version -->
+            <div class = "hide">
+            <li>
+              <div class="dropdown">
+              <button class="dropbtn">products</button>
+              <div class="dropdown-content">
+                  <table>
+                      <tbody><tr>
+                        <th><a id="dropdownStyle">canoes</a></th>
+                        <th> <a id="dropdownStyle" href="#">special orders</a> </th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                        <th> <a id="dropdownStyle" href="#">paddles</a></th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="#">models</a></td>
+                        <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="#">solo options</a></td>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="#">seat options</a></td>
+                      </tr>
+                  </tbody></table>
+              </div>
+              </div>
+            </li>
+          </div>
+            <!-- order dropdown -->
+            <li>
+                <div class="dropdown">
+                <button class="dropbtn">order</button>
+                <div class="dropdown-content">
+                    <table>
+                        <tbody><tr>
+                          <th><a id="dropdownStyle" href="instructions.html">instructions</a></th>
+                          <th> <a id="dropdownStyle" href="#">pricelist</a> </th>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="lutraPrices.html">Lutra</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">Sylva</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">paddles</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">seats</a></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                </div>
+              </li>
+            <li><a id="navTab" href="#">contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    </div> 
+
+    <div class = "box middle"> 
+      <h1> Sylva Prices </h1>
+      <p>Listed canoe prices include fixed seats. The  seats listed below would be additional costs </p> 
+      <table class = "priceTable">
+          <tr>
+            <th class = "tableHeader"> </th>
+            <th class = "tableHeader"> </th>
+            <th class = "tableHeader"> </th>
+          </tr>
+          <tr>
+            <td class = "tableRow">Item</td>
+            <td class = "tableRow"> </td>
+            <td class = "tableRow">Price <br>($)</td>
+          </tr>
+          <tr>
+            <td class = "tableRow">Tilting Seat *</td>
+            <td class = "tableRow"> </td>
+            <td class = "tableRow">80</td>
+          </tr>
+            <tr>
+            <td class = "tableRow">Sliding Bow Seat</td>
+            <td class = "tableRow"> </td>
+            <td class = "tableRow">150</td>
+          </tr>
+        </table>
+
+        <p>*tilting seats can be installed for both the bow and stern seats. Each seat is $80</p> 
+    </div>
+
+    <div class = "box footerDiv">
+        <div class="footerLeft">
+          <img src="images/logoinv400bright.jpg" class="logo">
+        </div>
+  
+        <div class="footerMid">
+          <div class="container">
+            <h3 class="footerTitle"> Otter Creek Smallcraft Canoe and Kayak® </h3>
+            <h4 class="address"> 1379 Mountain Road, <br>
+              Vergennes, VT 05491, USA
+            </h4>
+            <h4 class="creds"> Sole Proprietor and Logo Design: Peter Macfarlane <br> 
+              Website Design and Development © Kate MacVicar
+            </h4>
+          </div>
+        </div>
+  
+        <div class="footerRight">
+          <div class="container">
+            <h2 class="getInTouchWords"> Get in touch → </h2>
+            <h4 class="contactMethods"> [+1] (802) 759-2268</h4>
+            <h4 class="contactMethods">  @ottercreeksmallcraft </h4>
+            <h4 class="contactMethods"> mail@ottercreeksmallcraft.com </h4>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
