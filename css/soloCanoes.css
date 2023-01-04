@@ -109,29 +109,52 @@ html{
 
    /* Start of Media Queries! */
   
-    @media only screen and (max-width: 750px){
-        table{
-            font-size: 1.4rem;
-        }
-
+    @media only screen and (max-width: 800px){
         h1{
-            font-size: 2.3rem;
+            font-size: 2.2rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+
+    @media only screen and (max-width: 700px){
+        p{
+            width:70%;
+        }
+    }
+
+    @media only screen and (max-width: 600px){
+        h1{
+            font-size: 2.1rem;
+        }
+        p{
+            font-size: 1.2rem;
         }
     }
 
     @media only screen and (max-width: 500px){
-        table{
-            width:90%;
-            font-size: 1.3rem;
-        }
-
         h1{
             font-size: 2rem;
         }
-        .grid{
-            height:950px;
-            grid-template-rows: 5% 70% 25%;
+        p{
+            font-size: 1.1rem;
+            height:75%;
         }
     }
+
+    
+    @media only screen and (max-width: 400px){
+        h1{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        button{
+            font-size: 1rem;
+        }
+    }
+
   
     
