@@ -11,26 +11,11 @@ html{
     margin:0px;
   }
 
-  a{
-    text-decoration: none;
-  }
-
-  button{
-    display:flex;
-    margin:auto;
-    font-family: 'Linden Hill';
-    background-color: #0F1C23;
-    color:#5DBAEF;
-    border: none;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 1.2rem;
-  }
 
   h1{
     font-weight: normal;
+    text-align: center;
+    font-size: 2.5rem;
   }
 
   p{
@@ -68,6 +53,9 @@ html{
   table{
     background-color: #4A95BF;
     border-spacing:0;
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
     }
     
     th{
@@ -98,7 +86,29 @@ html{
 
    /* Start of Media Queries! */
   
-    
-  
+    @media only screen and (max-width: 750px){
+        table{
+            font-size: 1.4rem;
+        }
+
+        h1{
+            font-size: 2.3rem;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        table{
+            width:90%;
+            font-size: 1.3rem;
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+        .grid{
+            height:950px;
+            grid-template-rows: 5% 70% 25%;
+        }
+    }
   
     
