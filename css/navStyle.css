@@ -206,6 +206,13 @@ footer {
   margin:0;
 }
 
+.newFooterTitleDiv{
+  display:none;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
  /* Start of Media Queries! */
 
 @media only screen and (max-width: 1021px){
@@ -302,11 +309,21 @@ footer {
     font-size: 1rem;
   }
 
+/* displaying condensed footer info */
   .smallerCreds{
     display:block;
   }
 
   .creds{
+    display:none;
+  }
+
+  /* moving footer title so that it is in its own row */
+  .newFooterTitleDiv{
+    display:block;
+  }
+
+  .footerTitleDiv{
     display:none;
   }
 }
