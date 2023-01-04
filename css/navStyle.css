@@ -164,6 +164,7 @@ footer {
   text-align: center;
   padding:4%;
   font-size: 1.75rem;
+  font-weight: normal;
 }
 
 .contactMethods{
@@ -176,6 +177,7 @@ footer {
 .footerTitle{
   text-align: center;
   font-size: 1.75rem;
+  font-weight: normal;
   color: #5DBAEF;
   margin:0
   }
