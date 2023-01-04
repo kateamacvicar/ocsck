@@ -65,6 +65,23 @@ html{
     padding:2%;
   }
 
+  table{
+    background-color: #4A95BF;
+    border-spacing:0;
+    }
+    
+    th{
+    background-color:#0F1C23;
+    color: #4A95BF;
+    padding:1%;
+    }
+    
+    td{
+    border-bottom:solid 0.8px;
+    text-align:center;
+    padding:0.8%;
+    }
+
   .title{
     background-color: #0F1C23;
     color:#4A95BF;
