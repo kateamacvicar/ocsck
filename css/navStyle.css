@@ -206,12 +206,6 @@ footer {
   margin:0;
 }
 
-.newFooterTitleDiv{
-  display:none;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  text-align: center;
-}
 
  /* Start of Media Queries! */
 
@@ -318,14 +312,6 @@ footer {
     display:none;
   }
 
-  /* moving footer title so that it is in its own row */
-  .newFooterTitleDiv{
-    display:block;
-  }
-
-  .footerTitleDiv{
-    display:none;
-  }
 }
 
 
