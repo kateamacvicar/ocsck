@@ -294,7 +294,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 450){
+@media only screen and (max-width: 450px){
 
   .address{
     font-size: 1rem;
