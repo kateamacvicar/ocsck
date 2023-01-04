@@ -59,25 +59,9 @@ html{
     width: 80%;
     margin: auto;
     font-size: 1.6rem;
+    border-spacing: 5px;
     }
     
-    .topLeftItem{
-    background-color:#BACEDA;
-    padding:10%;
-    font-size: 3rem;
-    text-align: center;
-    border-right: solid;
-    border-bottom: solid;
-    }
-
-    .bottomRightItem{
-        background-color:#BACEDA;
-        padding:10%;
-        font-size: 3rem;
-        text-align: center;
-        border-top: solid;
-        border-left:solid;
-    }
 
     .item{
         background-color:#BACEDA;
