@@ -54,21 +54,20 @@ html{
     padding:2%;
   }
 
-  table{
-    background-color: #4A95BF;
+  .priceTable{
     border-spacing:0;
     width: 80%;
     margin: auto;
     font-size: 1.6rem;
     }
     
-    th{
+    .tableHeader{
     background-color:#0F1C23;
     color: #4A95BF;
     padding:1%;
     }
     
-    #tableRow{
+    .tableRow{
     border-bottom:solid 0.8px;
     text-align:center;
     padding:0.8%;
