@@ -335,7 +335,49 @@ button{
         grid-template-rows: 5% 25% 15% 30% 25%
       }
     }
+
+/*     This is for the smallest screen sizes. 
+When the screen is small enough, the words and photo will all be stacked vertically.
+The words "Nested in the...proven to perform" should already be stacked. So this Media
+Query will stack "Sole proprietor... visual elegance" and the photo vertically.
+*/ 
+    @media only screen and (max-width:360px){
+
+      /* add a new row for the picture  */
+      .grid{
+        grid-template-rows: 5% 20% 15% 15% 20% 25%;
+      }
+      /* make the container for the words span the whole width to force the picture beneath it.  */
+      .wordsMidSmall{
+        grid-column-end: span 4;
+      }
+
+      #firstIndexWords{
+        font-size: 0.9rem;
+      }
+
+      .pictureMid{
+        grid-column-start: 1;
+        grid-column-end: span 4;
+
+      }
+      .indexImg{
+        width:70%;
+      }
+
+    }
   
+    /* ipad screens dimensions: 
+    ipad mini:768 x 1024 
+    ipad: 768 x 1024
+    ipad air: 820 x 1180
+    ipad pro: 1024 x 1366
+    */
+    @media only screen and (min-width:760px) and (max-width:1025px) and (min-height: 820px) and (max-height: 1200px){
+      .grid{
+        height:1400px;
+      }
+    }
 
 /* Messed Up Screens:
 1. Galaxy fold 

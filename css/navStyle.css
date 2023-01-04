@@ -196,6 +196,14 @@ footer {
   margin:0;
 }
 
+.smallerCreds{
+  display:none;
+  text-align: center;
+  font-weight: normal;
+  padding: 2%;
+  margin:0;
+}
+
  /* Start of Media Queries! */
 
 @media only screen and (max-width: 1021px){
@@ -273,13 +281,18 @@ footer {
   }
 
   .address{
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .smallerCreds{
+    display:block;
   }
 
   .creds{
-    font-size: 0.8rem;
+    display:none;
   }
 }
+
 
 
   
