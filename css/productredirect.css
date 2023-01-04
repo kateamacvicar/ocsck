@@ -65,9 +65,13 @@ html{
 
     .item{
         background-color:#BACEDA;
-        padding:10%;
+        padding:8%;
         font-size: 3rem;
         text-align: center;
+    }
+
+    .bottomRow{
+        padding:4
     }
 
 
