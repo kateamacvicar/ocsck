@@ -35,7 +35,7 @@ button{
     width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 5% 70% 25%;
   }
   
   .box {
@@ -88,5 +88,88 @@ button{
     display: flex;
     justify-content: center;
   }
+
+  /* Start of Media Queries! */
+
+  
+  @media only screen and (max-width:1000px){
+    .grid{
+      height:1000px;
+    }
+  }
+
+  @media only screen and (max-width:900px){
+    h1{
+      font-size: 2.2rem;
+    }
+
+    .item{
+      font-size: 2.8rem;
+    }
+
+    .bottomItem{
+      font-size: 2.8rem;
+    }
+
+    .grid{
+      height:900px;
+    }
+  }
+
+  @media only screen and (max-width:700px){
+    h1{
+      font-size: 2rem;
+    }
+
+    .item{
+      font-size: 2.3rem;
+    }
+
+    .bottomItem{
+      font-size: 2.3rem;
+    }
+    .grid{
+      height:800px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .grid{
+      height: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .grid{
+      grid-template-rows: 5% 65% 30%;
+    }
+    h1{
+      font-size: 1.9rem;
+    }
+
+    .item{
+      font-size: 2.1rem;
+    }
+
+    .bottomItem{
+      font-size: 2.1rem;
+    }
+  }
+
+  @media only screen and (max-width: 300px){
+
+    h1{
+      font-size: 1.5rem;
+    }
+
+    .item{
+      font-size: 1.7rem;
+    }
+
+    .bottomItem{
+      font-size: 1.7rem;
+    }
+  }
+
 
   
