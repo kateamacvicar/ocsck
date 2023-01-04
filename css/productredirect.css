@@ -70,8 +70,13 @@ html{
         text-align: center;
     }
 
-    .bottomRow{
-        padding:4
+    /* same as item, but less padding because then the table cells appear much bigger than the top cells. 
+    This is because the bottom cells have double words.  */
+    .bottomItem{
+        background-color:#BACEDA;
+        padding:5.5%;
+        font-size: 3rem;
+        text-align: center;
     }
 
 

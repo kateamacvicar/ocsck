@@ -9,6 +9,7 @@ html{
 
   body{
     margin:0px;
+    font-weight: normal;
   }
 
   a{
@@ -33,6 +34,10 @@ html{
     font-weight: normal;
   }
 
+  h2{
+    font-weight: normal;
+  }
+
   p{
     text-align: center;
     padding:2%;
@@ -41,7 +46,7 @@ html{
   }
   
 .grid{
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
