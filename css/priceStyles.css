@@ -93,8 +93,18 @@ html{
   }
 
    /* Start of Media Queries! */
+
+   @media only screen and (max-width: 900px){
+    table{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+}
   
-    @media only screen and (max-width: 750px){
+    @media only screen and (max-width: 700px){
         table{
             font-size: 1.4rem;
         }
@@ -105,7 +115,7 @@ html{
     }
 
     @media only screen and (max-width: 500px){
-        table{
+        .priceTable{
             width:90%;
             font-size: 1.3rem;
         }
@@ -118,5 +128,21 @@ html{
             grid-template-rows: 5% 70% 25%;
         }
     }
+
+    @media only screen and (max-width: 400px){
+      .priceTable{
+          font-size: 1.2rem;
+      }
+
+      h1{
+          font-size: 1.8rem;
+      }
+  }
+
+  @media only screen and (max-width: 300px){
+    h1{
+        font-size: 1.6rem;
+    }
+}
   
     

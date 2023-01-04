@@ -138,8 +138,7 @@ html{
             font-size: 2rem;
         }
         p{
-            font-size: 1.1rem;
-            height:75%;
+            width:75%;
         }
     }
 
@@ -149,10 +148,10 @@ html{
             font-size: 1.8rem;
         }
         p{
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
         button{
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
     }
 
