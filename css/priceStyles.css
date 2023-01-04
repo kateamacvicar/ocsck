@@ -66,6 +66,11 @@ html{
     color: #4A95BF;
     padding:1%;
     }
+
+    .emptyTableHeader{
+      background-color:#0F1C23;
+      padding:4%;
+    }
     
     .tableRow{
     border-bottom:solid 0.8px;
