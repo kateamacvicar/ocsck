@@ -136,6 +136,10 @@ html{
     h1{
         font-size: 1.6rem;
     }
+
+    h2{
+        font-size: 1.3rem;
+    }
     button{
         font-size: 1rem;
     }
@@ -147,6 +151,10 @@ html{
 @media only screen and (max-width: 440px){
     h1{
         font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
     }
 
     p{
@@ -162,6 +170,19 @@ html{
 
 }
 
+@media only screen and (max-width:300px){
+    h2{
+        font-size: 1.1rem;
+    }
+
+    p{
+        font-size: 0.7rem
+    }
+    #instructionsList{
+        font-size: 0.7rem;
+    }
+}
+
 @media only screen and (min-width: 700px) and (max-width: 800px){
     /* ruleset for width between 320px - 480px 
     and height between 1000px - 1200px. 
@@ -173,8 +194,7 @@ html{
     
 /* Messed up screens: 
 1. Surface Pro 7 (912 x 1368) 
-2. ipad Air (820 x 1180)
-3. Galaxy Fold (280 x 653) */
+2. ipad Air (820 x 1180) */
   
   
     
