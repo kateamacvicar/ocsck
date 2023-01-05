@@ -40,7 +40,7 @@ html{
       width: 100%;
       display: grid;
       grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      grid-template-rows: 5% 10% 30% 35% 20%;
+      grid-template-rows: 5% 15% 30% 30% 20%;
     }
     
     .box {
@@ -194,6 +194,9 @@ html{
     .introWords{
       font-size: 1.5rem;
     }
+    .grid{
+      grid-template-rows: 5% 10% 30% 35% 20%;
+    }
   }
 
   @media only screen and (max-width: 1000px){
@@ -280,6 +283,7 @@ html{
   @media only screen and (max-width: 500px){
     .grid{
       height: 1000px;
+      grid-template-rows: 5% 10% 15% 15% 35% 15%;
     }
     #bannerTitle{
       font-size: 2rem;
@@ -313,7 +317,6 @@ html{
     .grid{
       height:950px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 10% 15% 15% 35% 20%;
     }
     #bannerTitle{
       font-size: 1.8rem;
