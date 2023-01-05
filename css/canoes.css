@@ -20,11 +20,14 @@ html{
     font-weight: normal;
     text-align: center;
     font-size: 2.5rem;
+    margin:1%
   }
 
   h2{
     font-weight: normal;
     font-size: 2rem;
+    text-align: center;
+    margin:1%;
   }
 
   h3{
@@ -41,26 +44,18 @@ html{
     color: #5DBAEF;
     border: 0;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: flex;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   p{
     text-align: center;
-    padding:2%;
+    padding:1%;
     width:60%;
-    margin:auto;
-  }
-  
-  .descP{
-    width:60%;
-    font-size: 1.2rem;
-    text-align: center;
     margin:auto;
   }
 
@@ -69,7 +64,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 10% 25% 15% 5% 15% 5% 20%;
+    grid-template-rows: 5% 10% 25% 18% 2% 18% 2% 20%;
 }
 
 .box {
@@ -88,6 +83,10 @@ html{
     text-align: center;
   }
 
+  #titleSubHeader{
+    font-size:1.3rem;
+  }
+
   .middle{
     grid-column-start: 1;
     grid-column-end: span 3;
@@ -98,6 +97,18 @@ html{
   .middleTitle{
     text-align: center;
     width:60%;
+    margin:auto;
+  }
+
+  .descTitle{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .descP{
+    width:60%;
+    font-size: 1.2rem;
+    text-align: center;
     margin:auto;
   }
 
