@@ -22,9 +22,6 @@ html{
 
   h3{
     font-weight: normal;
-    width: 60%;
-    text-align: center;
-    margin: auto;
   }
 
   h4{
@@ -69,6 +66,13 @@ html{
     grid-column-end: span 3;
     background-color:#4A95BF;
     padding:2%;
+  }
+
+  .titleSubParagraph{
+    font-weight: normal;
+    width: 60%;
+    text-align: center;
+    margin: auto;
   }
 
   .lightSection{
