@@ -107,6 +107,7 @@ html{
       justify-content: center;
       overflow: hidden;
       align-content: center;
+      padding:10%;
     }
 
     #introPic{
@@ -147,14 +148,14 @@ html{
     .bottom{
       grid-column-start: 1;
       grid-column-end: 5;
-      display: flex;
-      justify-content: center;
     }
 
     #bottomP{
       font-size: 1.25rem;
       width: 50%;
     text-align: center;
+    margin: auto;
+    padding: 3%;
     }
 
     .exploreButton{
@@ -213,12 +214,19 @@ html{
       height:75%;
     }
 
+    .introPhoto{
+      padding:0;
+    }
+
     .rightWordsMid{
       font-size: 1.1rem;
     }
 
     .grid{
       height: 1100px;
+    }
+    #bannerSubHeader{
+      letter-spacing: 0;
     }
   }
 
@@ -233,6 +241,12 @@ html{
     }
     .rightWordsMid{
       font-size: 1rem;
+    }
+    #bannerTitle{
+      font-size: 2.4rem;
+    }
+    #bannerSubHeader{
+      font-size: 1.4rem;
     }
   }
 
@@ -323,6 +337,9 @@ html{
     }
     #bottomP{
       font-size: 0.9rem;
+    }
+    .exploreButton{
+      font-size: 1rem;
     }
   }
 
