@@ -54,29 +54,22 @@ p{
   padding:2%;
 }
 
-.priceTable{
+.itemTable{
   border-spacing:0;
   width: 80%;
   margin: auto;
   font-size: 1.6rem;
+  border-spacing:5px;
   }
   
-  .tableHeader{
-  background-color:#0F1C23;
-  color: #4A95BF;
-  padding:1%;
+
+  .item{
+      background-color:#BACEDA;
+      padding:10%;
+      font-size: 3rem;
+      text-align: center;
   }
 
-  .emptyTableHeader{
-    background-color:#0F1C23;
-    padding:3%;
-  }
-  
-  .tableRow{
-  border-bottom:solid 0.8px;
-  text-align:center;
-  padding:0.8%;
-  }
 
 .title{
   background-color: #0F1C23;
