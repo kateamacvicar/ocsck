@@ -3,173 +3,95 @@ html{
   font-size: 16px;
   font-family: 'Linden Hill';
   font-weight: normal;
-  margin: 0px;
+  margin: 0;
   background-color: #4A95BF;
 }
 
-a{
-  text-decoration: none;
+body{
+  margin:0px;
 }
 
-body{
-  margin: 0;
-  font-weight: normal;
-}
 
 h1{
-    color: #060B0E;
-    font-size: 2rem;
-    font-weight: normal;
-    text-align: center;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 button{
   font-family: 'Linden Hill';
-  background-color: #0F1C23;
-  color:#5DBAEF;
-  border: 0;
 }
 
-.grid {
-    height: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr;
-    grid-template-rows: 5% 70% 25%;
+p{
+  text-align: center;
+  padding:2%;
+  width:60%;
+  margin:auto;
+}
+
+.grid{
+  height: 1100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5% 75% 20%;
+}
+
+.box {
+  color: black;
+}
+
+.navBar {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  background-color: #0F1C23;
+}
+
+.middle{
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  background-color:#4A95BF;
+  padding:2%;
+}
+
+.priceTable{
+  border-spacing:0;
+  width: 80%;
+  margin: auto;
+  font-size: 1.6rem;
   }
   
-  .box {
-    background-color: #4A95BF;
-    color: black;
+  .tableHeader{
+  background-color:#0F1C23;
+  color: #4A95BF;
+  padding:1%;
+  }
+
+  .emptyTableHeader{
+    background-color:#0F1C23;
+    padding:3%;
   }
   
-  .a {
-    grid-column-start: 1;
-    grid-column-end: span 4;
-    background-color: #0F1C23;
-  }
-  
-
-  .middle{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  
-  .footerLogo{
-    background-color: #0F1C23;
+  .tableRow{
+  border-bottom:solid 0.8px;
+  text-align:center;
+  padding:0.8%;
   }
 
-  .footerLeft{
-    background-color: #0F1C23;
-  }
-  
-  .footerMid{
-    background-color: #0F1C23;
-    color: #5DBAEF;
-    display:flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
-  
-  .footerRight{
-    background-color: #0F1C23;
-    color: #5DBAEF;
-    display:flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
+.title{
+  background-color: #0F1C23;
+  color:#4A95BF;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
 
-  .pageBanner{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    display: flex;
-    justify-content: center;
-  }
+#instructionsList{
+  width:60%;
+  margin:auto;
+}
 
-  /* Start of Media Queries! */
+ /* Start of Media Queries! */
 
-  
-  @media only screen and (max-width:1000px){
-    .grid{
-      height:1000px;
-    }
-  }
-
-  @media only screen and (max-width:900px){
-    h1{
-      font-size: 2.2rem;
-    }
-
-    .item{
-      font-size: 2.8rem;
-    }
-
-    .bottomItem{
-      font-size: 2.8rem;
-    }
-
-    .grid{
-      height:900px;
-    }
-  }
-
-  @media only screen and (max-width:700px){
-    h1{
-      font-size: 2rem;
-    }
-
-    .item{
-      font-size: 2.3rem;
-    }
-
-    .bottomItem{
-      font-size: 2.3rem;
-    }
-    .grid{
-      height:800px;
-    }
-  }
-
-  @media only screen and (max-width: 500px){
-    .grid{
-      height: 700px;
-    }
-  }
-
-  @media only screen and (max-width: 400px){
-    .grid{
-      grid-template-rows: 5% 65% 30%;
-    }
-    h1{
-      font-size: 1.9rem;
-    }
-
-    .item{
-      font-size: 2.1rem;
-    }
-
-    .bottomItem{
-      font-size: 2.1rem;
-    }
-  }
-
-  @media only screen and (max-width: 300px){
-
-    h1{
-      font-size: 1.5rem;
-    }
-
-    .item{
-      font-size: 1.7rem;
-    }
-
-    .bottomItem{
-      font-size: 1.7rem;
-    }
-  }
-
-
-  
+ 
