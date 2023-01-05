@@ -131,6 +131,9 @@ footer {
 
 .footerLeft{
   background-color: #0F1C23;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .footerMid{
