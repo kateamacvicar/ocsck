@@ -47,36 +47,35 @@ html{
     background-color: #0F1C23;
   }
 
+  .titleDiv{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    text-align: center;
+  }
+
   .middle{
     grid-column-start: 1;
     grid-column-end: span 3;
-    background-color:#4A95BF;
+    background-color:#BACEDA;
     padding:2%;
   }
 
-  .priceTable{
-    border-spacing:0;
-    width: 80%;
-    margin: auto;
-    font-size: 1.6rem;
-    }
-    
-    .tableHeader{
-    background-color:#0F1C23;
-    color: #4A95BF;
-    padding:1%;
-    }
+  .middleTitle{
+    text-align: center;
+    width:60%;
+  }
 
-    .emptyTableHeader{
-      background-color:#0F1C23;
-      padding:3%;
-    }
-    
-    .tableRow{
-    border-bottom:solid 0.8px;
-    text-align:center;
-    padding:0.8%;
-    }
+  .lutraDesc{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color: #4A95BF;
+  }
+
+  .sylvaDesc{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color: #4A95BF;
+  }
 
   .title{
     background-color: #0F1C23;
@@ -87,62 +86,7 @@ html{
     justify-content: center;
   }
 
-  #instructionsList{
-    width:60%;
-    margin:auto;
-  }
 
    /* Start of Media Queries! */
 
-   @media only screen and (max-width: 900px){
-    table{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        font-size: 2.3rem;
-    }
-}
-  
-    @media only screen and (max-width: 700px){
-        table{
-            font-size: 1.4rem;
-        }
-
-        h1{
-            font-size: 2.3rem;
-        }
-    }
-
-    @media only screen and (max-width: 500px){
-        .priceTable{
-            width:90%;
-            font-size: 1.3rem;
-        }
-
-        h1{
-            font-size: 2rem;
-        }
-        .grid{
-            height:950px;
-            grid-template-rows: 5% 70% 25%;
-        }
-    }
-
-    @media only screen and (max-width: 400px){
-      .priceTable{
-          font-size: 1.2rem;
-      }
-
-      h1{
-          font-size: 1.8rem;
-      }
-  }
-
-  @media only screen and (max-width: 300px){
-    h1{
-        font-size: 1.6rem;
-    }
-}
-  
-    
+   
