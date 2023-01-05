@@ -11,6 +11,10 @@ html{
     margin:0px;
   }
 
+  a{
+    text-decoration: none;
+  }
+
 
   h1{
     font-weight: normal;
@@ -18,8 +22,32 @@ html{
     font-size: 2.5rem;
   }
 
+  h2{
+    font-weight: normal;
+    font-size: 2rem;
+  }
+
+  h3{
+    font-weight: normal;
+  }
+
   button{
     font-family: 'Linden Hill';
+  }
+
+  .learnMoreButton{
+    font-family: 'Linden Hill';
+    background-color: #0F1C23;
+    color: #5DBAEF;
+    border: 0;
+    margin: auto;
+    font-size: 1.2rem;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5%;
   }
 
   p{
@@ -29,6 +57,13 @@ html{
     margin:auto;
   }
   
+  .descP{
+    width:60%;
+    font-size: 1.2rem;
+    text-align: center;
+    margin:auto;
+  }
+
 .grid{
     height: 1300px;
     width: 100%;
@@ -63,6 +98,7 @@ html{
   .middleTitle{
     text-align: center;
     width:60%;
+    margin:auto;
   }
 
   .lutraDesc{
