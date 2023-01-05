@@ -9,6 +9,8 @@ html{
 
   body{
     margin:0px;
+    background-color: #4A95BF;
+    font-family: 'Linden Hill';
   }
 
 
@@ -16,6 +18,21 @@ html{
     font-weight: normal;
     text-align: center;
     font-size: 2.5rem;
+  }
+
+  h3{
+    font-weight: normal;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  h4{
+    font-weight: normal;
+    background-color: ;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
   }
 
   button{
@@ -54,29 +71,11 @@ html{
     padding:2%;
   }
 
-  .priceTable{
-    border-spacing:0;
+  .lightSection{
+    background-color: #BACEDA;
     width: 80%;
-    margin: auto;
-    font-size: 1.6rem;
-    }
-    
-    .tableHeader{
-    background-color:#0F1C23;
-    color: #4A95BF;
-    padding:1%;
-    }
+  }
 
-    .emptyTableHeader{
-      background-color:#0F1C23;
-      padding:3%;
-    }
-    
-    .tableRow{
-    border-bottom:solid 0.8px;
-    text-align:center;
-    padding:0.8%;
-    }
 
   .title{
     background-color: #0F1C23;
@@ -87,62 +86,12 @@ html{
     justify-content: center;
   }
 
-  #instructionsList{
+  ol{
     width:60%;
     margin:auto;
+    font-size: 1.2rem;
   }
 
    /* Start of Media Queries! */
 
-   @media only screen and (max-width: 900px){
-    table{
-        font-size: 1.5rem;
-    }
-
-    h1{
-        font-size: 2.3rem;
-    }
-}
-  
-    @media only screen and (max-width: 700px){
-        table{
-            font-size: 1.4rem;
-        }
-
-        h1{
-            font-size: 2.3rem;
-        }
-    }
-
-    @media only screen and (max-width: 500px){
-        .priceTable{
-            width:90%;
-            font-size: 1.3rem;
-        }
-
-        h1{
-            font-size: 2rem;
-        }
-        .grid{
-            height:950px;
-            grid-template-rows: 5% 70% 25%;
-        }
-    }
-
-    @media only screen and (max-width: 400px){
-      .priceTable{
-          font-size: 1.2rem;
-      }
-
-      h1{
-          font-size: 1.8rem;
-      }
-  }
-
-  @media only screen and (max-width: 300px){
-    h1{
-        font-size: 1.6rem;
-    }
-}
-  
-    
+   
