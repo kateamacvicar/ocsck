@@ -44,7 +44,7 @@ html{
     color: #5DBAEF;
     border: 0;
     margin: auto;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: flex;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -100,14 +100,19 @@ html{
     margin:auto;
   }
 
+  .learnMoreLink{
+    font-size: 1.4rem;
+    text-decoration: underline;
+  }
+
   .descTitle{
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
   }
 
   .descP{
-    width:60%;
-    font-size: 1.2rem;
+    width:50%;
+    font-size: 1.4rem;
     text-align: center;
     margin:auto;
   }

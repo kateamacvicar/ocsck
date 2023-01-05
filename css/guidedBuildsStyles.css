@@ -17,7 +17,7 @@ html{
   h1{
     font-weight: normal;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   h3{
@@ -26,10 +26,6 @@ html{
 
   h4{
     font-weight: normal;
-    background-color: ;
-    text-align: center;
-    margin: auto;
-    font-size: 1.4rem;
   }
 
   button{
@@ -38,8 +34,7 @@ html{
 
   p{
     text-align: center;
-    padding:2%;
-    width:60%;
+    width:70%;
     margin:auto;
   }
   
@@ -65,21 +60,31 @@ html{
     grid-column-start: 1;
     grid-column-end: span 3;
     background-color:#4A95BF;
-    padding:2%;
   }
 
   .titleSubParagraph{
     font-weight: normal;
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin: auto;
+    font-size: 2rem;
   }
 
   .lightSection{
     background-color: #BACEDA;
     width: 80%;
+    padding:1%;
   }
 
+  .lightSectionText{
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+  }
+
+  #smallPrintText{
+    text-align: left;
+  }
 
   .title{
     background-color: #0F1C23;
