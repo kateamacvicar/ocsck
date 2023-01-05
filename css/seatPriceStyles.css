@@ -1,0 +1,170 @@
+
+html{
+    font-size: 16px;
+    font-family: 'Linden Hill';
+    font-weight: normal;
+    margin: 0;
+    background-color: #4A95BF;
+  }
+
+  body{
+    margin:0px;
+  }
+
+
+  h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  button{
+    font-family: 'Linden Hill';
+  }
+
+  p{
+    text-align: center;
+    padding:2%;
+    width:60%;
+    margin:auto;
+    font-size: 1.3rem;
+  }
+  
+.grid{
+    height: 1100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 75% 20%;
+}
+
+.box {
+    color: black;
+  }
+
+  .navBar {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #0F1C23;
+  }
+
+  .middle{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color:#4A95BF;
+    padding:2%;
+  }
+
+  .priceTable{
+    border-spacing:0;
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
+    }
+    
+    .tableHeader{
+    background-color:#0F1C23;
+    color: #4A95BF;
+    padding:1%;
+    }
+
+    .emptyTableHeader{
+      background-color:#0F1C23;
+      padding:3%;
+    }
+    
+    .tableRow{
+    border-bottom:solid 0.8px;
+    text-align:center;
+    padding:0.8%;
+    }
+
+  .title{
+    background-color: #0F1C23;
+    color:#4A95BF;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  #instructionsList{
+    width:60%;
+    margin:auto;
+  }
+
+   /* Start of Media Queries! */
+
+   @media only screen and (max-width: 900px){
+    table{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+
+    .grid{
+        height:900px
+    }
+}
+  
+    @media only screen and (max-width: 700px){
+        table{
+            font-size: 1.4rem;
+        }
+
+        h1{
+            font-size: 2.3rem;
+        }
+        .grid{
+            height:850px;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .priceTable{
+            width:90%;
+            font-size: 1.3rem;
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+        .grid{
+            height:800px;
+            grid-template-rows: 5% 70% 25%;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+      .priceTable{
+          font-size: 1.2rem;
+      }
+
+      h1{
+          font-size: 1.8rem;
+      }
+      p{
+        font-size: 1rem;
+        width:70%;
+    }
+  }
+
+  @media only screen and (max-width: 300px){
+    h1{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+
+}
+  
+    
