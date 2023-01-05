@@ -23,6 +23,10 @@ html{
   }
 
   button{
+    font-family: 'Linden Hill';
+  }
+
+  .priceButton{
     display:flex;
     margin:auto;
     font-family: 'Linden Hill';
