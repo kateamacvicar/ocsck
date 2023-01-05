@@ -152,6 +152,8 @@ html{
 
     #bottomP{
       font-size: 1.25rem;
+      width: 50%;
+    text-align: center;
     }
 
     .exploreButton{
@@ -192,15 +194,19 @@ html{
     }
   }
 
-  @media only screen and (max-width: 1042px){
+  @media only screen and (max-width: 1000px){
     .introPic{
       height:85%;
     }
+
+    #bannerTitle{
+      font-size: 2.6rem;
+    }
   }
 
-  @media only screen and (max-width: 870px){
+  @media only screen and (max-width: 900px){
     .introWords{
-      font-size: 1.35rem;
+      font-size: 1.3rem;
     }
     .introPic{
       height:75%;
@@ -246,12 +252,19 @@ html{
   .logo{
     height: 50%;
   }
+
+  #bottomP{
+    font-size: 1.2rem;
+  }
     }
 
     /* this media query changes the mid words so that they are stacked.*/
   @media only screen and (max-width: 500px){
     .grid{
       height: 1000px;
+    }
+    #bannerTitle{
+      font-size: 2rem;
     }
     .introWords{
       font-size: 1rem;
@@ -272,19 +285,33 @@ html{
     h1{
       font-size: 1.6rem;
     }
+    #bottomP{
+      font-size: 1rem;
+    }
 
   }
 
   @media only screen and (max-width: 420px){
     .grid{
       height:950px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 10% 15% 15% 35% 20%;
     }
     #bannerTitle{
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
 
     #bannerSubHeader{
       font-size: 1.1rem;
+    }
+
+    .introPhoto{
+      grid-column-start: 2;
+      grid-column-end: span 2;
+    }
+
+    .intro{
+      grid-column-end: 5;
     }
     .introWords{
       font-size: 0.8rem;
@@ -292,6 +319,9 @@ html{
 
     h1{
       font-size: 1.4rem;
+    }
+    #bottomP{
+      font-size: 0.9rem;
     }
   }
 
