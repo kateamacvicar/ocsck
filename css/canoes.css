@@ -30,11 +30,11 @@ html{
   }
   
 .grid{
-    height: 1100px;
+    height: 1300px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 5% 10% 25% 15% 5% 15% 5% 20%;
 }
 
 .box {
@@ -71,10 +71,22 @@ html{
     background-color: #4A95BF;
   }
 
+  .spaceOne{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color:#BACEDA;
+  }
+
   .sylvaDesc{
     grid-column-start: 1;
     grid-column-end: span 3;
     background-color: #4A95BF;
+  }
+
+  .spaceTwo{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color:#BACEDA;
   }
 
   .title{
