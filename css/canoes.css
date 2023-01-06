@@ -61,11 +61,11 @@ html{
   }
 
 .grid{
-    height: 1300px;
+    height: 1500px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 5% 10% 65% 20%;
 }
 
 .box {
@@ -118,29 +118,12 @@ html{
     margin:auto;
   }
 
-  .lutraDesc{
+  .canoeDesc{
     grid-column-start: 1;
     grid-column-end: span 3;
     background-color: #4A95BF;
-    width:
-  }
-
-  .spaceOne{
-    grid-column-start: 1;
-    grid-column-end: span 3;
-    background-color:#BACEDA;
-  }
-
-  .sylvaDesc{
-    grid-column-start: 1;
-    grid-column-end: span 3;
-    background-color: #4A95BF;
-  }
-
-  .spaceTwo{
-    grid-column-start: 1;
-    grid-column-end: span 3;
-    background-color:#BACEDA;
+    padding:2%;
+    margin:1%;
   }
 
   .title{
