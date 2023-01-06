@@ -13,99 +13,246 @@
       <link rel="stylesheet" href="css/designFeaturesStyle.css">
     </head>
     <body>
-    
-    <div class="slideshow-container">
-    
-    <div class="mySlides fade" style = "display:flex">
-      <img src="images/hull (1).jpg" style="width:60%">
-      <div class="text">
-        <h1> Hull </h1>
-        <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
-          pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
-          inside and out, with 4 oz.fibreglass cloth and clear epoxy, with extra reinforcement at the stems where
-          rock strikes are more likely. All boats are finished with marine varnish to provide UV protection and to
-          give the lustre that all wooden boats deserve</p>
-      </div>
+
+  <div class="grid">
+
+    <div class="box navBar">
+     <div role="navigation" aria-label="Nav bar">
+      <div class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+      </svg>
     </div>
-    
-    <div class="mySlides fade" style = "display:flex">
-      <img src="images/trimcherry.JPG" style="width:60%">
-      <div class="text">
-        <h1> Trim </h1>
-        <p> Gunwales, thwarts, seat frames and seat hangers are all made of native cherry. 
-          It has excellent strength and the color tones complement those of the cedar. 
-          Decks, which are primarily decorative, are of cedar strip construction.
-        </p> 
-      </div>
+        <nav>
+          <ul>
+            <li><a id="navTab" href="index.html">home</a></li>
+            <!-- about me drop down -->
+            <li>
+              <div class="dropdown">
+              <button class="dropbtn">about me</button>
+              <div class="dropdown-content">
+                <a id="dropdownStyle" href="aboutMe.html">about me</a>
+                <a id="dropdownStyle" href="#">additional links</a>
+              </div>
+              </div>
+            </li>
+            <!-- products dropdown -->
+            <div class = "noHide"> 
+            <li>
+                <div class="dropdown">
+                <button class="dropbtn">products</button>
+                <div class="dropdown-content">
+                    <table>
+                        <tbody><tr>
+                          <th><a id="dropdownStyle">canoes</a></th>
+                          <th> <a id="dropdownStyle" href="#">special orders</a> </th>
+                          <th> <a id="dropdownStyle" href="#">paddles</a></th>
+                          <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="#">models</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
+                        </tr>
+                        <tr>
+                          <td><a id="dropdownStyle" href="#">seat options</a></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                </div>
+              </li>
+            </div>
+            <!-- products drop down small version -->
+            <div class = "hide">
+            <li>
+              <div class="dropdown">
+              <button class="dropbtn">products</button>
+              <div class="dropdown-content">
+                  <table>
+                      <tbody><tr>
+                        <th><a id="dropdownStyle">canoes</a></th>
+                        <th> <a id="dropdownStyle" href="#">special orders</a> </th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                        <th> <a id="dropdownStyle" href="#">paddles</a></th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="#">models</a></td>
+                        <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
+                      </tr>
+                      <tr>
+                        <td><a id="dropdownStyle" href="#">seat options</a></td>
+                      </tr>
+                  </tbody></table>
+              </div>
+              </div>
+            </li>
+          </div>
+            <!-- order dropdown -->
+            <li>
+                <div class="dropdown">
+                <button class="dropbtn">order</button>
+                <div class="dropdown-content">
+                    <table>
+                        <tbody><tr>
+                          <th><a id="dropdownStyle" href="#">instructions</a></th>
+                          <th> <a id="dropdownStyle" href="pricelist.html">pricelist</a> </th>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="lutraPrices.html">Lutra</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">Sylva</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">paddles</a></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                          <td><a id="dropdownStyle" href="#">seats</a></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                </div>
+              </li>
+            <li><a id="navTab" href="#">contact</a></li>
+          </ul>
+      </nav>
     </div>
+    </div> 
+
+    <div class = "box middle"> 
+
+      <h1> Design Features </h1>
+      <h4> Click on the arrows to see all of the design features</h4>
+      <div class="slideshow-container">
     
-    <div class="mySlides fade" style = "display:flex">
-      <img src="images/scuppers.jpg" style="width:60%">
-      <div class="text">
-        <h1> Scuppered <br> gunwales</h1> 
-        <p>Scuppered gunwales allow easy drainage of water from the canoe and provide a 
-          place to tie packs and other gear. They also help to reduce weight without 
-          any significant reduction in rigidity.
-        </p> 
-      </div>
+        <div class="mySlides fade" style = "display:flex">
+          <img src="images/hull (1).jpg" style="width:60%">
+          <div class="text">
+            <h1> Hull </h1>
+            <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
+              pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
+              inside and out, with 4 oz.fibreglass cloth and clear epoxy, with extra reinforcement at the stems where
+              rock strikes are more likely. All boats are finished with marine varnish to provide UV protection and to
+              give the lustre that all wooden boats deserve</p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade" style = "display:flex">
+          <img src="images/trimcherry.JPG" style="width:60%">
+          <div class="text">
+            <h1> Trim </h1>
+            <p> Gunwales, thwarts, seat frames and seat hangers are all made of native cherry. 
+              It has excellent strength and the color tones complement those of the cedar. 
+              Decks, which are primarily decorative, are of cedar strip construction.
+            </p> 
+          </div>
+        </div>
+        
+        <div class="mySlides fade" style = "display:flex">
+          <img src="images/scuppers.jpg" style="width:60%">
+          <div class="text">
+            <h1> Scuppered <br> gunwales</h1> 
+            <p>Scuppered gunwales allow easy drainage of water from the canoe and provide a 
+              place to tie packs and other gear. They also help to reduce weight without 
+              any significant reduction in rigidity.
+            </p> 
+          </div>
+        </div>
+    
+        <div class="mySlides fade" style = "display:flex">
+          <img src="images/recurve.jpg" style="width:60%">
+          <div class="text">
+            <h1> Recurve </h1>
+            <p> The accentuated recurve at bow and stern, giving a swept back profile, 
+              reduces the area that is presented to wind. As with probably all design 
+              features, this is a compromise: the reduced flare at the bow sheds waves 
+              less effectively than other shapes.
+            </p> 
+          </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
     </div>
 
-    <div class="mySlides fade" style = "display:flex">
-      <img src="images/recurve.jpg" style="width:60%">
-      <div class="text">
-        <h1> Recurve </h1>
-        <p> The accentuated recurve at bow and stern, giving a swept back profile, 
-          reduces the area that is presented to wind. As with probably all design 
-          features, this is a compromise: the reduced flare at the bow sheds waves 
-          less effectively than other shapes.
-        </p> 
+    <div class = "box footerDiv">
+        <div class="footerLeft">
+          <img src="images/logoNoBackground.png" class="logo">
+        </div>
+  
+        <div class="footerMid">
+          <div class="container">
+            <h3 class="footerTitle"> Otter Creek Smallcraft Canoe and Kayak® </h3>
+            <h4 class="address"> 1379 Mountain Road, <br>
+              Vergennes, VT 05491, USA
+            </h4>
+            <h4 class="creds"> Sole Proprietor and Logo Design: Peter Macfarlane <br> 
+              Website Design and Development © Kate MacVicar
+            </h4>
+          </div>
+        </div>
+  
+        <div class="footerRight">
+          <div class="container">
+            <h2 class="getInTouchWords"> Get in touch → </h2>
+            <h4 class="contactMethods"> [+1] (802) 759-2268</h4>
+            <h4 class="contactMethods">  @ottercreeksmallcraft </h4>
+            <h4 class="contactMethods"> mail@ottercreeksmallcraft.com </h4>
+          </div>
+        </div>
       </div>
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-    
-    </div>
-    <br>
-    
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span> 
-    </div>
-    
-    <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
-    
-    </body>
-    </html> 
-    
+</body>
+</html>
 
-    </body>

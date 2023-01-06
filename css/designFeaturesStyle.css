@@ -6,9 +6,56 @@ body{
     font-family: 'Linden Hill';
 }
 
+a{
+    text-decoration: none;
+  }
+
+  button{
+    font-family: 'Linden Hill';
+  }
+
 h1{
+    font-weight: normal;
     text-align: center;
 }
+
+h4{
+    font-weight: normal;
+}
+
+.grid{
+    height: 1100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 75% 20%;
+}
+
+.box {
+    color: black;
+  }
+
+  .navBar {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #0F1C23;
+  }
+
+  .middle{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color:#4A95BF;
+    padding:2%;
+  }
+
+  .title{
+    background-color: #0F1C23;
+    color:#4A95BF;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+  }
 
 * {box-sizing: border-box}
 .mySlides {display: none}
@@ -71,7 +118,7 @@ img {vertical-align: middle;}
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #0F1C23;
 }
 
 /* Fading animation */
