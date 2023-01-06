@@ -11,6 +11,11 @@ body{
   margin:0px;
 }
 
+a{
+  text-decoration: none;
+  color:#0F1C23;
+}
+
 
 h1{
   font-weight: normal;
