@@ -47,13 +47,13 @@
                           <th><a id="dropdownStyle">canoes</a></th>
                           <th> <a id="dropdownStyle" href="#">special orders</a> </th>
                           <th> <a id="dropdownStyle" href="#">paddles</a></th>
-                          <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                          <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
                         </tr>
                         <tr>
                           <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
                         </tr>
                         <tr>
-                          <td><a id="dropdownStyle" href="#">models</a></td>
+                          <td><a id="dropdownStyle" href="canoes.html">models</a></td>
                         </tr>
                         <tr>
                           <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
@@ -82,8 +82,8 @@
                         <th> <a id="dropdownStyle" href="#">paddles</a></th>
                       </tr>
                       <tr>
-                        <td><a id="dropdownStyle" href="#">models</a></td>
-                        <th><a id="dropdownStyle" href="#">guided builds</a> </th>
+                        <td><a id="dropdownStyle" href="canoes.html">models</a></td>
+                        <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
                       </tr>
                       <tr>
                         <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
@@ -103,7 +103,7 @@
                 <div class="dropdown-content">
                     <table>
                         <tbody><tr>
-                          <th><a id="dropdownStyle" href="#">instructions</a></th>
+                          <th><a id="dropdownStyle" href="instructions.html">instructions</a></th>
                           <th> <a id="dropdownStyle" href="pricelist.html">pricelist</a> </th>
                         </tr>
                         <tr>
@@ -112,15 +112,15 @@
                         </tr>
                         <tr>
                             <td> </td>
-                          <td><a id="dropdownStyle" href="#">Sylva</a></td>
+                          <td><a id="dropdownStyle" href="sylvaPrices.html">Sylva</a></td>
                         </tr>
                         <tr>
                             <td> </td>
-                          <td><a id="dropdownStyle" href="#">paddles</a></td>
+                          <td><a id="dropdownStyle" href="paddlePrices.html">paddles</a></td>
                         </tr>
                         <tr>
                             <td> </td>
-                          <td><a id="dropdownStyle" href="#">seats</a></td>
+                          <td><a id="dropdownStyle" href="seatPrices.html">seats</a></td>
                         </tr>
                     </tbody></table>
                 </div>
@@ -135,12 +135,12 @@
     <div class = "box middle"> 
 
       <h1> Design Features </h1>
-      <p> Click on the arrows to see all of the design features</p>
+      <p id = "titleSubHeader"> Click on the arrows to see all of the design features</p>
       <div class="slideshow-container">
     
         <div class="mySlides fade">
           <img src="images/hull (1).jpg" style="width:60%">
-          <div class="text">
+          <div>
             <h1> Hull </h1>
             <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
               pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
@@ -152,7 +152,7 @@
         
         <div class="mySlides fade">
           <img src="images/trimcherry.JPG" style="width:60%">
-          <div class="text">
+          <div>
             <h1> Trim </h1>
             <p> Gunwales, thwarts, seat frames and seat hangers are all made of native cherry. 
               It has excellent strength and the color tones complement those of the cedar. 
@@ -163,7 +163,7 @@
         
         <div class="mySlides fade">
           <img src="images/scuppers.jpg" style="width:60%">
-          <div class="text">
+          <div>
             <h1> Scuppered <br> gunwales</h1> 
             <p>Scuppered gunwales allow easy drainage of water from the canoe and provide a 
               place to tie packs and other gear. They also help to reduce weight without 
@@ -174,7 +174,7 @@
     
         <div class="mySlides fade" style = "display:flex">
           <img src="images/recurve.jpg" style="width:60%">
-          <div class="text">
+          <div>
             <h1> Recurve </h1>
             <p> The accentuated recurve at bow and stern, giving a swept back profile, 
               reduces the area that is presented to wind. As with probably all design 
@@ -196,6 +196,8 @@
           <span class="dot" onclick="currentSlide(3)"></span>
           <span class="dot" onclick="currentSlide(4)"></span> 
         </div>
+
+        <!-- The start of the slideshow's Javascript code -->
         
         <script>
         let slideIndex = 1;
@@ -225,6 +227,8 @@
           dots[slideIndex-1].className += " active";
         }
         </script>
+
+        <!-- The end of the Javascript code -->
     </div>
 
     <div class = "box footerDiv">
