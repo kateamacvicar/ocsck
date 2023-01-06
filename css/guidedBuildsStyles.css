@@ -34,8 +34,9 @@ html{
 
   p{
     text-align: center;
-    width:70%;
+    width:65%;
     margin:auto;
+    font-size:1.2rem;
   }
   
 .grid{
