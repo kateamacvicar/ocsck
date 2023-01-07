@@ -193,4 +193,7 @@ html{
     ol{
         font-size: 1rem;
     }
+    .lightSectionText{
+        width:75%;
+    }
    }

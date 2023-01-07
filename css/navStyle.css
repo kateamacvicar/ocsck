@@ -83,7 +83,7 @@ nav ul a:focus {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {color: #5DBAEF; text-decoration-line: underline; text-decoration-color: #5DBAEF;}
+.dropdown-content a:hover {color: #BACEDA;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; color: grey}
@@ -97,6 +97,11 @@ nav ul a:focus {
 
 .noHide{
   display:block;
+}
+
+th{
+  text-decoration: underline;
+  font-weight: normal;
 }
 
 footer {
