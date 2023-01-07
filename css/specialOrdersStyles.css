@@ -49,6 +49,7 @@ html{
   p{
     text-align: center;
     margin:auto;
+    width:80%;
   }
   
 .grid{
@@ -71,7 +72,7 @@ html{
 
   .middle{
     grid-column-start: 1;
-    grid-column-end: span 3;
+    grid-column-end: span 4;
     background-color:#4A95BF;
     padding:2%;
   }
@@ -84,11 +85,13 @@ html{
     width:60%;
     margin: auto;
     display: flex;
+    padding:5%;
   }
 
   .originalDesignDiv{
     grid-column-start: 1;
     grid-column-end: span 2;
+    padding:3%;
   }
 
   .infoCOntainer{
@@ -98,6 +101,7 @@ html{
 
   .bigWords{
     font-size: 1.5rem;
+    padding:5%;
   }
 
   .smallWords{
