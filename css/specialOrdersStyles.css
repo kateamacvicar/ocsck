@@ -37,10 +37,12 @@ html{
   h1{
     font-weight: normal;
     text-align: center;
+    margin:auto;
   }
 
   h3{
     font-weight: normal;
+    text-align: center;
   }
 
   p{
@@ -53,7 +55,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 5% 5% 70% 20%;
 }
 
 .box {
@@ -71,6 +73,10 @@ html{
     grid-column-end: span 3;
     background-color:#4A95BF;
     padding:2%;
+  }
+
+  img{
+    width:60%;
   }
 
   .originalDesignDiv{
