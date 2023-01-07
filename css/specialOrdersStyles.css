@@ -100,8 +100,10 @@ html{
   }
 
   .imgContainer{
-    height:14rem;
-    width:14rem;
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    display: flex;
   }
 
   .repairsRebuildsImg{
