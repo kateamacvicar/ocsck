@@ -39,14 +39,12 @@ html{
     text-align: center;
   }
 
-  h2{
+  h3{
     font-weight: normal;
   }
 
   p{
     text-align: center;
-    padding:2%;
-    width:60%;
     margin:auto;
   }
   
@@ -73,6 +71,24 @@ html{
     grid-column-end: span 3;
     background-color:#4A95BF;
     padding:2%;
+  }
+
+  .originalDesignDiv{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+
+  .infoCOntainer{
+    background-color: #BACEDA;
+    padding:2%;
+  }
+
+  .bigWords{
+    font-size: 1.5rem;
+  }
+
+  .smallWords{
+    font-size: 1.2rem;
   }
 
   .title{
