@@ -57,7 +57,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 5% 70% 20%;
+    grid-template-rows: 7% 7% 66% 20%;
 }
 
 .box {
@@ -68,6 +68,12 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #0F1C23;
+  }
+
+  .titleBanner{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    padding:2%;
   }
 
   .middle{
@@ -81,11 +87,26 @@ html{
     display:flex;
   }
 
+
   img{
     width:60%;
     margin: auto;
     display: flex;
     padding:5%;
+  }
+
+  .originalDesignDiv{
+    padding:3%;
+  }
+
+  .originalDesignImg{
+    height:14rem;
+    width:60%;
+  }
+
+  .repairsRebuildsImg{
+    height:14rem;
+    width:60%;
   }
 
   .originalDesignDiv{
