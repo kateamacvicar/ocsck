@@ -105,6 +105,11 @@ html{
     font-size: 1.2rem;
   }
 
+  .canoeImg{
+    width:70%;
+    margin:auto;
+  }
+
    /* Start of Media Queries! */
 
    
