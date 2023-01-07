@@ -44,12 +44,13 @@ html{
     font-weight: normal;
     text-align: center;
     font-size: 1.8rem;
+    margin:0;
   }
 
   p{
     text-align: center;
     margin:auto;
-    width:80%;
+    width:70%;
   }
   
 .grid{
@@ -95,13 +96,16 @@ html{
     padding:5%;
   }
 
-  .originalDesignDiv{
-    padding:3%;
-  }
-
-  .imgContainer{
+  .imgContainerR{
     height: 20rem;
     width: 20rem;
+    margin: auto;
+    display: flex;
+  }
+
+  .imgContainerOD{
+    height: 20rem;
+    width: 30rem;
     margin: auto;
     display: flex;
   }
@@ -111,20 +115,24 @@ html{
     width:60%;
   }
 
-  .originalDesignDiv{
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    padding:3%;
+  .repairsRebuildsDiv{
+    padding:1.5%;
   }
 
-  .infoCOntainer{
+  .originalDesignsDiv{
+/*     grid-column-start: 1;
+    grid-column-end: span 2; */
+    padding:1.5%;
+  }
+
+  .infoContainer{
     background-color: #BACEDA;
     flex-basis: auto;
     height:400px
   }
 
   .bigWords{
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     padding:5%;
   }
 
