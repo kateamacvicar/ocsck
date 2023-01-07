@@ -112,6 +112,10 @@ html{
   }
 
    /* Start of Media Queries! */
+
+  /*  What they do: 
+   1. About every decrease in 100px, h1's font-size decreases by 0.1px.
+   2. Same with p  */
   
     @media only screen and (max-width: 800px){
         h1{
