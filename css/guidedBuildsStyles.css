@@ -41,11 +41,11 @@ html{
   }
   
 .grid{
-    height: 1300px;
+    height: 1800px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 3% 85% 12%;
 }
 
 .box {
@@ -107,9 +107,90 @@ html{
 
   .canoeImg{
     width:70%;
+    display:flex;
     margin:auto;
+    padding:2%;
   }
 
    /* Start of Media Queries! */
 
-   
+   @media only screen and (max-width:900px){
+    h1{
+        font-size: 2.6rem;
+    }
+    #titleSubHeader{
+        font-size: 1.6rem;
+    }
+    .lightSectionText{
+        font-size: 1.6rem;
+    }
+   }
+
+   @media only screen and (max-width: 800px){
+    .titleSubParagraph{
+        width:60%;
+    }
+   }
+
+   @media only screen and (max-width: 700px){
+    h1{
+        font-size: 2.4rem;
+    }
+    .titleSubParagraph{
+        font-size: 1.4rem;
+    }
+    .lightSectionText{
+        font-size: 1.4rem;
+    }
+   }
+
+   @media only screen and (max-width:600px){
+    .grid{
+        height:1700px;
+    }
+    .titleSubParagraph{
+        width:65%;
+    }
+    p{
+        width:75%;
+        font-size: 1.15rem;
+    }
+    ol{
+        width:75%;
+        font-size: 1.15rem;
+    }
+   }
+
+   @media only screen and (max-width:500px){
+    h1{
+        font-size: 2.2rem;
+    }
+    .titleSubParagraph{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    ol{
+        font-size: 1.1rem;
+    }
+    .lightSectionText{
+        font-size: 1.3rem;
+    }
+   }
+
+   @media only screen and (max-width:400px){
+    h1{
+        font-size: 2.1rem;
+    }
+    .titleSubParagraph{
+        font-size: 1.25rem;
+        width:70%;
+    }
+    p{
+        font-size: 1rem;
+    }
+    ol{
+        font-size: 1rem;
+    }
+   }
