@@ -117,7 +117,8 @@ html{
 
   .infoCOntainer{
     background-color: #BACEDA;
-    padding:2%;
+    flex-basis: auto;
+    height:400px
   }
 
   .bigWords{
@@ -129,18 +130,8 @@ html{
     font-size: 1.2rem;
   }
 
-  .title{
-    background-color: #0F1C23;
-    color:#4A95BF;
-    display: flex;
-    width: 60%;
-    margin: auto;
-    justify-content: center;
-  }
-
-  #instructionsList{
-    width:60%;
-    margin:auto;
+  .buttonDiv{
+    padding:3%;
   }
 
    /* Start of Media Queries! */
