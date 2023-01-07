@@ -43,6 +43,7 @@ html{
   h3{
     font-weight: normal;
     text-align: center;
+    font-size: 1.8rem;
   }
 
   p{
@@ -75,8 +76,14 @@ html{
     padding:2%;
   }
 
+  .container{
+    display:flex;
+  }
+
   img{
     width:60%;
+    margin: auto;
+    display: flex;
   }
 
   .originalDesignDiv{
