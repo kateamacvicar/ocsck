@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap" rel="stylesheet">
-    <title>Instructions Page </title>
+    <title>Special Orders Page </title>
 
     <!-- Links to my CSS pages -->
     <link rel="stylesheet" href="css/navStyle.css">
-    <link rel="stylesheet" href="css/instructionsStyles.css">
+    <link rel="stylesheet" href="css/specialOrdersStyles.css">
 </head>
 <body>
 
@@ -44,9 +44,9 @@
                     <table>
                         <tbody><tr>
                           <th><a id="dropdownStyle">canoes</a></th>
-                          <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a> </th>
+                          <th> <a id="dropdownStyle" href="#">special orders</a> </th>
                           <th> <a id="dropdownStyle" href="#">paddles</a></th>
-                          <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
+                          <th><a id="dropdownStyle" href="#">guided builds</a> </th>
                         </tr>
                         <tr>
                           <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
@@ -74,7 +74,7 @@
                   <table>
                       <tbody><tr>
                         <th><a id="dropdownStyle">canoes</a></th>
-                        <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a> </th>
+                        <th> <a id="dropdownStyle" href="#">special orders</a> </th>
                       </tr>
                       <tr>
                         <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
@@ -102,7 +102,7 @@
                 <div class="dropdown-content">
                     <table>
                         <tbody><tr>
-                          <th><a id="dropdownStyle" href="#">instructions</a></th>
+                          <th><a id="dropdownStyle" href="instructions.html">instructions</a></th>
                           <th> <a id="dropdownStyle" href="pricelist.html">pricelist</a> </th>
                         </tr>
                         <tr>
@@ -119,7 +119,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                          <td><a id="dropdownStyle" href="seatPrices.html">seats</a></td>
+                          <td><a id="dropdownStyle" href="#">seats</a></td>
                         </tr>
                     </tbody></table>
                 </div>
@@ -131,40 +131,47 @@
     </div>
     </div> 
 
+    <div class = "titleBanner"> 
+        <h1> Special Orders</h1>
+    </div>
     <div class = "box middle"> 
-        <h1>Instructions</h1>
-        <h2 class = "title"> Canoes </h2>
-        <p> To place an order, please contact me to discuss your exact requirements, including: </p>
-        <ul id = "instructionsList">
-            <li>Model</li>
-            <li>Length</li>
-            <li>Number of Seats</li>
-            <li>Symmetrical or asymmetrical hull (for solo canoes only)</li>
-            <li>Approximate weight of regular paddlers (to determine seat placement for best trim)</li>
-            <li>Seat preferences (furnishing, fixed/tilting/sliding)</li>
-          </ul> 
-        <p> Please allow 3 months from the start of construction to completion. 
-            I will keep you informed of the
-            progress.
-            A deposit of $750 (not refundable once construction has started) is required to secure the order,
-            guaranteeing the next place in the build schedule and allowing construction to begin. The balance of
-            payment is due upon collection or just ahead of delivery.
-            Personal collection is recommended where possible; I would love you to try out your new canoe on my local water before departing with it. 
-            Delivery may be possible for a fee, dependent upon distance.
-            Crating and shipping freight is possible, is expensive, and will be priced on a case-by-case basis.
-        </p>
+        <div class = "originalDesignsDiv">
+            <h3> Original Designs</h3>
+            <img src = "images/valkyrie.jpg" alt = "wooden canoe">
+            <div class = "infoCOntainer"> 
+                <p class = "bigWords"> Do you have a design that you wish to build, but lack the 
+                    confidence or the skills or simply the work-space?
+                </p>
+                <p class = "smallWords"> 
+                    I will be happy to look at your design, assess whether I 
+                    feel it can be made using cedar-strip construction, and 
+                    build it for you if I think it will work. You will be 
+                    involved in decision-making along the way, such that the 
+                    finished product fits your specifications as closely as possible. 
+                    Any changes to the plans that I deem necessary will be discussed 
+                    fully with you. 
+                </p>
+            </div>
+        </div>
 
-        <h2 class = "title"> Paddles </h2>
-        <p> To place an order, please contact me to request a questionnaire. This will allow you to provide me with
-            certain measurements, as well as details of your paddling style, all of which will allow me to tailor the
-            paddle to your requirements.
-            Apart from the questionnaire, the other decision is to select the type of wood: cherry or ash. 
-            Ash is
-            marginally heavier and stronger, but both are proven to perform well. 
-            Cherry, of course, will match the
-            trim on the canoe that you may also order.</p>
-
-            <a href="#"> <button class = "contactMeBtn"> Contact Me </button> </a>
+        <div class = "repairsRebuildsDiv">
+            <h3> Repairs/Rebuilds </h3>
+            <img src = "images/redwood.jpg" alt = "old wooden canoe">
+            <div class = "infoCOntainer"> 
+                <p class = "bigWords"> Too often wooden canoes are in need of some tender 
+                    loving care to bring them back to life, whether just cosmetic or 
+                    severe structural work. 
+                </p>
+                <p class = "smallWords"> 
+                    Sometimes wooden canoes are stored inadequately, or may have 
+                    encountered one too many rocks. If you have such a canoe, I 
+                    am happy to take a no-obligation look at it to assess what work 
+                    needs to be done to put it to rights, whether I am the right person to 
+                    do this, and how much I think that it will cost, all before any 
+                    commitment is made. 
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class = "box footerDiv">
