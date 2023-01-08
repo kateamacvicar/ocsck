@@ -8,10 +8,12 @@ body{
 
 a{
     text-decoration: none;
+    cursor: pointer;
   }
 
   button{
     font-family: 'Linden Hill';
+    cursor: pointer;
   }
 
 h1{

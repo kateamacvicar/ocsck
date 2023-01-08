@@ -11,6 +11,11 @@ html{
     margin:0px;
   }
 
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 
   h1{
     font-weight: normal;

@@ -9,6 +9,7 @@ html{
   
   a{
     text-decoration: none;
+    cursor: pointer;
   }
   
   body{
@@ -33,6 +34,7 @@ html{
 
   button{
     font-family: 'Linden Hill';
+    cursor: pointer;
   }
   
   .grid {
@@ -170,6 +172,7 @@ html{
       padding-bottom: 1%;
       border-radius: 5%;
       font-size: 1.5rem;
+      cursor: pointer;
     }
 
     .exploreButton:hover{
