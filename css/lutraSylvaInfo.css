@@ -54,8 +54,8 @@ html{
     height: 1100px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 5% 35% 20% 15% 20%;
 }
 
 .box {
@@ -68,25 +68,41 @@ html{
     background-color: #0F1C23;
   }
 
-  .middle{
+  .banner{
     grid-column-start: 1;
-    grid-column-end: span 3;
-    background-color:#4A95BF;
-    padding:2%;
+    grid-column-end: span 4;
   }
 
-  .title{
-    background-color: #0F1C23;
-    color:#4A95BF;
-    display: flex;
-    width: 60%;
-    margin: auto;
-    justify-content: center;
+  .firstSection{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #BACEDA;
   }
 
-  #instructionsList{
+  .firstSectionTitle{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+
+  .firstSectionWords{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+
+  .firstSectionImg{
+    grid-column-start: 2;
+    grid-column-end: span 2;
     width:60%;
-    margin:auto;
+  }
+
+  .secondSection{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+
+  .thirdSection{
+    grid-column-start: 1;
+    grid-column-end: span 4;
   }
 
    /* Start of Media Queries! */
