@@ -20,13 +20,15 @@ html{
 
   button{
     font-family: 'Linden Hill';
+    cursor: pointer;
   }
 
   p{
     text-align: center;
-    padding:2%;
+    padding:1%;
     width:60%;
     margin:auto;
+    font-size: 1.4rem;
   }
   
 .grid{
@@ -56,7 +58,7 @@ html{
 
   .formContainer{
     display: flex;
-    margin:auto;
+    justify-content: center;
   }
 
   /* Style inputs with type="text", select elements and textareas */
@@ -68,6 +70,7 @@ input[type=text], select, textarea {
     margin-top: 0.3rem; 
     margin-bottom: 1rem; 
     resize: none;
+    font-family: 'Linden Hill';
   }
   
   /* Style the submit button with a specific background color etc */
@@ -78,17 +81,14 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Linden Hill';
+    display:flex;
+    margin:auto;
   }
   
   input[type=submit]:hover {
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
 
    /* Start of Media Queries! */
   
