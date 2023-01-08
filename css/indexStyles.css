@@ -74,8 +74,8 @@ button{
 }
 
 #bannerButton:hover{
-  color: #0F1C23;
-  background-color: #5DBAEF;
+  background-color: black;
+  color: #5DBAEF;
 }
 
 /* start of css rules that hide info until the screen is small enough */

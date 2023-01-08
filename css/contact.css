@@ -63,7 +63,7 @@ html{
 
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 60%; 
+    width: 100%; 
     padding: 0.6rem; 
     border: 0;
     box-sizing: border-box; 
@@ -71,6 +71,7 @@ input[type=text], select, textarea {
     margin-bottom: 1rem; 
     resize: none;
     font-family: 'Linden Hill';
+    font-size: 1.2rem;
   }
   
   /* Style the submit button with a specific background color etc */
@@ -84,6 +85,7 @@ input[type=text], select, textarea {
     font-family: 'Linden Hill';
     display:flex;
     margin:auto;
+    font-size: 1.2rem;
   }
   
   input[type=submit]:hover {

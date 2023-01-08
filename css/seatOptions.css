@@ -22,7 +22,7 @@ html{
     cursor: pointer;
   }
 
-  .contactMeBtn{
+  .pricingBtn{
     display:flex;
     margin:auto;
     font-family: 'Linden Hill';
