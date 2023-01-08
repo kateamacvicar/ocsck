@@ -18,6 +18,7 @@ html{
 
   button{
     font-family: 'Linden Hill';
+    cursor: pointer;
   }
 
   .contactMeBtn{
@@ -32,6 +33,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.2rem;
+    cursor: pointer;
   }
 
   h1{

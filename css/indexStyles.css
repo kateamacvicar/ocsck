@@ -35,6 +35,7 @@ button{
   background-color: #0F1C23;
   color:#5DBAEF;
   border: 0;
+  cursor: pointer;
 }
 
 .bannerInfo{
@@ -68,6 +69,12 @@ button{
   padding-left: 5%;
   padding-right: 5%;
   border-radius: 5%;
+  cursor: pointer;
+}
+
+#bannerButton:hover{
+  color: #0F1C23;
+  background-color: #5DBAEF;
 }
 
 /* start of css rules that hide info until the screen is small enough */
