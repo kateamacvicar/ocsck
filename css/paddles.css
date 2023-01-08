@@ -52,6 +52,10 @@ html{
     width:60%;
     margin:auto;
   }
+
+  img{
+    width:60%;
+  }
   
 .grid{
     height: 1400px;

@@ -20,7 +20,7 @@ html{
     font-family: 'Linden Hill';
   }
 
-  .contactMeBtn{
+  .pricingBtn{
     display:flex;
     margin:auto;
     font-family: 'Linden Hill';
@@ -79,17 +79,24 @@ html{
     background-color: #BACEDA;
   }
 
+  .container{
+    display:flex;
+  }
+
   .firstSectionTitle{
+    display: flex;
     grid-column-start: 1;
     grid-column-end: span 4;
   }
 
   .firstSectionWords{
+    display: flex;
     grid-column-start: 1;
     grid-column-end: span 2;
   }
 
   .firstSectionImg{
+    display: flex;
     grid-column-start: 2;
     grid-column-end: span 2;
     width:60%;
