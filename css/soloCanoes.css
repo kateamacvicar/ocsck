@@ -20,6 +20,7 @@ html{
   h1{
     font-weight: normal;
     text-align: center;
+    font-size: 3rem;
   }
 
   button{
@@ -39,6 +40,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5%;
+    font-size: 1.6rem;
     cursor: pointer;
   }
 
@@ -50,10 +52,14 @@ html{
   p{
     text-align: center;
     margin:auto;
+    font-size: 1.8rem;
+    width:70%;
+    padding:2%;
   }
   
 .grid{
     width: 100%;
+    height:1400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 5% 75% 20%;
@@ -79,17 +85,7 @@ html{
 
    /* Start of Media Queries! */
 
-/* Desktop greater than 1600px */
-@media only screen and (min-width:1600px){
-
-}
-
-/* laptop 1600px and smaller */
-@media only screen and (max-width: 1600px){
-
-}
-
-/* tablet(landscape) 1024px and smaller */
+/* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
 /* 
 1. ipad Air (820px x 1180px)
 2. ipad Mini (768px x 1024px)
@@ -98,7 +94,9 @@ html{
 5. ipad (768px x 1024px)
 6. ipad pro (1024px x 1366px)
  */
-@media only screen and (max-width: 1024px){
+
+ /* tablet(portrait) 1024px and smaller */
+/* @media only screen and (max-width: 1024px){
   .grid{
     height: 1400px;
   }
@@ -115,15 +113,9 @@ html{
   .pricingBtn{
     font-size: 1.4rem;
   }
+} */
 
-}
-
-/* mobile (landscape) 768px and smaller */
-@media only screen and (max-width: 768px){
-
-}
-
-/* mobile (portrait) 480px and smaller */
+/* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 
 1. iphone SE (375px x 667px)
 2. iphone XR (414 px x 896px)
@@ -137,6 +129,8 @@ html{
 10. iphone 6/7/8 Plus (414px x 736px)
 11. iphone X (375px x 812px) 
 */
+
+/* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
     height: 930px;
@@ -150,5 +144,22 @@ html{
   }
   .pricingBtn{
     font-size: 1rem;
+  }
+}
+
+/* mobile (landscape) 915 px and smaller */
+@media only screen and (max-width: 915px){
+  .grid{
+    height: 1200px;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  .pricingBtn{
+    font-size: 1.2rem;
   }
 }
