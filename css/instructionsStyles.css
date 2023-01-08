@@ -31,7 +31,13 @@ html{
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 5%;
     font-size: 1.2rem;
+  }
+
+  .contactMeBtn:hover{
+    background-color: black;
+    color: #5DBAEF;
   }
 
   h1{

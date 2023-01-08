@@ -89,6 +89,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
+      background-color: black;
+      color: #5DBAEF;
   }
   
 

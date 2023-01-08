@@ -50,7 +50,13 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 3%;
+    border-radius: 5%;
     padding-right: 3%;
+  }
+
+  .learnMoreButton:hover{
+    background-color: black;
+    color: #5DBAEF;
   }
 
   p{
