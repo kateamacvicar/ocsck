@@ -134,6 +134,113 @@
     <div class = "box middle"> 
       <h1> Seats </h1>
       <p> Click the arrows to see all seat options</p> 
+
+      <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+          <img src="images/hull (1).jpg" style="width:60%">
+          <div>
+            <h1> Hull </h1>
+            <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
+              pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
+              inside and out, with 4 oz.fibreglass cloth and clear epoxy, with extra reinforcement at the stems where
+              rock strikes are more likely. All boats are finished with marine varnish to provide UV protection and to
+              give the lustre that all wooden boats deserve</p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class = "imgContainer"> 
+            <img src="images/21032201.JPG" style="width:40%">
+            <img src="images/21032202.JPG" style="width:40%">
+          </div>
+          <div>
+            <h1> Tilting Seats </h1>
+            <p> Canoe seats are available with a tilt mechanism, allowing sitting when 
+              horizontal and kneeling when the front edge is tilted down. 
+            </p> 
+            <p> 
+              The rear rail is hinged to allow this tilt. The front rail is held in 
+              place in its hangers by spring bolts. Because of the nature of the hardware, 
+              I recommend this option only for lighter paddlers, say 180lb (82kg) or less.
+            </p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class = "imgContainer"> 
+            <img src="images/seatslide1.jpg" style="width:40%">
+            <img src="images/seatslide2.jpg" style="width:40%">
+          </div>
+          <div>
+            <h1>Sliding Bow Seat</h1> 
+            <p>An adjustable bow seat can be fitted. The seat sits on rails and can be 
+              clamped in various positions, giving about 1 foot of fore-aft adjustment. 
+            </p> 
+            <p> 
+              This can make it easier to trim the canoe when paddlers of different weight 
+              take the bow.
+            </p>
+          </div>
+        </div>
+    
+        <div class="mySlides fade" style = "display:flex">
+          <img src="images/recurve.jpg" style="width:60%">
+          <div>
+            <h1> Recurve </h1>
+            <p> The accentuated recurve at bow and stern, giving a swept back profile, 
+              reduces the area that is presented to wind. As with probably all design 
+              features, this is a compromise: the reduced flare at the bow sheds waves 
+              less effectively than other shapes.
+            </p> 
+          </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+
+        <!-- The start of the slideshow's Javascript code -->
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "flex";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        <!-- The end of the Javascript code -->
     </div>
 
     <div class = "box footerDiv">
