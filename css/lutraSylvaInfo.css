@@ -88,7 +88,7 @@ html{
     background-color: #BACEDA;
   }
 
-  .container{
+  .firstContainer{
     display:flex;
   }
 
@@ -121,6 +121,10 @@ html{
     grid-column-end: span 4;
   }
 
+  #instructionsList{
+    width:60%;
+    margin:auto;
+  }
    /* Start of Media Queries! */
 
   
