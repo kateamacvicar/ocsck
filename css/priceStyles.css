@@ -111,6 +111,7 @@ html{
 
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
+  
   .grid{
     height: 1367px;
   }
