@@ -83,23 +83,27 @@ html{
   }
 
   .firstSection{
+    display:flex;
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #BACEDA;
   }
 
   .firstSectionWords{
+    display:flex;
     grid-column-start: 1;
     grid-column-end: span 2;
   }
 
   .secondSection{
+    display:flex;
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #BACEDA;
   }
 
   .secondSectionWords{
+    display:flex;
     grid-column-start: 2;
     grid-column-end: span 2;
   }
