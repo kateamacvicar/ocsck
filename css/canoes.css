@@ -165,6 +165,10 @@ html{
 11. iphone X (375px x 812px) 
 */
 
+/* mobile (landscape) 915px and smaller */
+@media only screen and (max-width: 915px){
+  }
+
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
 .grid{
@@ -201,6 +205,4 @@ html{
   .learnMoreButton{
     font-size: 1.1rem;
   }
-
-
 }
