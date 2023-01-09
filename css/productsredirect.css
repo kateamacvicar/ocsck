@@ -59,6 +59,10 @@ p{
   padding:2%;
 }
 
+#centerDiv{
+  margin:auto;
+}
+
 .itemTable{
   border-spacing:0;
   width: 80%;
