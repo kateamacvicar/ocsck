@@ -174,3 +174,13 @@ html{
     font-size: 1rem;
   }
 }
+
+/* mobile (landscape) 915 px and smaller */
+@media only screen and (max-width: 915px){
+  .grid{
+    height: 1400px;
+  }
+  p{
+    width:80%;
+  }
+}
