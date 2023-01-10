@@ -105,4 +105,10 @@ html{
     }
   }
 
+/* tablet(landscape) 915px and smaller */
+@media only screen and (max-width: 915px){
+    .grid{
+        height: 1024px;
+    }
+}
 
