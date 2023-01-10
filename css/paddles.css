@@ -88,6 +88,10 @@ html{
     background-color: #BACEDA;
   }
 
+  .firstSectionContainer{
+    display:flex;
+  }
+
   .firstSectionWords{
     display:flex;
     grid-column-start: 1;
