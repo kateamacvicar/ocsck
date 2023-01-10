@@ -39,7 +39,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 5% 75% 20%;
+  grid-template-rows: 5% 5% 70% 20%;
 }
 
 .box {
@@ -50,6 +50,11 @@ p{
   grid-column-start: 1;
   grid-column-end: span 4;
   background-color: #0F1C23;
+}
+
+.banner{
+  grid-column-start: 1;
+  grid-column-end: span 4;
 }
 
 .middle{
