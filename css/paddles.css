@@ -83,7 +83,6 @@ html{
   }
 
   .firstSection{
-    display:flex;
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #BACEDA;
