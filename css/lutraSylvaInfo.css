@@ -60,7 +60,7 @@ html{
   }
   
 .grid{
-    height: 1100px;
+    height: 1400px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -90,12 +90,14 @@ html{
 
   .firstContainer{
     display:flex;
+    height:70%;
   }
 
   .firstSectionTitle{
     display: flex;
     grid-column-start: 1;
     grid-column-end: span 4;
+    font-size: 1.5rem;
   }
 
   .firstSectionWords{
@@ -114,6 +116,7 @@ html{
   .secondSection{
     grid-column-start: 1;
     grid-column-end: span 4;
+    margin:2%;
   }
 
   .thirdSection{
