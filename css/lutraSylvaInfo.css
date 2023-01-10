@@ -58,7 +58,6 @@ html{
     padding:2%;
     width:60%;
     margin:auto;
-    font-size: 1.3rem;
   }
   
 .grid{
@@ -122,6 +121,10 @@ html{
   .thirdSection{
     grid-column-start: 1;
     grid-column-end: span 4;
+  }
+
+  .lutraDiagramImg{
+    margin:auto;
   }
 
   #instructionsList{
