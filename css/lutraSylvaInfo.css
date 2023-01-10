@@ -57,14 +57,15 @@ html{
     padding:2%;
     width:60%;
     margin:auto;
+    font-size: 1.3rem;
   }
   
 .grid{
-    height: 1400px;
+    height: 1600px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 5% 35% 20% 15% 20%;
+    grid-template-rows:5% 5% 35% 18% 19% 18%;
 }
 
 .box {
@@ -91,6 +92,8 @@ html{
   .firstContainer{
     display:flex;
     height:70%;
+    width: 90%;
+    margin: auto;
   }
 
   .firstSectionTitle{
@@ -102,15 +105,11 @@ html{
 
   .firstSectionWords{
     display: flex;
-    grid-column-start: 1;
-    grid-column-end: span 2;
+    font-size: 1.7rem;
   }
 
   .firstSectionImg{
     display: flex;
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    width:60%;
   }
 
   .secondSection{
@@ -125,8 +124,9 @@ html{
   }
 
   #instructionsList{
-    width:60%;
+    width:80%;
     margin:auto;
+    font-size: 1.5rem;
   }
    /* Start of Media Queries! */
 
