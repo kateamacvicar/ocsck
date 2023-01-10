@@ -39,7 +39,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 5% 5% 70% 20%;
+  grid-template-rows: 5% 7% 68% 20%;
 }
 
 .box {
@@ -53,15 +53,22 @@ p{
 }
 
 .banner{
+  display:flex;
   grid-column-start: 1;
   grid-column-end: span 4;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .middle{
   grid-column-start: 1;
   grid-column-end: span 3;
   background-color:#4A95BF;
-  padding:2%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #centerDiv{
@@ -69,8 +76,6 @@ p{
 }
 
 .itemTable{
-  border-spacing:0;
-  width: 80%;
   margin: auto;
   font-size: 1.6rem;
   border-spacing:5px;
@@ -79,8 +84,8 @@ p{
 
   .item{
       background-color:#BACEDA;
-      height: 15rem;
-      width: 15rem;
+      height: 22rem;
+      width: 22rem;
       font-size: 3rem;
       text-align: center;
   }
