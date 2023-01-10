@@ -218,6 +218,29 @@ footer {
 
  /* Start of Media Queries! */
 
+ /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
+/* 
+1. ipad Air (820px x 1180px)
+2. ipad Mini (768px x 1024px)
+3. Surface Pro 7 (912px x 1368px)
+4. Nest Hub (1024px x 600px)
+5. ipad (768px x 1024px)
+6. ipad pro (1024px x 1366px)
+ */
+
+ /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  .logo{
+    height:65%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .logo{
+    display:none;
+  }
+}
+
 /* @media only screen and (max-width: 1021px){
   .hide{
     display: block;
