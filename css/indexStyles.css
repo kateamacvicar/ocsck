@@ -197,7 +197,7 @@ button{
   /* Start of Media Queries! */
 
 
-  @media only screen and (max-width: 973px){
+  /* @media only screen and (max-width: 973px){
     .grid{
       grid-template-columns: 0.5fr 1.5fr 1.5fr;
     }
@@ -295,9 +295,9 @@ button{
     }
   }
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 400px){ */
     /* adjust the grid so that the "nestled in the..." line is a new row above the rest of the index info. */
-    .pageBanner{
+    /* .pageBanner{
       grid-column-end: 5;
     }
 
@@ -341,21 +341,20 @@ button{
       .grid{
         grid-template-rows: 5% 25% 15% 30% 25%
       }
-    }
+    } */
 
 /*     This is for the smallest screen sizes. 
 When the screen is small enough, the words and photo will all be stacked vertically.
 The words "Nested in the...proven to perform" should already be stacked. So this Media
 Query will stack "Sole proprietor... visual elegance" and the photo vertically.
 */ 
-    @media only screen and (max-width:360px){
+/*     @media only screen and (max-width:360px){
 
-      /* add a new row for the picture  */
+     
       .grid{
         grid-template-rows: 5% 20% 15% 15% 20% 25%;
       }
-      /* make the container for the words span the whole width to force the picture beneath it.  */
-      .wordsMidSmall{
+            .wordsMidSmall{
         grid-column-end: span 4;
       }
 
@@ -374,19 +373,12 @@ Query will stack "Sole proprietor... visual elegance" and the photo vertically.
 
     }
   
-    /* ipad screens dimensions: 
-    ipad mini:768 x 1024 
-    ipad: 768 x 1024
-    ipad air: 820 x 1180
-    ipad pro: 1024 x 1366
-    */
+
     @media only screen and (min-width:760px) and (max-width:1030px) and (min-height: 820px) and (max-height: 1400px){
       .grid{
         height:1400px;
       }
-    }
+    } */
 
-/* Messed Up Screens:
-1. Galaxy fold 
- */
+
   

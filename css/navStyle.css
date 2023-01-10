@@ -218,7 +218,7 @@ footer {
 
  /* Start of Media Queries! */
 
-@media only screen and (max-width: 1021px){
+/* @media only screen and (max-width: 1021px){
   .hide{
     display: block;
   }
@@ -229,9 +229,9 @@ footer {
 
 }
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px){ */
   /* activate hamburger menu  */
-
+/* 
   nav ul{
     display: none;
   }
@@ -310,10 +310,10 @@ footer {
 
   .address{
     font-size: 1rem;
-  }
+  } */
 
 /* displaying condensed footer info */
-  .smallerCreds{
+/*   .smallerCreds{
     display:block;
   }
 
@@ -321,7 +321,7 @@ footer {
     display:none;
   }
 
-}
+} */
 
 
 
