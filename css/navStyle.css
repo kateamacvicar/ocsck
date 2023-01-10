@@ -233,6 +233,15 @@ footer {
   .logo{
     height:65%;
   }
+
+  /* displays the smaller nav bar for a smaller screen size */
+  .hide{
+    display: block;
+  }
+
+  .noHide{
+    display:none;
+  }
 }
 
 @media only screen and (max-width: 700px){
