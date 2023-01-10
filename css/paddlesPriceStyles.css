@@ -1,0 +1,88 @@
+
+html{
+    font-size: 16px;
+    font-family: 'Linden Hill';
+    font-weight: normal;
+    margin: 0;
+    background-color: #4A95BF;
+  }
+
+  body{
+    margin:0px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #0F1C23;
+  }
+
+
+  h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  button{
+    font-family: 'Linden Hill';
+  }
+
+  p{
+    text-align: center;
+    padding:2%;
+    width:60%;
+    margin:auto;
+  }
+  
+.grid{
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6% 70% 24%;
+}
+
+.box {
+    color: black;
+  }
+
+  .navBar {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #0F1C23;
+  }
+
+  .middle{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color:#4A95BF;
+    padding:2%;
+  }
+
+  .priceTable{
+    border-spacing:0;
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
+    }
+    
+    .tableHeader{
+    background-color:#0F1C23;
+    color: #4A95BF;
+    padding:1%;
+    }
+
+    .emptyTableHeader{
+      background-color:#0F1C23;
+      padding:3%;
+    }
+    
+    .tableRow{
+    border-bottom:solid 0.8px;
+    text-align:center;
+    padding:0.8%;
+    }
+
+
+   /* Start of Media Queries! */
+
