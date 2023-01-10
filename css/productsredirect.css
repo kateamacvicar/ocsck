@@ -35,7 +35,7 @@ p{
 }
 
 .grid{
-  height: 1100px;
+  height: 1000px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -80,8 +80,8 @@ p{
 
   .item{
       background-color:#BACEDA;
-      height: 15rem;
-      width: 15rem;
+      height: 18rem;
+      width: 18rem;
       font-size: 3rem;
       text-align: center;
   }
@@ -102,6 +102,7 @@ p{
  @media only screen and (max-width: 1024px){
 
   .grid{
+    height:1368px;
     grid-template-rows: 5% 10% 65% 20%;
   }
   .item{
@@ -109,11 +110,28 @@ p{
     width:22rem;
   }
 
-  .middle{
-    display: flex;
+ /*  .middle{
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
-  }
+  } */
 } 
+
+ /* tablet(landscape) 1368px and smaller */
+ @media only screen and (max-width: 1368px) and (orientation: landscape){
+
+  .grid{
+    height:1200px;
+  }
+  .item{
+    height:22rem;
+    width:22rem;
+  }
+/* 
+  .middle{
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+}
  
