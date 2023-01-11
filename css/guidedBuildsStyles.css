@@ -113,3 +113,72 @@ html{
   }
 
    /* Start of Media Queries! */
+
+/* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
+/* 
+1. ipad Air (820px x 1180px)
+2. ipad Mini (768px x 1024px)
+3. Surface Pro 7 (912px x 1368px)
+4. Nest Hub (1024px x 600px)
+5. ipad (768px x 1024px)
+6. ipad pro (1024px x 1366px)
+ */
+
+ /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  .grid{
+    height:1800px;
+  }
+}
+
+ /* tablet(landscape) 1367px and smaller */
+ @media only screen and (max-width: 1367px) and (orientation:landscape){
+  .grid{
+    height:1800px;
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
+/* 
+1. iphone SE (375px x 667px)
+2. iphone XR (414 px x 896px)
+3. iphone 12 Pro (390px x 844px)
+4. Pixel 5 (393px x 851px)
+5. Samsung Galaxy S8+ (360px x 740px)
+6. Samsung Galaxy s20 Ultra (412px x 915px)
+7. Galaxy Fold (280px x 653px)
+8. Samsung Galaxy A51/71 (412px x 914px)
+9. iphone 6/7/8 (375px x 667px)
+10. iphone 6/7/8 Plus (414px x 736px)
+11. iphone X (375px x 812px) 
+*/
+
+/* mobile (portrait) 480px and smaller */
+@media only screen and (max-width: 480px){
+  .grid{
+    height:1700px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .titleSubParagraph{
+    font-size: 1.2rem;
+    width: 70%;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .lightSectionText{
+    font-size: 1.3rem;
+    width:75%;
+  }
+  ol{
+    font-size: 1rem;
+    width:75%;
+  }
+}
+
+
+/* mobile (landscape) 915 px and smaller */
+@media only screen and (max-width: 915px) and (orientation: landscape){
+} 
