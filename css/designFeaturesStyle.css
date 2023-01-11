@@ -151,10 +151,6 @@ img{
   }
 }
 
- /* tablet(landscape) 1367px and smaller */
- @media only screen and (max-width: 1367px) and (orientation:landscape){
-
-}
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 
@@ -193,16 +189,12 @@ img{
     top: 15%;
   }
   .dot{
-    height:10rem;
-    width:10rem;
+    height:10px;
+    width:10px;
   }
   img{
     display:flex;
     justify-content: center;
   }
 }
-
-
-/* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px) and (orientation: landscape){
-} 
+ 
