@@ -151,7 +151,35 @@ p{
 */
 
 /* mobile (portrait) 480px and smaller */
-@media only screen and (max-width: 480px){
+
+/* Lots of phone heights. Lot of empty space for the shorter phones, 
+so I split it into two media queries. This is for phones with 
+the height 812px and smaller. 
+The: 
+1. iphone SE 
+2. Samsung Galaxy S8+ 
+3. Galaxy Fold 
+4. iphone 6/7/8
+5. iphone 6/7/8 Plus
+6. iphone X */
+@media only screen and (max-width: 480px) and (max-height:812px){
+  .grid{
+      height:812px;
+      grid-template-rows: 5% 70% 25%;
+  }
+  h1{
+      font-size: 2rem;
+  }
+
+  .item{
+    height: 10rem;
+    width:10rem;
+    font-size: 2.3rem;
+  }
+}
+
+/* for phones with a height greater than 812px.  */
+@media only screen and (max-width: 480px) and (min-height:812px){
   .grid{
       height:915px;
       grid-template-rows: 5% 70% 25%;
@@ -165,8 +193,8 @@ p{
     width:10rem;
     font-size: 2.3rem;
   }
-
 }
+
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
