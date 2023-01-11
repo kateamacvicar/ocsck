@@ -48,7 +48,9 @@ button{
   color:white;
   letter-spacing: 1.5px;
   font-weight: bold;
-  margin:0;
+  margin:auto;
+  width:70%;
+
 }
 
 #bannerTitle{
@@ -269,6 +271,10 @@ button{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
+
+  #firstIndexWords{
+    padding:5%;
+  }
 } 
 
 
