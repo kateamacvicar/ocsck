@@ -248,6 +248,7 @@ button{
     #secondIndexWords{
       font-size: 1rem;
       padding:0;
+      width:90%;
     }
 
     .wordsMidSmall{
