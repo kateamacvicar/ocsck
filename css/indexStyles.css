@@ -196,6 +196,13 @@ button{
 
   /* Start of Media Queries! */
 
+   /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  .grid{
+    height:1366px;
+  }
+}
+
 
   /* @media only screen and (max-width: 973px){
     .grid{
