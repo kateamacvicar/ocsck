@@ -138,7 +138,12 @@ img{
 
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
-
+  h1{
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
 }
 
  /* tablet(landscape) 1367px and smaller */
