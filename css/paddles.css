@@ -90,6 +90,9 @@ html{
 
   .firstSectionContainer{
     display:flex;
+    /* 350px is the height I give it in the grid css rule. 
+    I give it 25% of 1400px, which is 350px. Hard coing it here to restrain the images. */
+    height:350px;
   }
 
   .firstSectionWords{
@@ -105,12 +108,28 @@ html{
     grid-column-end: span 2;
   }
 
+  #paddleGripImg{
+
+  }
+
+  #paddleBladeImg{
+    width:20%;
+  }
+
+  #paddleCompImg{
+    
+  }
+
   .secondSection{
     display:flex;
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #BACEDA;
     margin: 1%;
+  }
+
+  .peterCanoeImg{
+    height:90%;
   }
 
   .secondSectionWords{
@@ -136,6 +155,8 @@ img {vertical-align: middle;}
   /* keeps the arrows inside the container */
   position: relative;
   background-color: #BACEDA;
+  height:350px;
+  overflow: hidden;
 }
 
 /* Next & previous buttons */
