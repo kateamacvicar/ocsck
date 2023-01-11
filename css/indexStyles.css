@@ -242,11 +242,12 @@ button{
     }
 
     #firstIndexWords{
-      font-size: 1.05rem;
+      font-size: 1.1rem;
     }
 
     #secondIndexWords{
-      font-size: 0.9rem;
+      font-size: 1rem;
+      padding:0;
     }
 
     .wordsMidSmall{
@@ -260,6 +261,7 @@ button{
     .grid{
       height:960px;
       grid-template-rows: 5% 25% 15% 35% 20%;
+      grid-template-columns: 1fr 1fr 1.5fr;
     }
 
 }
