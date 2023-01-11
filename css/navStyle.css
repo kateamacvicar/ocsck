@@ -277,6 +277,25 @@ footer {
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+  .footerTitle{
+    font-size: 1.3rem;
+  }
+  .address{
+    font-size: 1.1rem;
+  }
+  .getInTouchWords{
+    font-size: 1.2rem;
+  }
+  .contactMethods{
+    font-size: 1rem;
+  }
+  .smallerCreds{
+    display:block;
+  }
+
+  .creds{
+    display:none;
+  }
 }
 
 /* mobile (landscape) 915 px and smaller */
