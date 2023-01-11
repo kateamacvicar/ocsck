@@ -57,6 +57,9 @@ p{
     background-color:#4A95BF;
   }
 
+  #smallScreen{
+    display:flex;
+  }
 
 * {box-sizing: border-box}
 .mySlides {display: none}
@@ -116,7 +119,6 @@ img {vertical-align: middle;}
 }
 
 img{
-  width:60%;
   margin:auto;
 }
 @keyframes fade {
@@ -138,6 +140,9 @@ img{
 
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
+  .grid{
+    height:1368px;
+  }
   h1{
     font-size: 2.5rem;
   }
@@ -168,6 +173,9 @@ img{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+  #smallScreen{
+    display:block;
+  }
 
 }
 
