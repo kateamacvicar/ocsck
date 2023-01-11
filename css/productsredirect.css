@@ -109,12 +109,6 @@ p{
     height:22rem;
     width:22rem;
   }
-
- /*  .middle{
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
 } 
 
  /* tablet(landscape) 1368px and smaller */
@@ -127,12 +121,6 @@ p{
     height:22rem;
     width:22rem;
   }
-/* 
-  .middle{
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -155,13 +143,7 @@ p{
 /* Lots of phone heights. Lot of empty space for the shorter phones, 
 so I split it into two media queries. This is for phones with 
 the height 812px and smaller. 
-The: 
-1. iphone SE 
-2. Samsung Galaxy S8+ 
-3. Galaxy Fold 
-4. iphone 6/7/8
-5. iphone 6/7/8 Plus
-6. iphone X */
+*/
 @media only screen and (max-width: 480px) and (max-height:813px){
   .grid{
       height:812px;

@@ -135,18 +135,82 @@
       <h1> Paddles </h1>
     </div>
 
+
     <div class = "firstSection"> 
       <div class = "firstSectionContainer"> 
-      <div class = "firstSectionWords"> 
-        <p> A wooden paddle, carved from a single piece of carefully chosen wood, is a joy 
-          to paddle with. It flexes during the stroke, not so much as to be inefficient, but 
-          enough to reduce the strain on muscles and joints, making paddling not only less 
-          tiring but also more ergonomic. 
-        </p>
-      </div>
-      <div class = "firstSectionImg"> 
-        <img src = "images/paddles.jpg" alt = "paddle grip"> 
-    </div>
+        <div class = "firstSectionWords"> 
+          <p> A wooden paddle, carved from a single piece of carefully chosen wood, is a joy 
+            to paddle with. It flexes during the stroke, not so much as to be inefficient, but 
+            enough to reduce the strain on muscles and joints, making paddling not only less 
+            tiring but also more ergonomic. 
+          </p>
+        </div>
+      <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+          <img src="images/paddleGrip.jpg" style="width:60%">
+ <!--          <div>
+            <h1> Hull </h1>
+            <p> Hulls are stripped with western red cedar. When ripping the strips, adjacent strips are kept as matched
+              pairs to ensure as much symmetry as natural wood tones allow. The wooden hull is then sheathed,
+              inside and out, with 4 oz.fibreglass cloth and clear epoxy, with extra reinforcement at the stems where
+              rock strikes are more likely. All boats are finished with marine varnish to provide UV protection and to
+              give the lustre that all wooden boats deserve</p>
+          </div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/paddleblade.jpg" style="width:60%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/paddlecomp.jpg" style="width:60%">
+        </div>
+    
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!-- The start of the slideshow's Javascript code -->
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "flex";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
   </div>
   </div>
 
