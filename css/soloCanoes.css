@@ -148,7 +148,7 @@ html{
 }
 
 /* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px){
+@media only screen and (max-width: 915px) and (orientation:landscape){
   .grid{
     height: 1200px;
   }
