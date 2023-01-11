@@ -173,10 +173,33 @@ img{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+  .grid{
+    height:1300px;
+  }
   #smallScreen{
     display:block;
   }
-
+  h1{
+    font-size: 2rem;
+  }
+  #titleSubHeader{
+    font-size: 1.3rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+  .prev, .next{
+    font-size: 1.2rem;
+    top: 15%;
+  }
+  .dot{
+    height:10rem;
+    width:10rem;
+  }
+  img{
+    display:flex;
+    justify-content: center;
+  }
 }
 
 
