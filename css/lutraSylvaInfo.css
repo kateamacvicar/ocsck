@@ -15,13 +15,6 @@ html{
   a{
     text-decoration: none;
     cursor: pointer;
-    display: flex;
-    text-decoration: none;
-    color: #0F1C23;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
   }
 
   button{
