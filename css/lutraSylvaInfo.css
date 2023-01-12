@@ -101,6 +101,7 @@ html{
     grid-column-end: span 4;
     font-size: 1.9rem;
     width:60%;
+    margin:auto;
   }
 
   .firstSectionWords{
