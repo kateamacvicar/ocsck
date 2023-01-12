@@ -58,11 +58,11 @@ html{
   }
   
 .grid{
-    height: 1600px;
+    height: 1700px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4% 8% 73% 15%;
+    grid-template-rows:4% 5% 63% 13% 15%;
 }
 
 .box {
@@ -80,12 +80,6 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     font-size: 1.3rem;
-  }
-
-  .middle{
-    grid-column-start: 1;
-    grid-column-end: span 4;
-    background-color:#4A95BF;
   }
 
   .mainContainer{
@@ -120,7 +114,7 @@ html{
 
   .repairsRebuilds{
     display:flex;
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: span 2;
     
   }
@@ -129,6 +123,7 @@ html{
     display:flex;
     grid-column-start: 1;
     grid-column-end: span 2;
+    
   }
 
   .infoContainer{
@@ -150,6 +145,14 @@ html{
 
   .buttonDiv{
     padding:3%;
+  }
+
+  .secondSection{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    justify-content: center;
+    margin: 3%;
   }
 
    /* Start of Media Queries! */
