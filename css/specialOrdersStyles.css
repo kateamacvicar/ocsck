@@ -159,6 +159,8 @@ img {vertical-align: middle;}
   /* keeps the arrows inside the container */
   position: relative;
   background-color: #BACEDA;
+  grid-column-start: 1;
+  grid-column-end: span 4;
 }
 
 /* Next & previous buttons */
@@ -270,11 +272,29 @@ img{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+  .grid{
+    height: 915px;
+    grid-template-rows: 4% 5% 56% 10% 25%;
+  }
+  h1{
+    font-size: 1.8rem;
+  }
   .originalDesigns{
     display:none;
   }
   .repairsRebuild{
     display:none;
+  }
+
+  .slideshow-container{
+    display:block;
+  }
+
+  img{
+    display:flex;
+  }
+  .contactMeBtn{
+    font-size: 1.1rem;
   }
 }
 
