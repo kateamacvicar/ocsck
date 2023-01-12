@@ -146,10 +146,42 @@ p{
   grid-column-end: span 4;
   justify-content: center;
   margin: 3%;
+  align-items: center;
 }
 
  /* Start of Media Queries! */
 
+ /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
+/* 
+1. ipad Air (820px x 1180px)
+2. ipad Mini (768px x 1024px)
+3. Surface Pro 7 (912px x 1368px)
+4. Nest Hub (1024px x 600px)
+5. ipad (768px x 1024px)
+6. ipad pro (1024px x 1366px)
+ */
 
+ /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  .grid{
+    height:1600px;
+    grid-template-rows: 4% 5% 66% 10% 15%;
+  }
+  .infoContainer{
+    width:90%;
+  }
+  h3{
+    font-size: 2.1rem;
+  }
+  .infoContainer{
+    height:690px;
+  }
+  .bigWords{
+    font-size: 1.7rem;
+  }
+  .smallWords{
+    font-size: 1.4rem;
+  }
+}
 
   
