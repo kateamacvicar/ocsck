@@ -34,6 +34,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.4rem;
+    border-radius: 5%;
     cursor: pointer;
   }
 
@@ -57,11 +58,11 @@ html{
   }
   
 .grid{
-    height: 1900px;
+    height: 1600px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4% 8% 68% 20%;
+    grid-template-rows: 4% 8% 73% 15%;
 }
 
 .box {
@@ -89,7 +90,7 @@ html{
 
   .mainContainer{
     display:flex;
-    height:1100px;
+    height:1050px;
   }
 
 
@@ -131,7 +132,7 @@ html{
   .infoContainer{
     background-color: #BACEDA;
     flex-basis: auto;
-    height:690px;
+    height:670px;
     width:70%;
     margin:auto;
   }
