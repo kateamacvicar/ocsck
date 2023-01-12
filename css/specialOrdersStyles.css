@@ -57,11 +57,11 @@ html{
   }
   
 .grid{
-    height: 1100px;
+    height: 1900px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 8% 67% 20%;
+    grid-template-rows: 4% 8% 68% 20%;
 }
 
 .box {
@@ -87,13 +87,13 @@ html{
     background-color:#4A95BF;
   }
 
-  .container{
+  .mainContainer{
     display:flex;
     height:1100px;
   }
 
 
-  img{
+  images{
     width:80%;
     margin: auto;
     display: flex;
