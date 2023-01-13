@@ -51,7 +51,7 @@ html{
   p{
     text-align: center;
     padding:2%;
-    width:60%;
+    width:80%;
     margin:auto;
   }
   
@@ -139,6 +139,7 @@ html{
   .thirdSection{
     grid-column-start: 1;
     grid-column-end: span 4;
+    margin:auto;
   }
 
   .thirdSectionWords{
@@ -194,8 +195,8 @@ html{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
 .grid{
-  height:1800px;
-  grid-template-rows: 5% 4% 7% 14% 27% 9% 15%;
+  height: 1500px;
+  grid-template-rows: 5% 4% 10% 15% 37% 14% 15%;
 }
 h1{
   font-size: 1.8rem;
@@ -203,11 +204,16 @@ h1{
 .firstSectionWords{
   font-size: 1.2rem;
 }
+.topLeftImg{
+  height:60%;
+}
 .secondSection{
   display:block;
 }
 .peterCanoeImg{
   width:100%;
+  height:50%;
+  margin-left: 0;
   margin-top: 2%;
 }
 .secondSectionWords{
