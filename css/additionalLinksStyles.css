@@ -9,6 +9,12 @@ body{
 a{
     text-decoration: none;
     cursor: pointer;
+    color:#0F1C23;
+  }
+
+  a:hover{
+    color:#BACEDA;
+    cursor: pointer;
   }
 
   button{
