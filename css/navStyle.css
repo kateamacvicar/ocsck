@@ -15,8 +15,7 @@ html{
 }
 
 #navTab:hover{
-  text-decoration-color: #BACEDA;
-  
+  color: #BACEDA;
 }
 
 nav {
