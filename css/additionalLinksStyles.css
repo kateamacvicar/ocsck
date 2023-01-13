@@ -22,6 +22,12 @@ h1{
     font-size: 2.8rem;
 }
 
+h2{
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.8rem;  
+}
+
 .title{
     background-color: #0F1C23;
     color:#4A95BF;
@@ -31,19 +37,30 @@ h1{
     justify-content: center;
   }
 
+.header{
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+.subheader{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 p{
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: 'Linden Hill';
     padding: 8px 12px;
 }
 
 .grid{
-    height: 1400px;
+    height: 2300px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 3% 84% 13%;
 }
 
 .box {
