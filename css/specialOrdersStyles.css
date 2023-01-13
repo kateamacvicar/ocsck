@@ -300,7 +300,30 @@ img{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
-
+  .grid{
+    height: 1500px;
+    grid-template-rows: 4% 5% 66% 7% 18%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .originalDesigns{
+    display:block;
+  }
+  h3{
+    font-size: 1.9rem;
+  }
+  .imgContainerOD{
+    height:13rem;
+    width:20rem;
+    display:block;
+  }
+  .bigWords{
+    font-size: 1.5rem;
+  }
+  .smallWords{
+    font-size: 1.3rem;
+  }
 } 
 
   
