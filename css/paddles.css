@@ -15,6 +15,11 @@ html{
   a{
     text-decoration: none;
     cursor: pointer;
+    color:#0F1C23
+  }
+
+  a:hover{
+    color:#BACEDA;
   }
 
   button{
@@ -36,6 +41,10 @@ html{
     font-size: 1.2rem;
     border-radius: 5%;
     cursor: pointer;
+  }
+
+  .pricingBtn:hover{
+    background-color: black;
   }
 
   h1{
@@ -225,6 +234,20 @@ h1{
 .pricingBtn{
   font-size: 1rem;
 }
+}
+
+/* mobile (landscape) 915px and smaller */
+@media only screen and (max-width: 915px) and (orientation:landscape){
+  .firstSectionWords{
+    font-size: 2rem;
+  }
+  .secondSectionWords{
+    font-size: 1.2rem;
+  }
+  .topLeftImg{
+    margin-top:12%;
+    margin:0;
+  }
 }
   
   

@@ -55,6 +55,10 @@ nav ul a:focus {
   cursor: pointer;
 }
 
+.dropbtn:hover{
+  color:#BACEDA;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   /* position: relative; */
