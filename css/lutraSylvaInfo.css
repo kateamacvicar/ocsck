@@ -151,7 +151,8 @@ html{
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
   .grid{
-    height:2000px;
+    height:1700px;
+    grid-template-rows: 4% 5% 4% 29% 22% 21% 15%;
   }
   #instructionsList{
     font-size: 1.4rem;

@@ -52,6 +52,8 @@ h2{
     font-size: 1.5rem;
     padding-bottom: 12px;
     margin-bottom: 1%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 p{
@@ -62,11 +64,11 @@ p{
 }
 
 .grid{
-    height: 2300px;
+    height: 2100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3% 84% 13%;
+    grid-template-rows: 3% 85.5% 11.5%;
 }
 
 .box {
