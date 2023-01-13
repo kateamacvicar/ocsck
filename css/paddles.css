@@ -54,7 +54,6 @@ html{
   }
 
   img{
-    width:60%;
   }
   
 .grid{
@@ -62,7 +61,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4% 5% 14% 28% 24% 10% 15%;
+    grid-template-rows: 3% 4% 14% 28% 24% 12% 15%;
 }
 
 .box {
