@@ -58,11 +58,11 @@ html{
   }
   
 .grid{
-    height: 1400px;
+    height: 1900px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 7% 25% 23% 20% 20%;
+    grid-template-rows: 4% 5% 14% 28% 24% 10% 15%;
 }
 
 .box {
@@ -84,28 +84,37 @@ html{
 
 
   .firstSectionWords{
-    display:flex;
+    display: flex;
     grid-column-start: 1;
     grid-column-end: span 2;
-    font-size: 1.6rem;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    font-size: 2rem;
   }
 
   .topLeftImg{
     display:flex;
     grid-column-start: 3;
     grid-column-end: span 1;
+    justify-content: flex-end;
+    padding: 2%;
   }
 
   .bottomLeftImg{
     display:flex;
     grid-column-start: 3;
     grid-column-end: span 1;
+    justify-content: flex-end;
+    padding: 2%;
   }
 
   .rightImg{
     display:flex;
     grid-column-start: 4;
     grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    padding: 2%;
   }
 
 
@@ -119,6 +128,7 @@ html{
 
   .peterCanoeImg{
     height:90%;
+    margin: auto;
   }
 
   .secondSectionWords{
@@ -132,6 +142,10 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     margin:3%;
+  }
+
+  .thirdSectionWords{
+    font-size: 1.4rem;
   }
 
   
