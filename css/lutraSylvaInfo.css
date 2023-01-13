@@ -125,7 +125,7 @@ html{
     grid-column-end: span 4;
   }
 
-  .lutraDiagramImg{
+  .diagramImg{
     display: flex;
     margin: auto;
     padding: 2%;
