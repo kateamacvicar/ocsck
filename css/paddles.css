@@ -40,6 +40,7 @@ html{
   h1{
     font-weight: normal;
     text-align: center;
+    font-size: 2.5rem;
   }
 
   h2{
@@ -51,9 +52,6 @@ html{
     padding:2%;
     width:60%;
     margin:auto;
-  }
-
-  img{
   }
   
 .grid{
@@ -78,7 +76,6 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color:#4A95BF;
-    padding:1%;
   }
 
 
@@ -88,14 +85,14 @@ html{
     grid-column-end: span 2;
     grid-row-start: 3;
     grid-row-end: span 2;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .topLeftImg{
     display:flex;
     grid-column-start: 3;
     grid-column-end: span 1;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 2%;
   }
 
@@ -103,7 +100,7 @@ html{
     display:flex;
     grid-column-start: 3;
     grid-column-end: span 1;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 2%;
   }
 
@@ -140,7 +137,6 @@ html{
   .thirdSection{
     grid-column-start: 1;
     grid-column-end: span 4;
-    margin:3%;
   }
 
   .thirdSectionWords{
