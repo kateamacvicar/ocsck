@@ -55,8 +55,9 @@ html{
 
   p{
     text-align: center;
-    padding:2%;
+    padding:1%;
     margin:auto;
+    width:80%;
   }
   
 .grid{
@@ -64,7 +65,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:4% 7% 3% 32% 20% 21% 14%;
+    grid-template-rows:4% 7% 4% 31% 20% 21% 14%;
 }
 
 .box {
@@ -87,7 +88,7 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     font-size: 1.9rem;
-    margin:auto;
+    width:100%;
     background-color: #BACEDA;
   }
 
@@ -104,6 +105,9 @@ html{
     grid-column-start: 3;
     grid-column-end: span 2;
     background-color: #BACEDA;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
   }
 
   .secondSection{
