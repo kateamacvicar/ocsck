@@ -34,6 +34,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.2rem;
+    border-radius: 5%;
     cursor: pointer;
   }
 
@@ -119,7 +120,6 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     background-color: #BACEDA;
-    margin: 1%;
   }
 
   .peterCanoeImg{
@@ -146,6 +146,33 @@ html{
   
    /* Start of Media Queries! */
 
+     /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
+/* 
+1. ipad Air (820px x 1180px)
+2. ipad Mini (768px x 1024px)
+3. Surface Pro 7 (912px x 1368px)
+4. Nest Hub (1024px x 600px)
+5. ipad (768px x 1024px)
+6. ipad pro (1024px x 1366px)
+ */
+
+ /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2rem;
+  }
+  .peterCanoeImg{
+    height:65%;
+    width:55%;
+    margin-left:2%
+  }
+  .secondSectionWords{
+    font-size: 1.4rem;
+  }
+  p{
+    width:85%;
+  }
+}
   
   
     
