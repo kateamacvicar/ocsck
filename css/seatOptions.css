@@ -99,6 +99,16 @@ img {vertical-align: middle;}
   /* keeps the arrows inside the container */
   position: relative;
   background-color: #BACEDA;
+  width:80%;
+}
+
+.mySlides .fade{
+  align-items: center;
+}
+
+.fade{
+  padding-top:2%;
+  padding-bottom:2%;
 }
 
 /* Next & previous buttons */
@@ -159,12 +169,16 @@ img{
   to {opacity: 1}
 }
 
+.words{
+  margin:auto;
+}
+
 .bigWords{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .smallWords{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
    /* Start of Media Queries! */
