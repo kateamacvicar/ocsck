@@ -199,6 +199,10 @@ img {vertical-align: middle;}
   font-size: 1.4rem;
 }
 
+.blockContent{
+  display:block;
+}
+
    /* Start of Media Queries! */
   
   
