@@ -83,18 +83,24 @@ html{
     width:60%;
   }
 
-  .imagesSection{
+  .furnishingImagesSection{
     display:flex;
   }
 
-  .leftSection{
+  .furnishingLeftSection{
     display:block;
   }
 
-  .rightSection{
+  .furnishingRightSection{
     display:block;
   }
 
+  .furnishingImages{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding:2%;
+  }
   .middle{
     grid-column-start: 1;
     grid-column-end: span 3;
