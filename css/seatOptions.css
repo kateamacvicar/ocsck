@@ -80,6 +80,7 @@ html{
   .images{
     display:block;
     padding:1%;
+    width:60%;
   }
 
   .middle{
@@ -136,8 +137,8 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #BACEDA;
   border-radius: 50%;
@@ -154,11 +155,6 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
   padding: 4%;
-}
-
-img{
-  width:60%;
-  margin:auto;
 }
 
 .imgContainer{
