@@ -83,6 +83,18 @@ html{
     width:60%;
   }
 
+  .imagesSection{
+    display:flex;
+  }
+
+  .leftSection{
+    display:block;
+  }
+
+  .rightSection{
+    display:block;
+  }
+
   .middle{
     grid-column-start: 1;
     grid-column-end: span 3;
