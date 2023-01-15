@@ -280,6 +280,21 @@ footer {
   font-size: 1.4rem;
 }
 
+#productsMobileNavTabHeader{
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  text-align: inherit;
+}
+
+#orderMobileNavTabHeader{
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+#orderMobileNavTab{
+  padding-left: 1rem;
+}
+
  /* Start of Media Queries! */
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
