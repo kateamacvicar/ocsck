@@ -229,7 +229,7 @@ footer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #0F1C23;
   overflow-x: hidden;
   padding-top: 4rem;
   transition: 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -240,11 +240,15 @@ footer {
 .sidenav a {
   padding: 0.5rem 1rem;
   text-decoration: none;
-  color: #bdbdbd;
+  color: #5DBAEF;
   display: block;
   transition: 0.4s;
   white-space: nowrap;
   font-size: 2rem;
+}
+
+.sidenav a:hover{
+  color:#BACEDA;
 }
 
 /* Position and style the close button (top right corner) */
@@ -252,7 +256,11 @@ footer {
   position: absolute;
   top: -1rem;
   right: 1rem;
-  font-size: 5rem;
+  font-size: 2rem;
+}
+
+.sidenav .close-btn:hover{
+  color:#BACEDA
 }
 
  /* Start of Media Queries! */
