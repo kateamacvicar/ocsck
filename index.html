@@ -20,14 +20,44 @@
     <div class="box navBar">
      <div role="navigation" aria-label="Nav bar">
 
-      <div id="sideNavigation" class="sidenav">
+      <div class="sidenav">
         <a href="#" class="close-btn">&times;</a>
-        <a href="#">home</a>
-        <a href="#">about me</a>
-        <a href="#">products</a>
-        <a href="#">order</a>
-        <a href="#">contact</a>
+        <div class = "links">
+          <a href="#">home</a>
+
+          <div class = "aboutMeSlides">
+          <a onclick="plusSlides(1)">about me</a>
+          </div>
+          <div class = "aboutMeSlides">
+            <a href = "aboutMe.html"> about me </a>
+            <a href = "additionalLinks.html"> additional links</a>
+          </div>
+
+          <a href="#">products</a>
+          <a href="#">order</a>
+          <a href="contact.html">contact</a>
+        </div>
       </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("aboutMeSlides");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slides[slideIndex-1].style.display = "block";  
+        }
+        </script>
 
       <div class="hamburger">
         <a href = "#" class = "ham-icon"> 
