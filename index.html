@@ -10,8 +10,6 @@
     <!-- Links to my CSS pages -->
     <link rel="stylesheet" href="css/navStyle.css">
     <link rel="stylesheet" href="css/indexStyles.css">
-
-    <script type="text/javascript" src="smallNav.js"></script>
 </head>
 <body>
 
@@ -22,22 +20,28 @@
 
       <div id = "sideNavigation" class="sidenav">
         <a href="#" class="close-btn">&times;</a>
+
         <div class = "links">
           <a href="#">home</a>
-
-          <div class = "aboutMeSlides">
           <a onclick="plusSlides(1)">about me</a>
-          </div>
-          <div class = "aboutMeSlides">
-            <a href = "aboutMe.html"> about me </a>
-            <a href = "additionalLinks.html"> additional links</a>
-          </div>
-
-          <a href="#">products</a>
-          <a href="#">order</a>
-          
+          <a onclick="plusSlides(2)">products</a>
+          <a onclick="plusSlides(3)">order</a>
           <a href="contact.html">contact</a>
         </div>
+
+        <div class = "links">
+          <a href="aboutMe.html">about me</a>
+          <a href = "additionalLinks.html"> additional links </a>
+        </div>
+
+        <div class = "links">
+          <a href="specialOrders.html">special orders</a>
+        </div>
+
+        <div class = "links">
+          <a href="instructions.html">Instructions</a>
+        </div>
+
       </div>
 
       <div class="hamburger">
