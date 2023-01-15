@@ -244,7 +244,7 @@ footer {
   display: block;
   transition: 0.4s;
   white-space: nowrap;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .sidenav a:hover{
@@ -254,8 +254,8 @@ footer {
 /* Position and style the close button (top right corner) */
 .sidenav .close-btn {
   position: absolute;
-  top: -1rem;
-  right: 1rem;
+  top: 1rem;
+  right: 0rem;
   font-size: 2rem;
 }
 
