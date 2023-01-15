@@ -274,6 +274,14 @@ footer {
 .back-arrow:hover{
   color:#BACEDA;
 }
+#mobileNavTab{
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+#aboutMeNavTab{
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
 
 #productsMobileNavTab{
   padding-right: 1.5rem;
