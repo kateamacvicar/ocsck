@@ -64,7 +64,7 @@ html{
   }
   
 .grid{
-    height: 1100px;
+    height: 1366px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -126,7 +126,11 @@ img {vertical-align: middle;}
 }
 
 .mySlides .fade{
-  align-items: center;
+  display:grid;
+  height: 816px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 60% 20%;
 }
 
 .fade{
@@ -203,20 +207,20 @@ img {vertical-align: middle;}
   display:block;
 }
 
-.miniGrid{
-  display:grid;
-  height: 816px;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20% 60% 20%;
+.furnishingImagesSection{
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
 
 .miniSecondSection{
-
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
 
 .miniBanner{
-  
+  grid-column-start: 1;
+  grid-column-end: span 2;
+
 }
    /* Start of Media Queries! */
   
