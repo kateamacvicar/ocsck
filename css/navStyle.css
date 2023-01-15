@@ -6,7 +6,8 @@ html{
 
 .hamburger{
   display:none;
-  color: white;
+  padding: 15px;
+  padding-left: 1%;
 }
 
 #navTab{
@@ -219,6 +220,41 @@ footer {
 }
 
 
+/* This is the start of the code for mobile nav bar */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 4rem;
+  transition: 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  font-family: "Linden Hill";
+}
+
+/* This is the links in the side nav */
+.sidenav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #bdbdbd;
+  display: block;
+  transition: 0.4s;
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .close-btn {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  font-size: 5rem;
+}
+
  /* Start of Media Queries! */
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
@@ -257,9 +293,7 @@ footer {
       }
     
       .hamburger{
-          display: flex;
-          justify-content: flex-end;
-          color:#5DBAEF;
+          display: block;
       }
 }
 
