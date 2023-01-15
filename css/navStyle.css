@@ -259,9 +259,10 @@ footer {
   font-size: 2rem;
 }
 
-.sidenav .close-btn:hover{
-  color:#BACEDA
-}
+.sidenav .close-btn:hover {
+  color:#BACEDA;
+  transform: scale(1.2);
+  }
 
 .back-arrow{
   position: absolute;
