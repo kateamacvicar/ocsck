@@ -242,7 +242,26 @@ img {vertical-align: middle;}
   h1{
     font-size: 2rem;
   }
-
+  .bigWords{
+    font-size: 1.6rem;
+    padding:3%;
+  }.smallWords{
+    font-size: 1.2rem;
+  }
+  p{
+    width:80%;
+  }
+  .slideshow-container{
+    width:90%;
+  }
+  .imgContainer{
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  }
+  .images{
+    height: 50%;
+  }
 }
 
 
