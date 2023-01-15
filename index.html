@@ -35,29 +35,10 @@
 
           <a href="#">products</a>
           <a href="#">order</a>
+          
           <a href="contact.html">contact</a>
         </div>
       </div>
-
-      <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("aboutMeSlides");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slides[slideIndex-1].style.display = "block";  
-        }
-        </script>
 
       <div class="hamburger">
         <a href = "#" class = "ham-icon"> 
@@ -288,6 +269,24 @@
     document.getElementById("sideNavigation").style.width = "0";
     
   });
+
+  let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("aboutMeSlides");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slides[slideIndex-1].style.display = "block";  
+        }
     </script>
 
 </body>
