@@ -37,7 +37,7 @@ html{
   }
   
 .grid{
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,7 +101,12 @@ input[type=text], select, textarea {
 
    /* Start of Media Queries! */
   
-    /* tablet styles are ok, so no media query for those. */
+     /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1025px){
+  .grid{
+    height:1366px;
+  }
+}
 
     /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 
