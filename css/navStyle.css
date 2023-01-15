@@ -274,6 +274,12 @@ footer {
 .back-arrow:hover{
   color:#BACEDA;
 }
+
+#productsMobileNavTab{
+  padding-right: 1.5rem;
+  font-size: 1.4rem;
+}
+
  /* Start of Media Queries! */
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
