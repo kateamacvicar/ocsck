@@ -126,12 +126,14 @@ input[type=text], select, textarea {
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px), (orientation: lanscape){
   .grid{
-    height:950px
+    height:1150px
   }
   h1{
     font-size: 2rem;
+    margin:1%;
   }
   p{
     font-size: 1.2rem;
+    width:85%;
   }
 }
