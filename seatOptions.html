@@ -239,6 +239,7 @@
           let i;
           let slides = document.getElementsByClassName("mySlides");
           let dots = document.getElementsByClassName("dot");
+          let height = document.getElementsByClassName("grid")
           if (n > slides.length) {slideIndex = 1}    
           if (n < 1) {slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
@@ -247,8 +248,10 @@
           for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
           }
+          // if its the first slide, display is block.
           if(slideIndex-1 ==  0) {slides[slideIndex-1].style.display = "block";}
-          if(slideIndex -1 != 0) {slides[slideIndex-1].style.display = "flex";}  
+          if(slideIndex -1 != 0) {slides[slideIndex-1].style.display = "flex";}
+          if(slideIndex -1 != 0 && grid.height) {slides[slideIndex-1].style.display = "flex";}   
           dots[slideIndex-1].className += " active";
         }
         </script>

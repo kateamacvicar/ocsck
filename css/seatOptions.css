@@ -265,6 +265,13 @@ img {vertical-align: middle;}
   }
 }
 
+ /* tablet(landscape) 1367px and smaller */
+ @media only screen and (max-width: 1367px) and (orientation: landscape){
+  .grid{
+    height:1100px;
+  }
+}
+
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 
@@ -283,7 +290,25 @@ img {vertical-align: middle;}
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
-
+  h1{
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1rem;
+    width:85%;
+  }
+  .furnishingImages{
+    width:90%;
+  }
+  .bigWords{
+    font-size: 1.2rem;
+  }
+  .smallWords{
+    font-size:0.9rem;
+  }
+  .prev, .next{
+    font-size: 1rem;
+  }
 }
  
 
