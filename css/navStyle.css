@@ -263,6 +263,16 @@ footer {
   color:#BACEDA
 }
 
+.back-arrow{
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  font-size: 2rem;
+}
+
+.back-arrow:hover{
+  color:#BACEDA;
+}
  /* Start of Media Queries! */
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
