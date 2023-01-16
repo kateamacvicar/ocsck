@@ -330,6 +330,9 @@ footer {
   .noHide{
     display:none;
   }
+  .sidenav{
+    display:none;
+  }
 }
 
 @media only screen and (max-width: 700px){
@@ -344,6 +347,9 @@ footer {
       .hamburger{
           display: block;
       }
+  .sidenav{
+    display:none;
+  }
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -386,7 +392,9 @@ footer {
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
-
+  .sidenav{
+    display:none;
+  }
 } 
 
 
