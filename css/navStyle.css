@@ -384,9 +384,11 @@ footer {
   .smallerCreds{
     display:block;
   }
-
   .creds{
     display:none;
+  }
+  .sidenav{
+    display:block;
   }
 }
 
