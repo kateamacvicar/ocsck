@@ -258,7 +258,7 @@
           // if its the first slide, display is block.
           if(slideIndex-1 ==  0) {slides[slideIndex-1].style.display = "block";}
           if(slideIndex -1 != 0) {slides[slideIndex-1].style.display = "flex";}
-          if(slideIndex -1 != 0 && gridWidth <= 480) {slides[slideIndex-1].style.display = "block";}  
+          if((slideIndex -1 != 0) && (gridWidth <= 480)) {slides[slideIndex-1].style.display = "block";}  
           dots[slideIndex-1].className += " active";
         }
         </script>
