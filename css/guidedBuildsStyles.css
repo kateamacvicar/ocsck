@@ -121,7 +121,8 @@ img {vertical-align: middle;}
   margin:auto;
   /* keeps the arrows inside the container */
   position: relative;
-  background-color: #BACEDA;
+  height:450px;
+  overflow:hidden;
 }
 
 /* Next & previous buttons */
