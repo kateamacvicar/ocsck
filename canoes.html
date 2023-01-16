@@ -16,120 +16,238 @@
   <div class="grid">
 
     <div class="box navBar">
-     <div role="navigation" aria-label="Nav bar">
-      <div class="hamburger">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-list" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-      </svg>
-    </div>
-        <nav>
-          <ul>
-            <li><a id="navTab" href="index.html">home</a></li>
-            <!-- about me drop down -->
-            <li>
-              <div class="dropdown">
-              <button class="dropbtn">about me</button>
-              <div class="dropdown-content">
-                <a id="dropdownStyle" href="aboutMe.html">about me</a>
-                <a id="dropdownStyle" href="#">additional links</a>
-              </div>
-              </div>
-            </li>
-            <!-- products dropdown -->
-            <div class = "noHide"> 
-            <li>
-                <div class="dropdown">
-                <button class="dropbtn">products</button>
-                <div class="dropdown-content">
-                    <table>
-                        <tbody><tr>
-                          <th><a id="dropdownStyle">canoes</a></th>
-                          <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a> </th>
-                          <th> <a id="dropdownStyle" href="paddles.html">paddles</a></th>
-                          <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
-                        </tr>
-                        <tr>
-                          <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
-                        </tr>
-                        <tr>
-                          <td><a id="dropdownStyle" href="#">models</a></td>
-                        </tr>
-                        <tr>
-                          <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
-                        </tr>
-                        <tr>
-                          <td><a id="dropdownStyle" href="seatOptions.html">seat options</a></td>
-                        </tr>
-                    </tbody></table>
-                </div>
-                </div>
-              </li>
-            </div>
-            <!-- products drop down small version -->
-            <div class = "hide">
-            <li>
-              <div class="dropdown">
-              <button class="dropbtn">products</button>
-              <div class="dropdown-content">
-                  <table>
-                      <tbody><tr>
-                        <th><a id="dropdownStyle">canoes</a></th>
-                        <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a> </th>
-                      </tr>
-                      <tr>
-                        <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
-                        <th> <a id="dropdownStyle" href="paddles.html">paddles</a></th>
-                      </tr>
-                      <tr>
-                        <td><a id="dropdownStyle" href="canoes.html">models</a></td>
-                        <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
-                      </tr>
-                      <tr>
-                        <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
-                      </tr>
-                      <tr>
-                        <td><a id="dropdownStyle" href="seatOptions.html">seat options</a></td>
-                      </tr>
-                  </tbody></table>
-              </div>
-              </div>
-            </li>
-          </div>
-            <!-- order dropdown -->
-            <li>
-                <div class="dropdown">
-                <button class="dropbtn">order</button>
-                <div class="dropdown-content">
-                    <table>
-                        <tbody><tr>
-                          <th><a id="dropdownStyle" href="instructions.html">instructions</a></th>
-                          <th> <a id="dropdownStyle" href="pricelist.html">pricelist</a> </th>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                          <td><a id="dropdownStyle" href="lutraPrices.html">Lutra</a></td>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                          <td><a id="dropdownStyle" href="sylvaPrices.html">Sylva</a></td>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                          <td><a id="dropdownStyle" href="paddlePrices.html">paddles</a></td>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                          <td><a id="dropdownStyle" href="seatPrices.html">seats</a></td>
-                        </tr>
-                    </tbody></table>
-                </div>
-                </div>
-              </li>
-            <li><a id="navTab" href="contact.html">contact</a></li>
-          </ul>
-      </nav>
-    </div>
-    </div> 
+      <div role="navigation" aria-label="Nav bar">
+       <!-- !!!!!!!!!!!!!!!!! start of code for mobile nav bar !!!!!!!!!!!!!!!!! -->
+       <div id = "sideNavigation" class="sidenav">
+ 
+         <div class = "links">
+           <a href="#" class="close-btn">&times;</a>
+           <a id = "mobileNavTab" href="index.html">home</a>
+           <a id = "mobileNavTab" onclick="plusSlides(1)">about me</a>
+           <a id = "mobileNavTab" onclick="plusSlides(2)">products</a>
+           <a id = "mobileNavTab" onclick="plusSlides(3)">order</a>
+           <a id = "mobileNavTab" href="contact.html">contact</a>
+         </div>
+ 
+         <!-- displays when you click the about me link -->
+         <div class = "links">
+           <a href="index.html" class="close-btn">&times;</a>
+           <a onclick="plusSlides(-1)" class="back-arrow">&#8592;</a>
+           <a id = "aboutMeNavTab" href="aboutMe.html">about me</a>
+           <a id = "aboutMeNavTab" href = "additionalLinks.html"> additional links </a>
+         </div>
+ 
+         <!-- displays when you click the products link -->
+         <div class = "links">
+           <a href="index.html" class="close-btn">&times;</a>
+           <a onclick="plusSlides(-2)" class="back-arrow">&#8592;</a>
+           <div>
+             <table>
+               <tr>
+                 <th><a id = "productsMobileNavTabHeader">canoes</a></th>
+                 <th><a id = "productsMobileNavTabHeader" href = "paddles.html">paddles</a></th>
+               </tr>
+               <tr>
+                 <td><a id = "productsMobileNavTab" href = "canoes.html">models</a></td>
+                 <th><a id = "productsMobileNavTabHeader" href = "specialOrders.html">special<br>orders</a></th>
+               </tr>
+               <tr>
+                 <td><a id = "productsMobileNavTab" href = "soloOptions.html">solo<br>options</a></td>
+                 <th><a id = "productsMobileNavTabHeader" href = "guidedBuilds.html">guided<br>builds</a></th>
+               </tr>
+               <tr>
+                 <td><a id = "productsMobileNavTab" href = "designFeatures.html">design<br>features</a></td>
+               </tr>
+               <tr>
+                 <td><a id = "productsMobileNavTab" href = "seatOptions.html">seat<br>options</a></td>
+               </tr>
+             </table>
+         </div>
+         </div>
+ 
+         <!-- displays when you click the order link -->
+         <div class = "links">
+           <a href="index.html" class="close-btn">&times;</a>
+           <a onclick="plusSlides(-3)" class="back-arrow">&#8592;</a>
+           <table>
+             <tr>
+               <th><a id = "orderMobileNavTabHeader" href = "pricelist.html">pricelist</a></th>
+               <th><a id = "orderMobileNavTabHeader" href = "instructions.html">instructions</a></th>
+             </tr>
+             <tr>
+               <td><a id = "orderMobileNavTab" href = "lutraPrices.html">Lutra</a></td>
+               <td> </td>
+             </tr>
+             <tr>
+               <td><a id = "orderMobileNavTab" href = "sylvaPrices.html">Sylva</a></td>
+               <td> </td>
+             </tr>
+             <tr>
+               <td><a id = "orderMobileNavTab" href = "paddlePrices.html">paddles</a></td>
+               <td> </td>
+             </tr>
+             <tr>
+               <td><a id = "orderMobileNavTab" href = "seatPrices.html">seats</a></td>
+               <td> </td>
+             </tr>
+           </table>
+         </div>
+ 
+       </div>
+ 
+       <div class="hamburger">
+         <a href = "#" class = "ham-icon"> 
+         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill = "#5DBAEF" class="bi bi-list" viewBox="0 0 16 16">
+           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+         </svg>
+         </a>
+       </div>
+ 
+       <!-- start of Javascript Code -->
+       <script>
+         document.querySelector("a.ham-icon").addEventListener("click", function(event){
+       document.getElementById("sideNavigation").style.width = "300px";
+       
+     });
+     
+     document.querySelector("a.close-btn").addEventListener("click", function(event){
+       document.getElementById("sideNavigation").style.width = "0";
+       
+     });
+   
+     let slideIndex = 1;
+           showSlides(slideIndex);
+           
+           function plusSlides(n) {
+             showSlides(slideIndex += n);
+           }
+           
+           function showSlides(n) {
+             let i;
+             let slides = document.getElementsByClassName("links");
+             if (n > slides.length) {slideIndex = 1}    
+             if (n < 1) {slideIndex = slides.length}
+             for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+             }
+             slides[slideIndex-1].style.display = "block";  
+           }
+       </script>
+       <!-- end of JavaScript code -->
+ 
+     <!-- !!!!!!!!!!!!!!!!! end of code for mobile nav bar !!!!!!!!!!!!!!!!! -->
+ 
+     <!-- !!!!!!!!!!!!!!!!! start of code for laptop and tablet nav bar !!!!!!!!!!!!!!!!! -->
+         <nav>
+           <ul>
+             <li><a id="navTab" href="index.html">home</a></li>
+             <!-- about me drop down -->
+             <li>
+               <div class="dropdown">
+               <button class="dropbtn">about me</button>
+               <div class="dropdown-content">
+                 <a id="dropdownStyle" href="aboutMe.html">about me</a>
+                 <a id="dropdownStyle" href="additionalLinks.html">additional links</a>
+               </div>
+               </div>
+             </li>
+             <!-- products dropdown -->
+             <div class = "noHide"> 
+             <li>
+                 <div class="dropdown">
+                 <button class="dropbtn">products</button>
+                 <div class="dropdown-content">
+                     <table>
+                         <tbody><tr>
+                           <th><a id="dropdownStyle">canoes</a></th>
+                           <th> <a id="dropdownStyle" href="paddles.html">paddles</a> </th>
+                           <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a></th>
+                           <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="canoes.html">models</a></td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="seatOptions.html">seat options</a></td>
+                         </tr>
+                     </tbody></table>
+                 </div>
+                 </div>
+               </li>
+             </div>
+             <!-- products drop down condensed version for a smaller screen size-->
+             <div class = "hide">
+             <li>
+               <div class="dropdown">
+               <button class="dropbtn">products</button>
+               <div class="dropdown-content">
+                   <table>
+                       <tbody><tr>
+                         <th><a id="dropdownStyle">canoes</a></th>
+                         <th> <a id="dropdownStyle" href="paddles.html">paddles</a> </th>
+                       </tr>
+                       <tr>
+                         <td><a id="dropdownStyle" href="canoes.html">models</a></td>
+                         <th> <a id="dropdownStyle" href="specialOrders.html">special orders</a></th>
+                       </tr>
+                       <tr>
+                         <td><a id="dropdownStyle" href="soloOptions.html">solo options</a></td>
+                         <th><a id="dropdownStyle" href="guidedBuilds.html">guided builds</a> </th>
+                       </tr>
+                       <tr>
+                         <td><a id="dropdownStyle" href="designFeatures.html">design features</a></td>
+                       </tr>
+                       <tr>
+                         <td><a id="dropdownStyle" href="seatOptions.html">seat options</a></td>
+                       </tr>
+                   </tbody></table>
+               </div>
+               </div>
+             </li>
+           </div>
+             <!-- order dropdown -->
+             <li>
+                 <div class="dropdown">
+                 <button class="dropbtn">order</button>
+                 <div class="dropdown-content">
+                     <table>
+                         <tbody><tr>
+                           <th> <a id="dropdownStyle" href="pricelist.html">pricelist</a> </th>
+                           <th><a id="dropdownStyle" href="instructions.html">instructions</a></th>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="lutraPrices.html">Lutra</a></td>
+                           <td> </td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="sylvaPrices.html">Sylva</a></td>
+                           <td> </td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="paddlePrices.html">paddles</a></td>
+                           <td> </td>
+                         </tr>
+                         <tr>
+                           <td><a id="dropdownStyle" href="seatPrices.html">seats</a></td>
+                           <td> </td>
+                         </tr>
+                     </tbody></table>
+                 </div>
+                 </div>
+               </li>
+             <li><a id="navTab" href="contact.html">contact</a></li>
+           </ul>
+       </nav>
+     </div>
+     </div> 
+ 
+     <!-- !!!!!!!!!!!!!!!!! end of code for laptop and tablet nav bar !!!!!!!!!!!!!!!!! -->
 
     <div class = "box titleDiv"> 
         <h1> Canoe Models </h1>
@@ -193,7 +311,7 @@
   
         <div class="footerRight">
           <div class="container">
-            <h2 class="getInTouchWords"> Get in touch → </h2>
+            <a href = "contact.html"><h2 class="getInTouchWords"> Get in touch → </h2></a>
             <h4 class="contactMethods"> [+1] (802) 759-2268</h4>
             <h4 class="contactMethods">  @ottercreeksmallcraft </h4>
             <h4 class="contactMethods"> mail@ottercreeksmallcraft.com </h4>
