@@ -224,6 +224,7 @@
         
         <script>
         let slideIndex = 1;
+        let gridHeight = getHeight();
         showSlides(slideIndex);
         
         function plusSlides(n) {
@@ -234,14 +235,17 @@
           showSlides(slideIndex = n);
         }
 
+        function getHeight(){
+          gridValues = document.querySelector(".grid");
+          elemHeight = gridValues.offsetHeight;
+          return elemHeight;
+        }
+
         
         function showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("mySlides");
           let dots = document.getElementsByClassName("dot");
-
-/*           let gridValues = document.getElementsByClassName("grid");
-          let height = gridValues.getPropertyValue("height"); */
 
           if (n > slides.length) {slideIndex = 1}    
           if (n < 1) {slideIndex = slides.length}
@@ -254,7 +258,7 @@
           // if its the first slide, display is block.
           if(slideIndex-1 ==  0) {slides[slideIndex-1].style.display = "block";}
           if(slideIndex -1 != 0) {slides[slideIndex-1].style.display = "flex";}
-/*           if(slideIndex -1 != 0 && height <= 1366) {slides[slideIndex-1].style.display = "block";} */   
+          if(slideIndex -1 != 0 && gridHeight <= 1366) {slides[slideIndex-1].style.display = "block";}  
           dots[slideIndex-1].className += " active";
         }
         </script>
