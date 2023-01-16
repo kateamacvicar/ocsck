@@ -107,6 +107,7 @@ nav ul a:focus {
 th{
   text-decoration: underline;
   font-weight: normal;
+  text-align: inherit;
 }
 
 footer {
@@ -284,13 +285,13 @@ footer {
 }
 
 #productsMobileNavTab{
-  padding-right: 1.5rem;
-  font-size: 1.4rem;
+  padding-right: 2.5rem;
+  font-size: 1.5rem;
 }
 
 #productsMobileNavTabHeader{
-  padding-right: 1.5rem;
-  font-size: 1.5rem;
+  padding-right: 2.5rem;
+  font-size: 1.6rem;
   text-align: inherit;
 }
 

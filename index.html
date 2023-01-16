@@ -17,7 +17,7 @@
 
     <div class="box navBar">
      <div role="navigation" aria-label="Nav bar">
-      <!-- start of code for mobile nav bar -->
+      <!-- !!!!!!!!!!!!!!!!! start of code for mobile nav bar !!!!!!!!!!!!!!!!! -->
       <div id = "sideNavigation" class="sidenav">
 
         <div class = "links">
@@ -29,6 +29,7 @@
           <a id = "mobileNavTab" href="contact.html">contact</a>
         </div>
 
+        <!-- displays when you click the about me link -->
         <div class = "links">
           <a href="index.html" class="close-btn">&times;</a>
           <a onclick="plusSlides(-1)" class="back-arrow">&#8592;</a>
@@ -36,6 +37,7 @@
           <a id = "aboutMeNavTab" href = "additionalLinks.html"> additional links </a>
         </div>
 
+        <!-- displays when you click the products link -->
         <div class = "links">
           <a href="index.html" class="close-btn">&times;</a>
           <a onclick="plusSlides(-2)" class="back-arrow">&#8592;</a>
@@ -47,22 +49,23 @@
               </tr>
               <tr>
                 <td><a id = "productsMobileNavTab" href = "canoes.html">models</a></td>
-                <th><a id = "productsMobileNavTabHeader" href = "specialOrders.html">special orders</a></th>
+                <th><a id = "productsMobileNavTabHeader" href = "specialOrders.html">special<br>orders</a></th>
               </tr>
               <tr>
-                <td><a id = "productsMobileNavTab" href = "soloOptions.html">solo options</a></td>
-                <th><a id = "productsMobileNavTabHeader" href = "guidedBuilds.html">guided builds</a></th>
+                <td><a id = "productsMobileNavTab" href = "soloOptions.html">solo<br>options</a></td>
+                <th><a id = "productsMobileNavTabHeader" href = "guidedBuilds.html">guided<br>builds</a></th>
               </tr>
               <tr>
-                <td><a id = "productsMobileNavTab" href = "designFeatures.html">design features</a></td>
+                <td><a id = "productsMobileNavTab" href = "designFeatures.html">design<br>features</a></td>
               </tr>
               <tr>
-                <td><a id = "productsMobileNavTab" href = "seatOptions.html">seat options</a></td>
+                <td><a id = "productsMobileNavTab" href = "seatOptions.html">seat<br>options</a></td>
               </tr>
             </table>
         </div>
         </div>
 
+        <!-- displays when you click the order link -->
         <div class = "links">
           <a href="index.html" class="close-btn">&times;</a>
           <a onclick="plusSlides(-3)" class="back-arrow">&#8592;</a>
@@ -99,9 +102,42 @@
         </svg>
         </a>
       </div>
-    <!-- end of code for mobile nav bar -->
 
-    <!-- start of code for laptop and tablet nav bar  -->
+      <!-- start of Javascript Code -->
+      <script>
+        document.querySelector("a.ham-icon").addEventListener("click", function(event){
+      document.getElementById("sideNavigation").style.width = "350px";
+      
+    });
+    
+    document.querySelector("a.close-btn").addEventListener("click", function(event){
+      document.getElementById("sideNavigation").style.width = "0";
+      
+    });
+  
+    let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("links");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slides[slideIndex-1].style.display = "block";  
+          }
+      </script>
+      <!-- end of JavaScript code -->
+
+    <!-- !!!!!!!!!!!!!!!!! end of code for mobile nav bar !!!!!!!!!!!!!!!!! -->
+
+    <!-- !!!!!!!!!!!!!!!!! start of code for laptop and tablet nav bar !!!!!!!!!!!!!!!!! -->
         <nav>
           <ul>
             <li><a id="navTab" href="#">home</a></li>
@@ -211,7 +247,7 @@
     </div>
     </div> 
 
-    <!-- end of code for laptop and tablet nav bar -->
+    <!-- !!!!!!!!!!!!!!!!! end of code for laptop and tablet nav bar !!!!!!!!!!!!!!!!! -->
 
 
 
@@ -314,36 +350,6 @@
     </div>
     
     </div>
-
-    <script>
-      document.querySelector("a.ham-icon").addEventListener("click", function(event){
-    document.getElementById("sideNavigation").style.width = "350px";
-    
-  });
-  
-  document.querySelector("a.close-btn").addEventListener("click", function(event){
-    document.getElementById("sideNavigation").style.width = "0";
-    
-  });
-
-  let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("links");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slides[slideIndex-1].style.display = "block";  
-        }
-    </script>
 
 </body>
 </html>
