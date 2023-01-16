@@ -17,10 +17,6 @@ html{
     cursor: pointer;
   }
 
-  a:hover{
-    color:#BACEDA;
-  }
-
 
   h1{
     font-weight: normal;
