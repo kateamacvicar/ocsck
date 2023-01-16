@@ -1,28 +1,22 @@
 <?php
-// Get data from form 
-$name = $_POST['name'];
-$email= $_POST['email'];
-$message= $_POST['message'];
- 
-$email_from = "km1@wellesley.edu";
-$to = "kateamacvicar@gmail.com";
-$subject = "New Message";
- 
-// The following text will be sent
-// Name = user entered name
-// Email = user entered email
-// Message = user entered message
-$txt ="Name:  $name  .\n".  
-        "Email: $email .\n". 
-        "Message: $message.\n";
- 
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $email \r\n";
 
-if($email != NULL) {
-    mail($to, $subject, $txt, $headers);
+//if statement checks that someone actually submitted something. 
+if(isset($_POST['submit'])){
+    // Get data from form 
+$name = $_POST['name'];
+$subject= $_POST['subject'];
+$mailFrom = $_POST['email'];
+$message= $_POST['message'];
+
+//won't work with a gmail address
+$mailTo = "km1@wellesley.edu";
+$headers = "From: ".$mailFrom;
+$txt = "You have received an e-mail from ".$name.".\n\n".$message;
+
+mail($mailTo, $subject, $txt, $headers);
+
+//redirect to:
+header("Location: thankYou.html");
 }
- 
-// Redirect to
-header("Location: index.html");
+
 ?>
