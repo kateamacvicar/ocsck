@@ -4,7 +4,7 @@ html{
   font-family: 'Linden Hill';
   font-weight: normal;
   margin: 0px;
-  background-color: #4A95BF;
+  /* background-color: #4A95BF; */
 }
 
 a{
@@ -13,7 +13,7 @@ a{
 }
 
 body{
-  margin: 0;
+  margin: 0px;
 }
 
 h1{
