@@ -278,32 +278,32 @@ footer {
 table{
   margin:auto;
 }
-.mobileNavTab{
+#mobileNavTab{
   padding-left: 1rem;
   font-size: 1.6rem;
 }
-.aboutMeNavTab{
+#aboutMeNavTab{
   padding-left: 1rem;
   font-size: 1.6rem;
 }
 
-.productsMobileNavTab{
+#productsMobileNavTab{
   padding-right: 2.5rem;
   font-size: 1.5rem;
 }
 
-.productsMobileNavTabHeader{
+#productsMobileNavTabHeader{
   padding-right: 2.5rem;
   font-size: 1.6rem;
   text-align: inherit;
 }
 
-.orderMobileNavTabHeader{
+#orderMobileNavTabHeader{
   padding-left: 1rem;
   padding-right: 2rem;
 }
 
-.orderMobileNavTab{
+#orderMobileNavTab{
   padding-left: 1rem;
 }
 
