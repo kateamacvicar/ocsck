@@ -117,12 +117,25 @@ p{
   display:flex;
 }
 
-.imageContainer{
-  height:200px;
-  width:200px;
+.leftImageContainer{
+  display:flex;
+  grid-column-start:1;
+  grid-column-end:span 1;
+}
+
+.rightImageContainer{
+  display:flex;
+  grid-column-start:2;
+  grid-column-end:span 1;
 }
 
 .textContainer{
+  display:flex;
+  grid-column-start:3;
+  grid-column-end:span 2;
+}
+
+.block{
   display:block;
 }
 
