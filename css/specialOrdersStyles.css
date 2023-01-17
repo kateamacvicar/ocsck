@@ -67,7 +67,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:4% 81% 15%;
+  grid-template-rows:4% 5% 66% 15%;
 }
 
 .box {
