@@ -24,6 +24,8 @@ html{
   h2{
     font-weight: normal;
     text-align: center;
+    margin-bottom: 1%;
+    margin-top: 4%;
   }
 
   h4{
@@ -38,7 +40,7 @@ html{
     text-align: center;
     width:65%;
     margin:auto;
-    font-size:1.2rem;
+    font-size:1.3rem;
     padding:1%;
   }
   
@@ -104,7 +106,7 @@ html{
   ol{
     width:70%;
     margin:auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .canoeImg{
@@ -195,7 +197,19 @@ img{
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
   .grid{
-    height:1900px;
+    height:2100px;
+  }
+  h1{
+    font-size: 2.4rem;
+  }
+  .titleSubParagraph{
+    width:65%;
+  }
+  p{
+    width:75%;
+  }
+  ol{
+    width:75%;
   }
 }
 
