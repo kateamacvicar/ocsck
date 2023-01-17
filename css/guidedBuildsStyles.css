@@ -287,7 +287,7 @@ img{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 916px) and (orientation: landscape){
   .grid{
-    height: 2200px;
+    height: 2150px;
   }
 
   h1{

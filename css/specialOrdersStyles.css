@@ -46,6 +46,7 @@ h1{
 h2{
   font-weight: normal;
   text-align: center;
+  font-size: 2rem;
 }
 
 h3{
@@ -66,7 +67,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:4% 5% 66% 15%;
+  grid-template-rows:4% 5% 32% 2% 32% 15%;
 }
 
 .box {
@@ -77,6 +78,11 @@ p{
   grid-column-start: 1;
   grid-column-end: span 4;
   background-color: #0F1C23;
+}
+
+.title{
+  grid-column-start: 1;
+  grid-column-end: span 4;
 }
 
 .images{
@@ -102,6 +108,12 @@ p{
   grid-column-end:span 1;
 }
 
+.emptySpace{
+  display:flex;
+  grid-column-start:1;
+  grid-column-end:span 4;
+}
+
 .secondLeftImageContainer{
   display:flex;
   grid-column-start:1;
@@ -110,7 +122,7 @@ p{
 
 .secondTextContainer{
   display:flex;
-  grid-column-start:2;
+  grid-column-start:3;
   grid-column-end:span 2;
 }
 
@@ -120,7 +132,7 @@ p{
   grid-column-end:span 2;
 }
 
-.title{
+.sectionTitle{
   font-size: 2rem;
     margin: 0
 }
