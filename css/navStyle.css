@@ -178,6 +178,11 @@ footer {
   justify-content: center;
 }
 
+.icon{
+  height:20px;
+  width:20px;
+}
+
 .getInTouchWords{
   text-decoration-line: underline;
   text-decoration-color: #5DBAEF;
