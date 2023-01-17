@@ -38,11 +38,11 @@ html{
   }
   
   .grid {
-      height: 1200px;
+      height: 1400px;
       width: 100%;
       display: grid;
       grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      grid-template-rows: 5% 15% 30% 30% 20%;
+      grid-template-rows: 4.3% 8% 26% 29.7% 15% 17%;
     }
     
     .box {
@@ -63,7 +63,6 @@ html{
     }
     .bannerInfo{
       margin:auto;
-      padding: 2%;
     }
     
     #bannerSubHeader{
@@ -75,7 +74,7 @@ html{
     
     #bannerTitle{
       margin:0;
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: center;
     }
     
@@ -93,7 +92,7 @@ html{
     }
     
     .introWords{
-      font-size: 1.75rem;
+      font-size: 1.6rem;
       padding:5%;
       text-align: center;
       display: flex;

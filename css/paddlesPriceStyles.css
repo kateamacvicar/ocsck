@@ -39,7 +39,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 6.4% 79.6% 24%;
+    grid-template-rows: 6.4% 67.3% 26.3%;
 }
 
 .box {

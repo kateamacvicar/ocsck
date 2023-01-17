@@ -69,7 +69,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3% 4% 14% 28% 24% 12% 15%;
+    grid-template-rows: 3% 4% 14% 28% 24% 14.5% 12.5%;
 }
 
 .box {
