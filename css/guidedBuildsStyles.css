@@ -238,7 +238,7 @@ img{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
-    height:1650px;
+    height:1800px;
   }
   h1{
     font-size: 2rem;
@@ -253,20 +253,38 @@ img{
     width:80%;
   }
   .lightSectionText{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     width:75%;
   }
   ol{
     font-size: 1rem;
-    width:75%;
+    width:80%;
+  }
+  h2{
+    font-size: 1.1rem;
+    width: 75%;
+    margin: auto;
+    padding-top: 6%;
+    padding-bottom: 2%;
+  }
+  .slideshow-container{
+    height:255px;
+  }
+  .prev, .next{
+    font-size: 1.3rem;
+  }
+  .dot{
+    height:10px;
+    width:10px;
   }
 }
+
 
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
   .grid{
-    height: 1800px;
+    height: 2100px;
   }
 
   h1{
