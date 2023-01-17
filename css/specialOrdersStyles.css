@@ -108,19 +108,16 @@ p{
 }
 
 
-.repairsRebuild{
+.repairsRebuildsContainer{
   display:flex;
-  grid-column-start: 3;
-  grid-column-end: span 2;
-  
+}
+
+.textContainer{
+  display:block;
 }
 
 .originalDesigns{
   display:flex;
-  grid-column-start: 1;
-  grid-column-end: span 2;
-  overflow:hidden;
-  
 }
 
 .infoContainer{
