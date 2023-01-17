@@ -67,7 +67,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:4% 5% 32% 2% 32% 15%;
+  grid-template-rows:4% 5% 35% 6% 35% 15%;
 }
 
 .box {
@@ -92,20 +92,18 @@ p{
   justify-content: center;
 }
 
-.repairsRebuildsContainer{
-  display:flex;
-}
-
 .leftImageContainer{
   display:flex;
   grid-column-start:1;
   grid-column-end:span 1;
+  background-color: #BACEDA;
 }
 
 .rightImageContainer{
   display:flex;
   grid-column-start:2;
   grid-column-end:span 1;
+  background-color: #BACEDA;
 }
 
 .emptySpace{
@@ -118,18 +116,21 @@ p{
   display:flex;
   grid-column-start:1;
   grid-column-end:span 2;
+  background-color: #BACEDA;
 }
 
 .secondTextContainer{
   display:flex;
   grid-column-start:3;
   grid-column-end:span 2;
+  background-color: #BACEDA;
 }
 
 .textContainer{
   display:flex;
   grid-column-start:3;
   grid-column-end:span 2;
+  background-color: #BACEDA;
 }
 
 .sectionTitle{
@@ -139,6 +140,7 @@ p{
 
 .block{
   display:block;
+  margin:auto;
 }
 
 .infoContainer{
