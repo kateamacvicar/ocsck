@@ -34,7 +34,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     cursor: pointer;
   }
 
@@ -46,10 +46,12 @@ html{
   h1{
     font-weight: normal;
     text-align: center;
+    font-size: 2.5rem;
   }
 
   h2{
     font-weight: normal;
+    font-size: 2rem;
   }
 
   p{
@@ -60,11 +62,11 @@ html{
   }
   
 .grid{
-    height: 1100px;
+    height: 1250px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5.4% 74.6% 20%;
+    grid-template-rows: 4.8% 75.9% 19.3%;
 }
 
 .box {
@@ -81,7 +83,6 @@ html{
     grid-column-start: 1;
     grid-column-end: span 3;
     background-color:#4A95BF;
-    padding:2%;
   }
 
   .title{
@@ -96,6 +97,7 @@ html{
   #instructionsList{
     width:60%;
     margin:auto;
+    font-size: 1.1rem;
   }
 
    /* Start of Media Queries! */
@@ -116,10 +118,6 @@ html{
   .grid{
     height: 1400px;
   }
-
-  h1{
-    font-size: 2.5rem;
-  }
   .title{
     font-size: 1.6rem;
   }
@@ -131,9 +129,6 @@ html{
 
   #instructionsList{
     font-size: 1.2rem;
-  }
-  .contactMeBtn{
-    font-size: 1.4rem;
   }
 } 
 /* start of Media Queries!*/
