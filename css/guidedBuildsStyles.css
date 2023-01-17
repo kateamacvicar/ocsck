@@ -197,7 +197,7 @@ img{
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
   .grid{
-    height:2100px;
+    height:2200px;
   }
   h1{
     font-size: 2.4rem;
@@ -211,12 +211,15 @@ img{
   ol{
     width:75%;
   }
+  .slideshow-container{
+    height:570px;
+  }
 }
 
  /* tablet(landscape) 1367px and smaller */
  @media only screen and (max-width: 1367px) and (orientation:landscape){
   .grid{
-    height:1800px;
+    height:2100px;
   }
 }
 
