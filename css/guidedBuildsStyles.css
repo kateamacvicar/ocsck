@@ -238,7 +238,7 @@ img{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
-    height:1800px;
+    height:1900px;
   }
   h1{
     font-size: 2rem;
@@ -282,9 +282,9 @@ img{
 
 
 /* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px) and (orientation: landscape){
+@media only screen and (max-width: 916px) and (orientation: landscape){
   .grid{
-    height: 2100px;
+    height: 2200px;
   }
 
   h1{
@@ -293,6 +293,9 @@ img{
   .titleSubParagraph{
     font-size: 1.5rem;
     width:60%;
+  }
+  .slideshow-container{
+    height:450px;
   }
   p{
     width:75%;
