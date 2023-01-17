@@ -14,13 +14,10 @@ body{
 a{
   text-decoration: none;
   color:#0F1C23;
-  display: flex;
   text-decoration: none;
-  align-items: center;
-  justify-content: center;
 }
 
-#links{
+#link{
   text-decoration: none;
   display: flex;
   text-decoration: none;
@@ -53,7 +50,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 5% 7% 68% 20%;
+  grid-template-rows: 6% 7% 63% 24%;
 }
 
 .box {
