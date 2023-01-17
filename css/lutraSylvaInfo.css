@@ -70,7 +70,7 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:4% 7% 4% 31% 20% 21% 14%;
+    grid-template-rows:3.8% 5% 4% 30% 20.2% 23% 15%;
 }
 
 .box {
