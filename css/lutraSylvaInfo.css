@@ -183,6 +183,7 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height:1600px;
+    grid-template-rows: 3.6% 4% 5% 14% 20.4% 22% 16% 15%;
   }
   h1{
     font-size: 2rem;
@@ -190,15 +191,27 @@ html{
   .firstSectionTitle{
     font-size: 1.6rem;
   }
+  .firstSectionWords{
+    font-size: 1.15rem;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+  .firstSectionImg{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
   #instructionsList{
     font-size: 1rem;
   }
   .secondSectionP{
     font-size: 1.1rem;
   }
-  .lutraDiagramImg{
-    padding:4%;
-    height:40%;
+  .diagramImg{
+    padding:2%;
+    height:60%;
+  }
+  img{
+    height:80%;
   }
 }
 
