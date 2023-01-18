@@ -269,7 +269,7 @@ button{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
-    height:100px;
+    height:1000px;
     grid-template-rows: 5.9% 25% 15% 31.1% 23%;
     grid-template-columns: 1fr 1fr 1.5fr;
   }
