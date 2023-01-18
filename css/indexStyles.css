@@ -233,6 +233,12 @@ button{
   font-size: 1.5rem
 }
 
+.shadow{
+  background-color: #060B0E;
+  position:absolute;
+  z-index: 3;
+}
+
   /* Start of Media Queries! */
 
    /* tablet(portrait) 1024px and smaller */
