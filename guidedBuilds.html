@@ -301,68 +301,68 @@
 
           <div class="slideshow-container">
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla1rip.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla2strip.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla3plane.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla4epoxy.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla5sand.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla6cane.jpg">
             </div>
 
-            <div class="mySlides fade">
+            <div class="mySlides2 fade">
               <img id = "slideshowImg" src="images/xyla7paddle.jpg" style="width:60%">
             </div>
             
             
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+            <a class="prev" onclick="plusSlides2(-1)">❮</a>
+            <a class="next" onclick="plusSlides2(1)">❯</a>
             
           </div>
             <br>
             
             <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span> 
-              <span class="dot" onclick="currentSlide(5)"></span> 
-              <span class="dot" onclick="currentSlide(6)"></span> 
-              <span class="dot" onclick="currentSlide(7)"></span> 
+              <span class="dot" onclick="currentSlide2(1)"></span> 
+              <span class="dot" onclick="currentSlide2(2)"></span> 
+              <span class="dot" onclick="currentSlide2(3)"></span>
+              <span class="dot" onclick="currentSlide2(4)"></span> 
+              <span class="dot" onclick="currentSlide2(5)"></span> 
+              <span class="dot" onclick="currentSlide2(6)"></span> 
+              <span class="dot" onclick="currentSlide2(7)"></span> 
             </div>
     
             <!-- The start of the slideshow's Javascript code -->
             
             <script>
             let slideIndex2 = 1;
-            showSlides(slideIndex);
+            showSlides2(slideIndex);
             
-            function plusSlides(n) {
-              showSlides(slideIndex2 += n);
+            function plusSlides2(n) {
+              showSlides2(slideIndex2 += n);
             }
             
-            function currentSlide(n) {
-              showSlides(slideIndex2 = n);
+            function currentSlide2(n) {
+              showSlides2(slideIndex2 = n);
             }
             
-            function showSlides(n) {
+            function showSlides2(n) {
               let i;
-              let slides = document.getElementsByClassName("mySlides");
+              let slides = document.getElementsByClassName("mySlides2");
               let dots = document.getElementsByClassName("dot");
               if (n > slides.length) {slideIndex2 = 1}    
               if (n < 1) {slideIndex2 = slides.length}

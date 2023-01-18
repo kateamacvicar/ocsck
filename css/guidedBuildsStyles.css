@@ -118,6 +118,7 @@ html{
 
   * {box-sizing: border-box}
 .mySlides {display: none}
+.mySlides2 {display:none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
