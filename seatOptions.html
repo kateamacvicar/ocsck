@@ -342,7 +342,6 @@
         
         <script>
         let slideIndex2 = 1;
-        let gridWidth = getWidth();
         showSlides(slideIndex2);
         
         function plusSlides(n) {
@@ -351,12 +350,6 @@
         
         function currentSlide(n) {
           showSlides(slideIndex2 = n);
-        }
-
-        function getWidth(){
-          gridValues = document.querySelector(".grid");
-          elemWidth = gridValues.offsetWidth;
-          return elemWidth;
         }
 
         
@@ -374,9 +367,7 @@
             dots[i].className = dots[i].className.replace(" active", "");
           }
           // if its the first slide, display is block.
-          if(slideIndex2-1 ==  0) {slides[slideIndex2-1].style.display = "block";}
-          if(slideIndex2 -1 != 0) {slides[slideIndex2-1].style.display = "flex";}
-          if((slideIndex2 -1 != 0) && (gridWidth <= 480)) {slides[slideIndex2-1].style.display = "block";}  
+          if(slideIndex2-1 ==  0) {slides[slideIndex2-1].style.display = "block";}  
           dots[slideIndex2-1].className += " active";
         }
         </script>
