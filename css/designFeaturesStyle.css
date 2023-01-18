@@ -119,9 +119,11 @@ img {vertical-align: middle;}
   padding: 4%;
 }
 
-img{
+#slideshowImg{
   margin:auto;
+  width:60%;
 }
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -171,8 +173,8 @@ img{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
-    height:1300px;
-    grid-template-rows: 5% 75% 20%;
+    height:1100px;
+    grid-template-rows: 5.3% 74% 20.7%;
   }
   #smallScreen{
     display:block;
