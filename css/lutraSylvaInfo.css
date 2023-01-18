@@ -157,10 +157,19 @@ html{
  @media only screen and (max-width: 1024px){
   .grid{
     height:1700px;
-    grid-template-rows: 4% 5% 4% 29% 22% 21% 15%;
-  }
+    grid-template-rows: 3.5% 5% 4% 15% 14% 23.5% 21% 14%;
+}
   #instructionsList{
     font-size: 1.4rem;
+  }
+
+  .firstSectionWords{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+  .firstSectionImg{
+    grid-column-start: 1;
+    grid-column-end: span 4;
   }
 }
 
@@ -193,12 +202,6 @@ html{
   }
   .firstSectionWords{
     font-size: 1.15rem;
-    grid-column-start: 1;
-    grid-column-end: span 4;
-  }
-  .firstSectionImg{
-    grid-column-start: 1;
-    grid-column-end: span 4;
   }
   #instructionsList{
     font-size: 1rem;
