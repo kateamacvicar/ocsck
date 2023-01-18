@@ -263,7 +263,7 @@
     </div>
 
     <div class = "textBox">
-      <a href="index.html" class="popupClose-btn">&times;</a>
+      <a href="#" class="popupClose-btn">&times;</a>
       <h1 id = "popupTitle"> My shop is temporarily closed.  </h1>
       <h3 id = "popupSubTitle">I am currently away and unable to attend to business. 
         Please feel free to browse and to leave a message. 
@@ -275,7 +275,7 @@
       <!-- start of Javascript Code for popup -->
       <script>
         document.querySelector("a.popupClose-btn").addEventListener("click", function(event){
-      document.getElementById("textBox").style.display = "none";
+      document.getElementByClass("textBox").style.display = "none";
       
     });
       </script>
