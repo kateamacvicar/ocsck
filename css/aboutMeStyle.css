@@ -32,17 +32,18 @@ html{
       font-weight: normal;
   }
 
+
   button{
     font-family: 'Linden Hill';
     cursor: pointer;
   }
   
   .grid {
-      height: 1400px;
+      height: 1500px;
       width: 100%;
       display: grid;
       grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      grid-template-rows: 4.3% 8% 26% 29.7% 15% 17%;
+      grid-template-rows: 4% 8% 27% 30% 15% 16%;
     }
     
     .box {
@@ -199,11 +200,12 @@ html{
 
     /* tablet(portrait) 1024px and smaller */
   @media only screen and (max-width: 1024px){
-    .grid{
-      grid-template-rows: 5% 10% 25% 30% 15% 15%;
-    }
     .introWords{
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+    }
+
+    p{
+      margin:2%;
     }
   }
 
