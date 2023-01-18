@@ -43,7 +43,7 @@ html{
       width: 100%;
       display: grid;
       grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      grid-template-rows: 4% 8% 27% 30% 15% 16%;
+      grid-template-rows: 4% 8% 32% 25% 15% 16%;
     }
     
     .box {
@@ -89,6 +89,7 @@ html{
     grid-column-end: 3;
     display: flex;
     justify-content: center;
+    line-height: 2.9rem;
     
     }
     
@@ -200,6 +201,12 @@ html{
 
     /* tablet(portrait) 1024px and smaller */
   @media only screen and (max-width: 1024px){
+    .grid{
+      grid-template-rows: 4% 8% 28% 29% 15% 16%;
+    }
+    .intro{
+      line-height: 2rem;
+    }
     .introWords{
       font-size: 1.4rem;
     }
