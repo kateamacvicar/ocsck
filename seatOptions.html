@@ -255,7 +255,7 @@
 
       <div class="slideshow-container">
 
-          <div class="mySlides fade">
+          <div class="mySlides2 fade">
 
             <div class = "box miniBanner">
               <h1> Furnishing </h1>
@@ -291,7 +291,7 @@
             
           </div>
         
-        <div class="mySlides fade">
+        <div class="mySlides2 fade">
           <div class = "imgContainer"> 
             <img class = "images" src="images/21032201.JPG">
             <img class = "images" src="images/21032202.JPG">
@@ -309,7 +309,7 @@
           </div>
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlides2 fade">
           <div class = "imgContainer"> 
             <img class = "images" src="images/seatslide1.jpg">
             <img class = "images" src="images/seatslide2.jpg">
@@ -326,36 +326,36 @@
           </div>
         </div>
         
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
+        <a class="prev" onclick="plusSlides2(-1)">❮</a>
+        <a class="next" onclick="plusSlides2(1)">❯</a>
         
         </div>
         <br>
         
         <div style="text-align:center; padding-bottom:4%;">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide2(1)"></span> 
+          <span class="dot" onclick="currentSlide2(2)"></span> 
+          <span class="dot" onclick="currentSlide2(3)"></span> 
         </div>
 
         <!-- The start of the slideshow's Javascript code -->
         
         <script>
         let slideIndex2 = 1;
-        showSlides(slideIndex2);
+        showSlides2(slideIndex2);
         
-        function plusSlides(n) {
-          showSlides(slideIndex2 += n);
+        function plusSlides2(n) {
+          showSlides2(slideIndex2 += n);
         }
         
-        function currentSlide(n) {
-          showSlides(slideIndex2 = n);
+        function currentSlide2(n) {
+          showSlides2(slideIndex2 = n);
         }
 
         
-        function showSlides(n) {
+        function showSlides2(n) {
           let i;
-          let slides = document.getElementsByClassName("mySlides");
+          let slides = document.getElementsByClassName("mySlides2");
           let dots = document.getElementsByClassName("dot");
 
           if (n > slides.length) {slideIndex2 = 1}    

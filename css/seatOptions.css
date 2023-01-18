@@ -112,6 +112,7 @@ html{
 
   * {box-sizing: border-box}
 .mySlides {display: none}
+.mySlides2 {display:none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -182,8 +183,8 @@ img {vertical-align: middle;}
 }
 
 .imgContainer{
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 600px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -262,10 +263,9 @@ img {vertical-align: middle;}
   .imgContainer{
   height: 400px;
   width: 300px;
-  margin: auto;
   }
   .images{
-    height: 50%;
+    height: 55%;
     width:auto;
     margin:auto;
   }
