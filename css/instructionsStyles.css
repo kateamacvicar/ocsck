@@ -101,6 +101,7 @@ html{
  @media only screen and (max-width: 1024px){
   .grid{
     height: 1400px;
+    grid-template-rows: 4.2% 78.8% 17%;
   }
   .title{
     font-size: 1.6rem;
@@ -136,6 +137,10 @@ html{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+  .grid{
+    height: 1400px;
+    grid-template-rows: 4.2% 78.8% 17%;
+  }
 
   h1{
     font-size: 2rem;
@@ -153,14 +158,4 @@ html{
     width:70%;
   }
 
-}
-
-/* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px){
-  .grid{
-    height: 1400px;
-  }
-  p{
-    width:80%;
-  }
 }

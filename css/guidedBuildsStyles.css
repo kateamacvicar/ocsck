@@ -174,9 +174,11 @@ img {vertical-align: middle;}
   padding: 2%;
 }
 
-img{
+#slideshowImg{
   margin:auto;
+  width:60%;
 }
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}

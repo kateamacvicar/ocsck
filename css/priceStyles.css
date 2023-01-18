@@ -114,6 +114,7 @@ html{
   
   .grid{
     height: 1367px;
+    grid-template-rows: 4.5% 77.5% 18%;
   }
 
   h1{

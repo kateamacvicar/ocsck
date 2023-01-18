@@ -114,7 +114,7 @@ p{
 
   .grid{
     height:1368px;
-    grid-template-rows: 5% 10% 65% 20%;
+    grid-template-rows: 4.5% 10% 67.5% 18%;
   }
   .item{
     height:22rem;

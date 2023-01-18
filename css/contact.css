@@ -106,6 +106,7 @@ input[type=text], select, textarea {
  @media only screen and (max-width: 1025px){
   .grid{
     height:1366px;
+    grid-template-rows: 4.3% 77.7% 18%;
   }
 }
 
@@ -127,7 +128,8 @@ input[type=text], select, textarea {
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px), (orientation: lanscape){
   .grid{
-    height:1150px
+    height:1150px;
+    grid-template-rows: 5% 75% 20%;
   }
   h1{
     font-size: 2rem;
