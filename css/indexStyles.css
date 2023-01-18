@@ -198,13 +198,12 @@ button{
 
   
 .textBox{
-  /* display:none; */
-  top: 25%;
-  left: 30%;
+  margin-top: 15%;
+  margin-left: 27%;
   padding: 2%;
-  height: 400px;
-  width: 500px;
-  background-color: #BACEDA;
+  height: 450px;
+  width: 550px;
+  background-color: #f1f8fb;
   text-align: center;
   position: absolute;
   z-index: 2;
@@ -212,17 +211,18 @@ button{
 }
 
 .popupClose-btn{
-  margin-left:485px;
-  margin-top:-10px;
+  margin-left: 530px;
+  margin-top: -5px;
+  font-size: 2rem;
 }
 
 #popupTitle{
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 #popupP{
-  font-size: 1.2rem;
-  color:rgb(66, 65, 65);
+  font-size: 1.4rem;
+  color:rgb(129 129 129);
 }
 
 #popupSubTitle{
@@ -230,7 +230,7 @@ button{
   font-weight: normal;
   width: 80%;
   margin: auto;
-  font-size: 1.5rem
+  font-size: 1.7rem
 }
 
   /* Start of Media Queries! */
