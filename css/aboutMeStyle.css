@@ -207,6 +207,12 @@ html{
     p{
       margin:2%;
     }
+    .exploreButton{
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
   }
 
   /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
