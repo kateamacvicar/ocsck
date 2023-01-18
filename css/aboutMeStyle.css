@@ -197,176 +197,35 @@ html{
 
     /* Start of Media Queries! */
 
-  @media only screen and (max-width: 1200px){
+    /* tablet(portrait) 1024px and smaller */
+  @media only screen and (max-width: 1024px){
+    .grid{
+      grid-template-rows: 5% 10% 25% 30% 15% 15%;
+    }
     .introWords{
       font-size: 1.5rem;
     }
-    .grid{
-      grid-template-rows: 5% 10% 30% 35% 20%;
-    }
   }
 
-  @media only screen and (max-width: 1000px){
-    .introPic{
-      /* height:85%; */
-    }
+  /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
+/* 
+1. iphone SE (375px x 667px)
+2. iphone XR (414 px x 896px)
+3. iphone 12 Pro (390px x 844px)
+4. Pixel 5 (393px x 851px)
+5. Samsung Galaxy S8+ (360px x 740px)
+6. Samsung Galaxy s20 Ultra (412px x 915px)
+7. Galaxy Fold (280px x 653px)
+8. Samsung Galaxy A51/71 (412px x 914px)
+9. iphone 6/7/8 (375px x 667px)
+10. iphone 6/7/8 Plus (414px x 736px)
+11. iphone X (375px x 812px) 
+*/
 
-    #bannerTitle{
-      font-size: 2.6rem;
-    }
-  }
-
-  @media only screen and (max-width: 900px){
-    .introWords{
-      font-size: 1.3rem;
-    }
-    .introPic{
-      /* height:75%; */
-    }
-
-    .introPhoto{
-      padding:0;
-    }
-
-    .rightWordsMid{
-      font-size: 1.1rem;
-    }
-
-    .grid{
-      height: 1100px;
-    }
-    #bannerSubHeader{
-      letter-spacing: 0;
-    }
-    .exploreButton{
-      font-size: 1.2rem;
-    }
-  }
-
-  @media only screen and (max-width: 770px){
-    .introWords{
-      font-size: 1.15rem;
-      margin:0;
-      padding:3%;
-    }
-    .introPic{
-      /* height:60%; */
-    }
-    .rightWordsMid{
-      font-size: 1rem;
-    }
-    #bannerTitle{
-      font-size: 2.4rem;
-    }
-    #bannerSubHeader{
-      font-size: 1.4rem;
-    }
-  }
-
-  @media only screen and (max-width: 680px){
-    #bannerTitle{
-      font-size: 2.3rem;
-    }
-    #bannerSubHeader{
-      font-size: 1.3rem;
-    }
-    h1{
-      font-size: 1.7rem;
-    }
-    .rightWordsMid{
-      font-size: 0.8rem;
-    }
-
-  .logo{
-    height: 50%;
-  }
-
-  #bottomP{
-    font-size: 1.2rem;
-  }
-    }
-
-    /* this media query changes the mid words so that they are stacked.*/
-  @media only screen and (max-width: 500px){
-    .grid{
-      height: 1000px;
-      grid-template-rows: 5% 10% 15% 15% 35% 15%;
-    }
-    #bannerTitle{
-      font-size: 2rem;
-    }
-    .introWords{
-      font-size: 1rem;
-    }
-
-    .hiddenWords{
-      display:flex
-    }
-
-    .leftWordsMid{
-      display:none;
-    }
-
-    .rightWordsMid{
-      display:none;
-    }
-
-    h1{
-      font-size: 1.6rem;
-    }
-    #bottomP{
-      font-size: 1rem;
-    }
+/* mobile (portrait) 480px and smaller */
+@media only screen and (max-width: 480px){
 
   }
-
-  @media only screen and (max-width: 420px){
-    .grid{
-      height:950px;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    #bannerTitle{
-      font-size: 1.8rem;
-    }
-
-    #bannerSubHeader{
-      font-size: 1.1rem;
-    }
-
-    .introPhoto{
-      grid-column-start: 2;
-      grid-column-end: span 2;
-    }
-
-    .intro{
-      grid-column-end: 5;
-    }
-    .introWords{
-      font-size: 0.8rem;
-    }
-
-    h1{
-      font-size: 1.4rem;
-    }
-    #bottomP{
-      font-size: 0.9rem;
-    }
-    .exploreButton{
-      font-size: 1rem;
-    }
-  }
-
-      /* ipad screens dimensions: 
-    ipad mini:768 x 1024 
-    ipad: 768 x 1024
-    ipad air: 820 x 1180
-    ipad pro: 1024 x 1366
-    */
-    @media only screen and (min-width:760px) and (max-width:1030px) and (min-height: 820px) and (max-height: 1400px){
-      .grid{
-        height:1400px;
-      }
-    }
 
 
 
