@@ -171,6 +171,7 @@ img{
 @media only screen and (max-width: 480px){
   .grid{
     height:1300px;
+    grid-template-rows: 5% 75% 20%;
   }
   #smallScreen{
     display:block;

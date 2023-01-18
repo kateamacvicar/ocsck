@@ -134,6 +134,7 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height: 930px;
+    grid-template-rows: 6.1% 68.9% 25%;
   }
 
   h1{

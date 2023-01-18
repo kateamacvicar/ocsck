@@ -196,7 +196,7 @@ p{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
   .grid{
-    grid-template-rows: 3.3% 4% 14% 24.15% 2.2% 14% 24.15% 14.2%;
+    grid-template-rows: 3.4% 4% 14% 24.15% 2.2% 14% 24.15% 14.1%;
   }
   .leftImageContainer{
     grid-column-start: 1;
@@ -218,6 +218,14 @@ p{
   }
   .smallWords{
     font-size: 1rem;
+  }
+  .secondLeftImageContainer{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+  .secondTextContainer{
+    grid-column-start: 1;
+    grid-column-end: span 4;
   }
   p{
     width:90%;
