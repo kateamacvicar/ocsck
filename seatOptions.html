@@ -366,8 +366,8 @@
           for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
           }
-          // if its the first slide, display is block.
-          if(slideIndex2-1 ==  0) {slides[slideIndex2-1].style.display = "block";}  
+          
+          slides[slideIndex2-1].style.display = "block"; 
           dots[slideIndex2-1].className += " active";
         }
         </script>
