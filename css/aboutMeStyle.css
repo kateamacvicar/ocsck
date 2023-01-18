@@ -109,7 +109,7 @@ html{
       justify-content: center;
       overflow: hidden;
       align-content: center;
-      padding:20%;
+      padding:5%;
     }
 
     #introPic{
@@ -226,6 +226,49 @@ html{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+
+  .grid{
+    grid-template-rows: 3.8% 6% 14% 18% 30% 13.2% 15%;
+}
+  #bannerTitle{
+    font-size: 2rem;
+  }
+  #bannerSubHeader{
+    font-size: 1.4rem;
+  }
+  .intro{
+    grid-column-start: 1;
+    grid-column-end: span 5;
+  }
+  .introWords{
+    font-size: 1rem;
+  }
+  .introPhoto{
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .hiddenWords{
+    display:flex;
+  }
+  h1{
+    font-size: 1.6rem;
+  }
+  .smallerP{
+    font-size: 0.9rem;
+  }
+  .leftWordsMid{
+    display:none;
+  }
+  .rightWordsMid{
+    display:none;
+  }
+  .bottomP{
+    font-size: 1.1rem;
+    width:80%;
+  }
+  .exploreButton{
+    font-size: 1.2rem;
+  }
 
   }
 
