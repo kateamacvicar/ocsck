@@ -175,22 +175,7 @@ p{
 
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
-  .grid{
-    height:1600px;
-    grid-template-rows: 4% 5% 66% 10% 15%;
-  }
-  .infoContainer{
-    width:90%;
-  }
-  h3{
-    font-size: 2.1rem;
-  }
-  .bigWords{
-    font-size: 1.7rem;
-  }
-  .smallWords{
-    font-size: 1.4rem;
-  }
+
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -210,58 +195,12 @@ p{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
-  .grid{
-    height: 1000px;
-    grid-template-rows: 4% 5% 59% 10% 22%;
-  }
-  h1{
-    font-size: 1.8rem;
-  }
-  .originalDesigns{
-    display:none;
-  }
-  .repairsRebuild{
-    display:none;
-  }
-
-  .slideshow-container{
-    display:block;
-  }
-
-  img{
-    display:flex;
-  }
-  .contactMeBtn{
-    font-size: 1.1rem;
-  }
+ 
 }
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
-  .grid{
-    height: 1500px;
-    grid-template-rows: 4% 5% 66% 7% 18%;
-  }
-  h1{
-    font-size: 2rem;
-  }
-  .originalDesigns{
-    display:block;
-  }
-  h3{
-    font-size: 1.9rem;
-  }
-  .imgContainerOD{
-    height:13rem;
-    width:20rem;
-    display:block;
-  }
-  .bigWords{
-    font-size: 1.5rem;
-  }
-  .smallWords{
-    font-size: 1.3rem;
-  }
+
 } 
 
   
