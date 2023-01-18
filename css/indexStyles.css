@@ -277,7 +277,10 @@ button{
       font-size: 2rem;
   }
   #bannerSubHeader{
-    font-size: 1.4rem;
+    font-size: 1rem;
+    background-color: #0f1c2354;
+    font-weight: normal;
+    width:90%;
   }
   #bannerButton{
     font-size: 1.2rem;

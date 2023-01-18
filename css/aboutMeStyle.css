@@ -247,7 +247,7 @@ html{
     font-size: 2rem;
   }
   #bannerSubHeader{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .intro{
     grid-column-start: 1;
@@ -255,6 +255,7 @@ html{
   }
   .introWords{
     font-size: 1rem;
+    line-height: 1.5rem;
   }
   .introPhoto{
     grid-column-start: 1;
@@ -275,7 +276,7 @@ html{
   .rightWordsMid{
     display:none;
   }
-  .bottomP{
+  #bottomP{
     font-size: 1.1rem;
     width:80%;
   }
