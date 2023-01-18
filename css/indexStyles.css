@@ -198,7 +198,7 @@ button{
 
   
 .textBox{
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 27%;
   padding: 2%;
   height: 450px;
@@ -231,6 +231,14 @@ button{
   width: 80%;
   margin: auto;
   font-size: 1.7rem
+}
+
+#overlay{
+  width: 1280px;
+    height: 1200px;
+    position: absolute;
+    z-index: 1;
+    background-color: #000000c7;
 }
 
   /* Start of Media Queries! */
