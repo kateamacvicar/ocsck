@@ -216,7 +216,8 @@ img {vertical-align: middle;}
     width:75%;
   }
   .slideshow-container{
-    height:570px;
+    height:500px;
+    width:700px;
   }
 }
 
@@ -266,6 +267,7 @@ img {vertical-align: middle;}
   ol{
     font-size: 1rem;
     width:80%;
+    padding:2%;
   }
   h2{
     font-size: 1.1rem;
@@ -275,7 +277,11 @@ img {vertical-align: middle;}
     padding-bottom: 2%;
   }
   .slideshow-container{
-    height:255px;
+    height: 255px;
+    width: 380px;
+  }
+  #slideshowImg{
+    width:85%;
   }
   .prev, .next{
     font-size: 1.3rem;

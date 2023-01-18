@@ -244,7 +244,7 @@ img {vertical-align: middle;}
  @media only screen and (max-width: 1024px){
   .grid{
     height:1100px;
-    grid-template-rows: 4.5% 78% 17.5%;
+    grid-template-rows: 5.2% 73.8% 21%;
   }
   h1{
     font-size: 2rem;
@@ -281,7 +281,7 @@ img {vertical-align: middle;}
  @media only screen and (max-width: 1367px) and (orientation: landscape){
   .grid{
     height:1400px;
-
+    grid-template-rows: 3.5% 10% 71% 15.5%;
   }
 }
 
