@@ -45,11 +45,11 @@ html{
   }
   
 .grid{
-    height: 2000px;
+    height: 2100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3% 85% 12%;
+    grid-template-rows: 2.9% 85.6% 11.5%;
 }
 
 .box {
@@ -202,6 +202,7 @@ img {vertical-align: middle;}
  @media only screen and (max-width: 1024px){
   .grid{
     height:2200px;
+    grid-template-rows: 2.8% 86.2% 11%;
   }
   h1{
     font-size: 2.4rem;
@@ -225,6 +226,7 @@ img {vertical-align: middle;}
  @media only screen and (max-width: 1367px) and (orientation:landscape){
   .grid{
     height:2100px;
+    grid-template-rows: 2.9% 85.6% 11.5%;
   }
 }
 
@@ -247,6 +249,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 480px){
   .grid{
     height:1900px;
+    grid-template-rows: 3.1% 84.9% 12%;
   }
   h1{
     font-size: 2rem;
@@ -297,7 +300,8 @@ img {vertical-align: middle;}
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 916px) and (orientation: landscape){
   .grid{
-    height: 2150px;
+    height: 2200px;
+    grid-template-rows: 2.8% 86.2% 11%;
   }
 
   h1{
