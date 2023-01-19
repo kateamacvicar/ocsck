@@ -421,6 +421,9 @@ table{
   .sidenav{
     display:none;
   }
+  .footerLeft{
+    display:none;
+  }
 } 
 
 
