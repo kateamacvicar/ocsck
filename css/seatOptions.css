@@ -179,7 +179,6 @@ img {vertical-align: middle;}
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-  padding: 4%;
 }
 
 .imgContainer{
@@ -201,12 +200,12 @@ img {vertical-align: middle;}
 .bigWords{
   font-size: 1.7rem;
   width:80%;
-  padding:5%;
+  padding:3%;
 }
 
 .smallWords{
   font-size: 1.3rem;
-  padding:3%;
+  padding:2%;
 }
 
 .blockContent{

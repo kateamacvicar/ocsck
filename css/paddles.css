@@ -96,6 +96,7 @@ html{
     grid-row-start: 3;
     grid-row-end: span 2;
     font-size: 2.3rem;
+    line-height: 1.6;
   }
 
   .topLeftImg{
