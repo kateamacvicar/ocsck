@@ -133,7 +133,7 @@ html{
   .diagramImg{
     display: flex;
     margin: auto;
-    padding: 2%;
+    padding-bottom: 2%;
   }
 
   #instructionsList{
@@ -192,7 +192,7 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height:1600px;
-    grid-template-rows: 3.6% 4% 5% 14% 20.4% 22% 16% 15%;
+    grid-template-rows: 3.6% 4% 5% 14% 20.4% 24% 14% 15%;
   }
   h1{
     font-size: 2rem;
@@ -205,12 +205,13 @@ html{
   }
   #instructionsList{
     font-size: 1rem;
+    width:85%;
   }
   .secondSectionP{
     font-size: 1.1rem;
   }
   .diagramImg{
-    padding:2%;
+    padding-bottom:5%;
     height:60%;
   }
   img{
@@ -220,4 +221,7 @@ html{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation:landscape){
+  .diagramImg{
+    padding-bottom:5%;
+  }
 }

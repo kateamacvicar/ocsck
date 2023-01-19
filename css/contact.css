@@ -128,7 +128,7 @@ input[type=text], select, textarea {
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px), (orientation: lanscape){
   .grid{
-    height:1150px;
+    height: 1200px;
     grid-template-rows: 5% 75% 20%;
   }
   h1{
