@@ -95,8 +95,14 @@ html{
   
      /* tablet(portrait) 1024px and smaller */
    @media only screen and (max-width: 1024px){
-    height: 1367px;
-    grid-template-rows: 4.5% 77.5% 18%;
+
+    .grid{
+        height: 1367px;
+        grid-template-rows: 4.5% 77.5% 18%;
+    }
+  }
+  .middle{
+    padding:10%;
   }
   
   /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -116,8 +122,13 @@ html{
   
   /* mobile (portrait) 480px and smaller */
   @media only screen and (max-width: 480px){
-    height: 1000px;
-    grid-template-rows: 5.7% 71.3% 23%;
+    .grid{
+        height: 950px;
+        grid-template-rows: 6% 70% 24%;
+    }
+    h1{
+        font-size: 2rem;
+    }
   }
   
   /* mobile (landscape) 915 px and smaller */
