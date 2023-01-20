@@ -328,6 +328,10 @@ table{
   line-height: 0.95rem;
 }
 
+.sidenav{
+  display:none;
+}
+
  /* Start of Media Queries! */
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
