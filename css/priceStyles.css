@@ -164,5 +164,8 @@ html{
   .tableRow{
     font-size: 1.4rem;
   }
+  .priceTable{
+    width:90%;
+  }
 
 }
