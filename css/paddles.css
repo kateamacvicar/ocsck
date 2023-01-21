@@ -97,6 +97,10 @@ html{
     line-height: 1.6;
   }
 
+  .images{
+    width:90%;
+  }
+
   .topLeftImg{
     display:flex;
     grid-column-start: 3;
