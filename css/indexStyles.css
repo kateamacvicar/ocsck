@@ -136,7 +136,7 @@ button{
   
   .navBar {
     grid-column-start: 1;
-    grid-column-end: span 4;
+    grid-column-end: span 3;
     background-color: #0F1C23;
   }
   
