@@ -98,7 +98,18 @@ html{
   }
 
   .images{
-    width:90%;
+    width:40%;
+    height:95%;
+  }
+
+  .paddleImage{
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start:3;
+    grid-row-end: 5;
+    align-items: center;
+    justify-content: center;
   }
 
   .topLeftImg{
