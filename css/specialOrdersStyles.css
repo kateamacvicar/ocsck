@@ -67,7 +67,7 @@ p{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:3.5% 7.5% 35.4% 6% 35.4% 14.2%;
+  grid-template-rows:3.5% 7.5% 35.65% 6% 35.65% 14.2%;
 }
 
 .box {
@@ -235,6 +235,10 @@ p{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
+  .grid{
+    grid-template-rows: 4% 4% 15% 24% 2% 14% 24% 14%
+
+  }
   .leftImageContainer{
     grid-column-start: 1;
     grid-column-end: span 2;
@@ -256,5 +260,6 @@ p{
     grid-column-end: span 4;
   }
 } 
+
 
   
