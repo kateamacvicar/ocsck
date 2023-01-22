@@ -334,6 +334,22 @@ table{
 
  /* Start of Media Queries! */
 
+ /* desktop screens. Above 1600px */
+ @media only screen and (min-width:1600px){
+  .footerTitle{
+    font-size: 1.9rem;
+  }
+  .creds{
+    font-size: 1.2rem;
+  }
+  .getInTouchWords{
+    font-size: 1.9rem;
+  }
+  .contactMethods{
+    font-size: 1.3rem;
+  }
+ }
+
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
 /* 
 1. ipad Air (820px x 1180px)
