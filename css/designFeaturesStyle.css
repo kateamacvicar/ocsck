@@ -203,7 +203,7 @@ img {vertical-align: middle;}
 }
 
 /*mobile in landscape mode.*/ 
-@media only screen and (max-width: 915px){
+@media only screen and (max-width: 916px){
   .grid{
     height: 1100px;
     grid-template-rows: 5.3% 73.7% 21%;

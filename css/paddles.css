@@ -256,6 +256,10 @@ h1{
 
 /* mobile (landscape) 915px and smaller */
 @media only screen and (max-width: 916px) and (orientation:landscape){
+  .grid{
+    grid-template-rows: 4% 4% 15% 20% 23% 18% 16%;
+    height: 1500px;
+  }
   .firstSectionWords{
     font-size: 2rem;
     line-height: 1.25;
@@ -263,9 +267,15 @@ h1{
   .secondSectionWords{
     font-size: 1.2rem;
   }
-  .topLeftImg{
-    margin-top:12%;
-    margin:0;
+  .images{
+    width: 25%;
+    height: 95%;
+  }
+  .peterCanoeImg{
+    height:75%;
+  }
+  p{
+    padding:2%;
   }
 }
   
