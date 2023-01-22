@@ -236,7 +236,7 @@ p{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
   .grid{
-    grid-template-rows: 4% 4% 15% 24% 2% 14% 24% 14%
+    grid-template-rows: 3.5% 4% 18.75% 19.5% 2% 18.75% 19.5% 14%
 
   }
   .leftImageContainer{
