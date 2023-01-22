@@ -236,7 +236,8 @@ p{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
   .grid{
-    grid-template-rows: 3.5% 4% 18.75% 19.5% 2% 18.75% 19.5% 14%
+    height: 2100px;
+    grid-template-rows: 2.8% 4% 19.85% 19.5% 3% 19.85% 19.5% 11.5%
 
   }
   .leftImageContainer{
@@ -258,6 +259,9 @@ p{
   .secondTextContainer{
     grid-column-start: 1;
     grid-column-end: span 4;
+  }
+  .images{
+    width: 90%;
   }
 } 
 
