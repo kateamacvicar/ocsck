@@ -50,6 +50,7 @@ button{
   font-weight: bold;
   margin:auto;
   width:70%;
+  padding-bottom: 3%;
 
 }
 
@@ -194,6 +195,8 @@ button{
     display: flex;
     justify-content: center;
     background-image: url("../images/0603.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   
@@ -243,11 +246,32 @@ button{
 
   /* Start of Media Queries! */
 
+  /*Desktop 1600px and higher*/
+  @media only screen and (min-width: 1600px){
+
+    #bannerTitle{
+      font-size: 3.5rem;
+      padding-bottom: 10%;
+    }
+    #bannerSubHeader{
+      width:80%;
+    }
+    #firstIndexWords{
+      font-size: 1.8rem;
+    }
+    #secondIndexWords{
+      font-size: 1.4rem;
+    }
+  }
+
    /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
   .grid{
     height:1366px;
     grid-template-rows: 4.5% 40% 38% 17.5%
+  }
+  .bannerInfo{
+    padding-bottom: 15%;
   }
 }
 
