@@ -201,4 +201,18 @@ img {vertical-align: middle;}
     justify-content: center;
   }
 }
+
+/*mobile in landscape mode.*/ 
+@media only screen and (max-width: 915px){
+  .grid{
+    height: 1100px;
+    grid-template-rows: 5.3% 73.7% 21%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  #titleSubHeader{
+    padding:0;
+  }
+}
  
