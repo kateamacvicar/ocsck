@@ -172,8 +172,9 @@ The:
   
   
   /* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px) and (orientation: landscape){
+@media only screen and (max-width: 916px) and (orientation: landscape){
     .grid{
-        grid-template-rows: 6% 64% 30%;
+      height: 750px;
+        grid-template-rows: 8% 61% 31%;
     }
   } 
