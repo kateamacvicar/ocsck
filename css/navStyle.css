@@ -140,7 +140,7 @@ footer {
   justify-content: space-around;
   background-color: #0F1C23;
   grid-column-start: 1;
-  grid-column-end: span 3;
+  grid-column-end: span 4;
 }
 
 .footerLogo{
