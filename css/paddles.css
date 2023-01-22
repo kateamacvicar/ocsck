@@ -201,6 +201,9 @@ html{
   p{
     width:85%;
   }
+  .images{
+    width:40%;
+  }
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -251,6 +254,9 @@ h1{
 }
 .pricingBtn{
   font-size: 1rem;
+}
+.images{
+  width:35%;
 }
 }
 

@@ -271,7 +271,7 @@ button{
  @media only screen and (max-width: 1024px){
   .grid{
     height:1366px;
-    grid-template-rows: 4.5% 40% 38% 17.5%
+    grid-template-rows: 4.5% 30% 48% 17.5%
   }
   .bannerInfo{
     padding-bottom: 15%;
@@ -340,6 +340,9 @@ button{
 
     .wordsMid{
       display:none;
+    }
+    .bannerInfo{
+      padding-bottom:5%;
     }
 }
 
