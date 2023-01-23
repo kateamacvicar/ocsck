@@ -336,6 +336,7 @@ table{
 
  /* desktop screens. Above 1600px */
  @media only screen and (min-width:1600px){
+  
   .footerTitle{
     font-size: 1.9rem;
   }
@@ -348,6 +349,16 @@ table{
   .contactMethods{
     font-size: 1.3rem;
   }
+  li{
+    font-size: 1.8rem;
+  }
+  .dropbtn{
+    font-size: 1.8rem;
+  }
+  .logo{
+    height:80%;
+  }
+
  }
 
  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */

@@ -250,14 +250,14 @@ button{
   @media only screen and (min-width: 1600px){
     .grid{
       height:1500px;
-      grid-template-rows: 5.5% 38% 33% 25%;
+      grid-template-rows: 4% 38% 33% 25%;
     }
     #bannerTitle{
       font-size: 3.5rem;
     }
     #bannerSubHeader{
       width:80%;
-      padding-bottom: 10%;
+      padding-bottom: 5%;
     }
     #firstIndexWords{
       font-size: 1.8rem;
