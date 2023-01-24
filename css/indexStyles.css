@@ -273,9 +273,6 @@ button{
     height:1366px;
     grid-template-rows: 4.5% 30% 48% 17.5%
   }
-  .bannerInfo{
-    padding-bottom: 15%;
-  }
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
