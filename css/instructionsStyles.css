@@ -147,5 +147,16 @@ html{
     font-size: 1rem;
     width:70%;
   }
+}
 
+@media only screen and (max-width: 916px) and (orientation:landscape){
+  p{
+    width:80%;
+  }
+  .title{
+    width:80%;
+    }
+    .instructionsList{
+      width:70%;
+    }
 }
