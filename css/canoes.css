@@ -146,6 +146,15 @@ html{
 
    /* Start of Media Queries! */
 
+  /*desktop screens 1600px and up */
+
+  @media only screen and (min-width:1600px){
+    .grid{
+      height:1700px;
+      grid-template-rows: 4.4% 10% 67.1% 18.5%;
+    }
+  }
+
 /* Styles look good for tablet screen dimensions in portrait and landscape mode.  */
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */

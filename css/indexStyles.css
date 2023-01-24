@@ -250,7 +250,7 @@ button{
   @media only screen and (min-width: 1600px){
     .grid{
       height:1500px;
-      grid-template-rows: 4% 38% 33% 25%;
+      grid-template-rows: 5% 38% 36% 21%;
     }
     #bannerTitle{
       font-size: 3.5rem;

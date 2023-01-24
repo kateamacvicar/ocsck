@@ -85,6 +85,14 @@ html{
 
    /* Start of Media Queries! */
 
+   /* desktop screens 1600px and up */
+   @media only screen and (min-width:1600px){
+    .grid{
+      height:1200px;
+      grid-template-rows: 6.2% 67.8% 26%;
+    }
+   }
+
 /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
 /* 
 1. ipad Air (820px x 1180px)
