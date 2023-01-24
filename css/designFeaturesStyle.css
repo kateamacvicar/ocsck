@@ -121,7 +121,11 @@ img {vertical-align: middle;}
 
 #slideshowImg{
   margin:auto;
-  width:60%;
+  width:50%;
+}
+
+.slideshowInfo{
+  margin:auto;
 }
 
 @keyframes fade {
