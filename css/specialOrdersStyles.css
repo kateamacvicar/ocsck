@@ -225,14 +225,17 @@ p{
   .leftImageContainer{
     grid-column-start: 1;
     grid-column-end: span 2;
+    grid-row-start: 3;
   }
   .rightImageContainer{
     grid-column-start: 3;
     grid-column-end: span 2;
+    grid-row-start: 3;
   }
   .textContainer{
     grid-column-start: 1;
     grid-column-end: span 4;
+    grid-row-start: 4;
   }
   .sectionTitle{
     font-size: 1.7rem;
@@ -267,14 +270,17 @@ p{
   .leftImageContainer{
     grid-column-start: 1;
     grid-column-end: span 2;
+    grid-row-start: 3;
   }
   .rightImageContainer{
     grid-column-start: 3;
     grid-column-end: span 2;
+    grid-row-start: 3;
   }
   .textContainer{
     grid-column-start: 1;
     grid-column-end: span 4;
+    grid-row-start: 4;
   }
   .secondLeftImageContainer{
     grid-column-start: 1;
