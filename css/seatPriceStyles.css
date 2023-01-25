@@ -82,6 +82,19 @@ html{
 
    /* Start of Media Queries! */
 
+   /*desktop screens 1600px and up*/
+   @media only screen and (min-width:1600px){
+    .grid{
+      grid-template-rows: 6.7% 64.8% 28.5%;
+    }
+    #subtitle{
+      padding:2%;
+    }
+    .middle{
+      padding:1%;
+    }
+   }
+
    
    /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
 /* 

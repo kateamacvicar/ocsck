@@ -101,6 +101,17 @@ input[type=text], select, textarea {
   
 
    /* Start of Media Queries! */
+
+   /*desktop screens 1600px and up*/
+   @media only screen and (min-width:1600px){
+    .grid{
+      height:1300px;
+      grid-template-rows: 5.6% 70.4% 24%;
+    }
+    .middle{
+      padding:1%;
+    }
+   }
   
      /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1025px){
