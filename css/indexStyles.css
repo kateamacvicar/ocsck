@@ -345,11 +345,9 @@ button{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
-
   #firstIndexWords{
     padding:4%;
   }
 } 
 
 
-  

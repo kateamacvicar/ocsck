@@ -229,6 +229,17 @@ img {vertical-align: middle;}
 }
    /* Start of Media Queries! */
 
+   /* desktop styles */
+   @media only screen and (min-width:1600px){
+    .grid{
+      height:1600px;
+      grid-template-rows: 4.7% 75.9% 20%;
+    }
+    p{
+      font-size: 1.4rem;
+    }
+   }
+
 /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
 /* 
 1. ipad Air (820px x 1180px)
