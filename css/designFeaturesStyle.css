@@ -141,6 +141,9 @@ img {vertical-align: middle;}
     height:1500px;
     grid-template-rows: 5% 74% 21%;
   }
+  #slideshowImg{
+    width:40%;
+  }
 }
 
 /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
