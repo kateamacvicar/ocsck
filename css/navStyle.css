@@ -1,4 +1,8 @@
 
+#closedMessage{
+  background: #BACEDA;
+}
+
 html{
   font-size: 16px;
   font-family: 'Linden Hill';
@@ -98,10 +102,8 @@ nav ul a:focus {
 .dropdown-content a:hover {color: #BACEDA;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; color: grey}
+.dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/*.dropdown:hover .dropbtn {color: black; background-color: white;}*/
 
 .hide{
   display: none;
