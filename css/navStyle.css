@@ -350,16 +350,19 @@ table{
     font-size: 1.5rem;
   }
   .footerTitle{
-    font-size: 1.9rem;
+    font-size: 2.3rem;
+  }
+  .address{
+    font-size: 1.7rem;
   }
   .creds{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .getInTouchWords{
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
   .contactMethods{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .dropbtn{
     font-size: 1.8rem;
