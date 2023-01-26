@@ -87,8 +87,8 @@ html{
     .grid{
       grid-template-rows: 6.7% 64.8% 28.5%;
     }
-    #subtitle{
-      padding:2%;
+    #subTitle{
+      padding:1%;
     }
     .middle{
       padding:1%;

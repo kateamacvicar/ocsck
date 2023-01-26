@@ -150,8 +150,8 @@ html{
 
   @media only screen and (min-width:1600px){
     .grid{
-      height:1700px;
-      grid-template-rows: 4.4% 10% 67.1% 18.5%;
+      height:1850px;
+      grid-template-rows: 4% 10% 69% 17%;
     }
   }
 
