@@ -94,6 +94,12 @@ html{
       height:1400px;
       grid-template-rows: 5.4% 72.6% 22%;
     }
+    #instructionsList{
+      font-size: 1.3rem;
+    }
+    p{
+      font-size: 1.4rem;
+    }
   }
   
 /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
@@ -114,6 +120,12 @@ html{
   }
   .title{
     font-size: 1.9rem;
+  }
+  p{
+    width:75%;
+  }
+  .title{
+    width:75%
   }
 } 
 
