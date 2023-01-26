@@ -35,7 +35,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .pricingBtn:hover{
@@ -232,11 +232,15 @@ img {vertical-align: middle;}
    /* desktop styles */
    @media only screen and (min-width:1600px){
     .grid{
-      height:1600px;
-      grid-template-rows: 4.7% 75.9% 20%;
+      height:1700px;
+      grid-template-rows: 4.4% 77.1% 18.5%;
     }
     p{
       font-size: 1.4rem;
+    }
+    .dot{
+      height:15px;
+      width:15px;
     }
    }
 
@@ -350,6 +354,9 @@ img {vertical-align: middle;}
     height:auto;
     width:70%;
   }
+  .pricingBtn{
+    font-size: 1.2rem;
+  }
 }
 
 /* mobile landscape */
@@ -360,6 +367,9 @@ img {vertical-align: middle;}
   }
   .bigWords{
     font-size: 1.5rem;
+  }
+  .pricingBtn{
+    font-size: 1.3rem;
   }
 }
  

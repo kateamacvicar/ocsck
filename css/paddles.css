@@ -38,7 +38,7 @@ html{
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 5%;
     cursor: pointer;
   }
@@ -204,6 +204,9 @@ html{
   .images{
     width:40%;
   }
+  .pricingBtn{
+    font-size: 1.3rem;
+  }
 }
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
@@ -253,7 +256,7 @@ h1{
   font-size: 1rem;
 }
 .pricingBtn{
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .images{
   width:35%;
@@ -282,6 +285,9 @@ h1{
   }
   p{
     padding:2%;
+  }
+  .pricingBtn{
+    font-size: 1.1rem;
   }
 }
   

@@ -39,7 +39,7 @@ html{
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 
@@ -221,6 +221,9 @@ html{
   img{
     height:80%;
   }
+  .pricingBtn{
+    font-size: 1.3rem;
+  }
 }
 
 /* mobile (landscape) 915 px and smaller */
@@ -237,5 +240,8 @@ html{
 
   .firstSectionWords{
     font-size: 1.6rem;
+  }
+  .pricingBtn{
+    font-size: 1.2rem;
   }
 }
