@@ -4,7 +4,7 @@
   margin:0;
   padding:1%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 html{
@@ -346,7 +346,9 @@ table{
 
  /* desktop screens. Above 1600px */
  @media only screen and (min-width:1600px){
-  
+  #closedMessage{
+    font-size: 1.5rem;
+  }
   .footerTitle{
     font-size: 1.9rem;
   }
@@ -363,6 +365,9 @@ table{
     font-size: 1.8rem;
   }
   .dropbtn{
+    font-size: 1.8rem;
+  }
+  nav ul li{
     font-size: 1.8rem;
   }
   nav ul a:hover{
@@ -440,6 +445,10 @@ table{
 
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
+
+  #closedMessage{
+    font-size: 0.8rem;
+  }
   .footerTitle{
     font-size: 1.3rem;
   }
@@ -465,6 +474,9 @@ table{
 
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
+  #closedMessage{
+    font-size: 0.8rem;
+  }
   .sidenav{
     display:none;
   }
