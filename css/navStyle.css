@@ -447,7 +447,7 @@ table{
 @media only screen and (max-width: 480px){
 
   #closedMessage{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .footerTitle{
     font-size: 1.3rem;
@@ -475,7 +475,7 @@ table{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation: landscape){
   #closedMessage{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .sidenav{
     display:none;
