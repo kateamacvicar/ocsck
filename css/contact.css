@@ -37,11 +37,11 @@ html{
   }
   
 .grid{
-    height: 1200px;
+    height: 1250px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 4.8% 75.9% 19.3%;
 }
 
 .box {
@@ -91,7 +91,7 @@ input[type=text], select, textarea {
     font-family: 'Linden Hill';
     display:flex;
     margin:auto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   
   input[type=submit]:hover {
@@ -149,5 +149,16 @@ input[type=text], select, textarea {
   p{
     font-size: 1.2rem;
     width:85%;
+  }
+  input[type=submit]{
+    font-size: 1.2rem;
+  }
+}
+
+/*mobile landscape*/
+@media only screen and (max-width: 916px) and (orientation:landscape){
+  .grid{
+    height:1300px;
+    grid-template-rows: 4.5% 77.5% 18%;
   }
 }

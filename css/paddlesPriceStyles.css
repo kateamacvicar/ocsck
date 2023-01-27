@@ -116,6 +116,7 @@ html{
 @media only screen and (max-width: 1366px) and (orientation: landscape){
     .grid{
         height: 1024px;
+        grid-template-rows: 6% 70.5% 23.5%;
     }
 }
 
