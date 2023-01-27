@@ -169,6 +169,14 @@ img {vertical-align: middle;}
   }
 }
 
+/*tablet in landscape*/
+@media only screen and (max-width: 1367px) and (orientation:landscape){
+  .grid{
+    height:1100px;
+    grid-template-rows: 5.5% 73% 21.5%;
+  }
+}
+
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 

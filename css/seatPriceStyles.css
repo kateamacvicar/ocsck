@@ -49,7 +49,7 @@ html{
     background-color: #0F1C23;
   }
 
-  .subTitle{
+  #subTitle{
     padding:1%;
   }
 
@@ -176,5 +176,5 @@ html{
     grid-template-rows: 6% 70% 24%;
   }
 }
- 
+
     
