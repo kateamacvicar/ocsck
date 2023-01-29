@@ -145,6 +145,12 @@ html{
     margin:auto;
     font-size: 1.5rem;
   }
+
+  iframe{
+    margin:auto;
+    display:flex;
+    padding:3%;
+  }
    /* Start of Media Queries! */
 
    /*desktop 1600px and up*/
