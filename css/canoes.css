@@ -109,6 +109,11 @@ html{
     margin:auto;
   }
 
+  .flexContainer{
+    display:flex;
+    background-color: #4A95BF;
+  }
+
   .learnMoreLink{
     font-size: 1.4rem;
     text-decoration: underline;
