@@ -262,7 +262,7 @@ html{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation:landscape){
   .grid{
-    grid-template-rows: 3.5% 4% 3% 11% 20% 20% 24.5% 14%
+    grid-template-rows: 3.5% 4% 3% 11% 20% 18% 26.5% 14%
    }
   .diagramImg{
     padding-bottom:5%;
