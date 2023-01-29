@@ -1,0 +1,284 @@
+
+html{
+    font-size: 16px;
+    font-family: 'Linden Hill';
+    font-weight: normal;
+    margin: 0;
+    background-color: #4A95BF;
+  }
+
+  body{
+    margin:0px;
+    font-weight: normal;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0F1C23;
+  }
+
+  a:hover{
+    color:#BACEDA;
+  }
+
+  button{
+    font-family: 'Linden Hill';
+    cursor: pointer;
+  }
+
+  .pricingBtn{
+    display:flex;
+    margin:auto;
+    font-family: 'Linden Hill';
+    background-color: #0F1C23;
+    color:#5DBAEF;
+    border: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .pricingBtn:hover{
+    background-color: black;
+    color: #5DBAEF;
+  }
+
+  h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-weight: normal;
+  }
+
+  p{
+    text-align: center;
+    margin:auto;
+    width:80%;
+  }
+  
+.grid{
+    height: 1700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:3.5% 4% 3% 27% 20.2% 28.3% 14%;
+}
+
+.box {
+    color: black;
+  }
+
+  .navBar {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    background-color: #0F1C23;
+  }
+
+  .banner{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .firstSectionTitle{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    font-size: 1.9rem;
+    width:100%;
+    background-color: #BACEDA;
+  }
+
+  .firstSectionWords{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    font-size: 1.7rem;
+    background-color: #BACEDA;
+  }
+
+  .firstSectionImg{
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    background-color: #BACEDA;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondSection{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    margin:auto;
+    padding:1%;
+  }
+
+  .secondSectionP{
+    font-size: 1.4rem;
+    padding:2%;
+  }
+
+  .thirdSection{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+
+  .diagramImg{
+    display: flex;
+    margin: auto;
+    padding-bottom: 2%;
+  }
+
+  #instructionsList{
+    width:80%;
+    margin:auto;
+    font-size: 1.5rem;
+  }
+
+  iframe{
+    margin:auto;
+    display:flex;
+    padding:3%;
+  }
+   /* Start of Media Queries! */
+
+   /*desktop 1600px and up*/
+   @media only screen and (min-width:1600px){
+    .grid{
+      height:1800px;
+      grid-template-rows: 4.2% 5% 4% 25% 20.8% 23% 18%;
+    }
+    .firstSectionTitle{
+      font-size: 2rem;
+    }
+    .firstSectionWords{
+      font-size: 1.9rem;
+    }
+    #instructionsList{
+      font-size: 1.7rem;
+      width:85%;
+    }
+    .secondSectionP{
+      font-size: 1.5rem;
+      padding:3%;
+    }
+   }
+
+  /* !!!!!!!!!!!!!!!!!! TABLETS !!!!!!!!!!!!!!!!!! */
+/* 
+1. ipad Air (820px x 1180px)
+2. ipad Mini (768px x 1024px)
+3. Surface Pro 7 (912px x 1368px)
+4. Nest Hub (1024px x 600px)
+5. ipad (768px x 1024px)
+6. ipad pro (1024px x 1366px)
+ */
+
+ /* tablet(portrait) 1024px and smaller */
+ @media only screen and (max-width: 1024px){
+  .grid{
+    height:1800px;
+    grid-template-rows: 3.5% 5% 4% 15% 14% 23.5% 21% 14%;
+}
+  #instructionsList{
+    font-size: 1.4rem;
+  }
+
+  .firstSectionWords{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+  .firstSectionImg{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+  }
+}
+
+/*tablet landscape*/
+@media only screen and (max-width:1025px) and (orientation:landscape){
+  .grid{
+    grid-template-rows: 3.5% 5% 4% 12% 21% 21.5% 19% 14%;
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
+/* 
+1. iphone SE (375px x 667px)
+2. iphone XR (414 px x 896px)
+3. iphone 12 Pro (390px x 844px)
+4. Pixel 5 (393px x 851px)
+5. Samsung Galaxy S8+ (360px x 740px)
+6. Samsung Galaxy s20 Ultra (412px x 915px)
+7. Galaxy Fold (280px x 653px)
+8. Samsung Galaxy A51/71 (412px x 914px)
+9. iphone 6/7/8 (375px x 667px)
+10. iphone 6/7/8 Plus (414px x 736px)
+11. iphone X (375px x 812px) 
+*/
+
+/* mobile (portrait) 480px and smaller */
+@media only screen and (max-width: 480px){
+  .grid{
+    height:1600px;
+    grid-template-rows: 3.6% 4% 5% 14% 20.4% 24% 14% 15%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .firstSectionTitle{
+    font-size: 1.5rem;
+    padding:2%;
+  }
+  .firstSectionWords{
+    font-size: 1.15rem;
+  }
+  #instructionsList{
+    font-size: 1rem;
+    width:85%;
+  }
+  .secondSectionP{
+    font-size: 1.1rem;
+  }
+  .diagramImg{
+    padding-bottom:5%;
+    height:60%;
+  }
+  img{
+    height:80%;
+  }
+  .pricingBtn{
+    font-size: 1.2rem;
+  }
+}
+
+/* mobile (landscape) 915 px and smaller */
+@media only screen and (max-width: 915px) and (orientation:landscape){
+  .grid{
+    grid-template-rows: 3.5% 4% 4% 11% 20% 23.5% 20% 14%
+   }
+  .diagramImg{
+    padding-bottom:5%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+
+  .firstSectionWords{
+    font-size: 1.6rem;
+  }
+  .pricingBtn{
+    font-size: 1.2rem;
+  }
+}
