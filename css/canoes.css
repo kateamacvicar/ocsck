@@ -112,6 +112,9 @@ html{
   .flexContainer{
     display:flex;
     background-color: #4A95BF;
+    width:90%;
+    margin:auto;
+    justify-content: space-between;
   }
 
   .learnMoreLink{
@@ -132,11 +135,16 @@ html{
   }
 
   .canoeDesc{
-    grid-column-start: 1;
-    grid-column-end: span 3;
+    /*grid-column-start: 1;
+    grid-column-end: span 3;*/
     background-color: #4A95BF;
     padding:3%;
     margin:2%;
+    width:650px;
+  }
+
+  .diagramImg{
+    width:450px;
   }
 
   .title{

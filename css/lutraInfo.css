@@ -127,7 +127,6 @@ html{
 
   .secondSectionP{
     font-size: 1.4rem;
-    padding:2%;
   }
 
   .thirdSection{
@@ -145,6 +144,7 @@ html{
     width:80%;
     margin:auto;
     font-size: 1.5rem;
+    padding:2%;
   }
 
   iframe{
@@ -189,7 +189,7 @@ html{
  /* tablet(portrait) 1024px and smaller */
  @media only screen and (max-width: 1024px){
   .grid{
-    height:1700px;
+    height:1800px;
     grid-template-rows: 3.5% 5% 4% 15% 14% 23.5% 21% 14%;
 }
   #instructionsList{
