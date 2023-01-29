@@ -170,7 +170,16 @@ html{
     }
   }
 
-/* Styles look good for tablet screen dimensions in portrait and landscape mode.  */
+/* tablet (portrait)*/
+@media only screen and (max-width:1024px){
+  .grid{
+    height:1900px;
+    grid-template-rows: 3.2% 9% 74.8% 13%;
+  }
+  .flexContainer{
+    display:block;
+  }
+}
 
 /* !!!!!!!!!!!!!!!!!! MOBILE  !!!!!!!!!!!!!!!!!! */
 /* 
@@ -190,7 +199,8 @@ html{
 /* mobile (portrait) 480px and smaller */
 @media only screen and (max-width: 480px){
 .grid{
-  height: 1450px;
+  height: 1750px;
+  grid-template-rows: 3.4% 9% 74.6% 13%;
 }
   h1{
     font-size: 2rem;
@@ -221,7 +231,7 @@ html{
   }
   .descP{
     font-size: 1.2rem;
-    width:65%;
+    width:85%;
   }
   .learnMoreButton{
     font-size: 1.1rem;

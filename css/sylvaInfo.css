@@ -231,13 +231,13 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height:1600px;
-    grid-template-rows: 3.6% 4% 5% 14% 20.4% 24% 14% 15%;
+    grid-template-rows: 3.6% 4% 5% 13% 18.4% 24% 17% 15%;
   }
   h1{
     font-size: 2rem;
   }
   .firstSectionTitle{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding:2%;
   }
   .firstSectionWords{
@@ -259,6 +259,10 @@ html{
   }
   .pricingBtn{
     font-size: 1.2rem;
+  }
+  iframe{
+    width:70%;
+    height:70%;
   }
 }
 
