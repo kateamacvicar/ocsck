@@ -262,7 +262,7 @@ html{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation:landscape){
   .grid{
-    grid-template-rows: 3.5% 4% 4% 11% 20% 23.5% 20% 14%
+    grid-template-rows: 3.5% 4% 3% 11% 20% 20% 24.5% 14%
    }
   .diagramImg{
     padding-bottom:5%;
@@ -270,9 +270,22 @@ html{
   h1{
     font-size: 2rem;
   }
+  #instructionsList{
+    font-size: 1.2rem;
+  }
+  .firstSectionTitle{
+    font-size: 1.7rem;
+  }
 
   .firstSectionWords{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+  }
+  .secondSectionP{
+    font-size: 1.3rem;
+  }
+  iframe{
+    width:70%;
+    height:70%;
   }
   .pricingBtn{
     font-size: 1.2rem;

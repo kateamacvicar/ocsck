@@ -234,7 +234,7 @@ html{
     grid-template-rows: 3.6% 4% 5% 13% 18.4% 24% 17% 15%;
   }
   h1{
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .firstSectionTitle{
     font-size: 1.4rem;
@@ -269,11 +269,24 @@ html{
 /* mobile (landscape) 915 px and smaller */
 @media only screen and (max-width: 915px) and (orientation:landscape){
   h1{
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+  .firstSectionTitle{
+    font-size: 1.7rem;
   }
 
   .firstSectionWords{
     font-size: 1.6rem;
+  }
+  #instructionsList{
+    font-size: 1.2rem;
+  }
+  .secondSectionP{
+    font-size: 1.3rem;
+  }
+  iframe{
+    width:70%;
+    height: 70%;
   }
   .pricingBtn{
     font-size: 1.2rem;
