@@ -174,10 +174,38 @@ html{
 @media only screen and (max-width:1024px){
   .grid{
     height:1900px;
-    grid-template-rows: 3.2% 9% 74.8% 13%;
+    grid-template-rows: 3.2% 7% 76.8% 13%;
+  }
+  h1{
+    margin:1.5%;
+  }
+  p{
+    width:75%;
   }
   .flexContainer{
     display:block;
+  }
+  .canoeDesc{
+    padding:1%;
+  }
+  .diagramImg{
+    display:flex;
+    margin:auto;
+    width:250px;
+    padding:2%;
+  }
+}
+
+/*tablet landscape*/
+@media only screen and (max-width:1025px) and (orientation:landscape){
+  .canoeDesc{
+    padding:3%;
+  }
+  .descP{
+    width:70%;
+  }
+  p{
+    width:60%;
   }
 }
 
