@@ -182,11 +182,16 @@ html{
   p{
     width:75%;
   }
+  .middleTitle{
+    width:80%;
+  }
   .flexContainer{
     display:block;
+    margin-top: 3%;
   }
   .canoeDesc{
     padding:1%;
+    width:auto;
   }
   .diagramImg{
     display:flex;
@@ -228,7 +233,7 @@ html{
 @media only screen and (max-width: 480px){
 .grid{
   height: 1750px;
-  grid-template-rows: 3.4% 9% 74.6% 13%;
+  grid-template-rows: 3.4% 7% 76.6% 13%;
 }
   h1{
     font-size: 2rem;
@@ -236,23 +241,26 @@ html{
 
   #titleSubHeader{
     font-size: 1.2rem;
+    width:70%;
+    margin:auto;
   }
 
   .middleTitle{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width:70%;
   }
 
   p{
-    width:85%;
+    width:90%;
     font-size: 1rem;
   }
   .learnMoreLink{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width:80%;
   }
   .canoeDesc{
     padding:5%;
+    width:auto;
   }
   .descTitle{
     font-size: 1.6rem;
