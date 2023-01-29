@@ -96,7 +96,6 @@ html{
     grid-column-start: 1;
     grid-column-end: span 4;
     font-size: 1.9rem;
-    width:100%;
     background-color: #BACEDA;
   }
 
@@ -190,7 +189,7 @@ html{
  @media only screen and (max-width: 1024px){
   .grid{
     height:1800px;
-    grid-template-rows: 3.5% 5% 4% 15% 14% 23.5% 21% 14%;
+    grid-template-rows: 3.5% 4% 4% 13% 14% 21.5% 26% 14%;
 }
   #instructionsList{
     font-size: 1.4rem;
@@ -232,13 +231,13 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height:1600px;
-    grid-template-rows: 3.6% 4% 5% 14% 20.4% 24% 14% 15%;
+    grid-template-rows: 3.6% 4% 5% 12% 19.4% 24% 17% 15%;
   }
   h1{
     font-size: 2rem;
   }
   .firstSectionTitle{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding:2%;
   }
   .firstSectionWords{
@@ -260,6 +259,10 @@ html{
   }
   .pricingBtn{
     font-size: 1.2rem;
+  }
+  iframe{
+    width:70%;
+    height:70%;
   }
 }
 
