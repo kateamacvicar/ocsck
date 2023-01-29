@@ -281,6 +281,26 @@ html{
 @media only screen and (max-width:916px) and (orientation:landscape){
   .grid{
     height:1600px;
-    grid-template-rows: 3.8% 10% 70.2% 16%;
+    grid-template-rows: 3.8% 9% 71.2% 16%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .middleTitle{
+    font-size: 1.7rem;
+  }
+  p{
+    width:70%;
+    font-size: 1.3rem;
+  }
+  .descP{
+    width:85%;
+    font-size: 1.4rem;
+  }
+  .learnMoreButton{
+    font-size: 1.2rem;
+  }
+  .flexContainer{
+    display:flex;
   }
 }
