@@ -145,10 +145,11 @@ html{
     padding:2%;
   }
 
-  iframe{
+  video{
     margin:auto;
     display:flex;
-    padding:3%;
+    padding:2%;
+    width:600px;
   }
    /* Start of Media Queries! */
 
@@ -249,19 +250,14 @@ html{
   .secondSectionP{
     font-size: 1.1rem;
   }
-  .diagramImg{
-    padding-bottom:5%;
-    height:60%;
-  }
   img{
     height:80%;
   }
   .pricingBtn{
     font-size: 1.2rem;
   }
-  iframe{
-    width:70%;
-    height:70%;
+  video{
+    width:350px;
   }
 }
 
@@ -282,10 +278,6 @@ html{
   }
   .secondSectionP{
     font-size: 1.3rem;
-  }
-  iframe{
-    width:70%;
-    height: 70%;
   }
   .pricingBtn{
     font-size: 1.2rem;

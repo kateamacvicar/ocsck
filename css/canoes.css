@@ -204,7 +204,7 @@ html{
 /*tablet landscape*/
 @media only screen and (max-width:1025px) and (orientation:landscape){
   .canoeDesc{
-    padding:3%;
+    padding:1%;
   }
   .descP{
     width:70%;
