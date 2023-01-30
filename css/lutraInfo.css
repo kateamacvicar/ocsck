@@ -145,10 +145,11 @@ html{
     padding:2%;
   }
 
-  iframe{
+  video{
     margin:auto;
     display:flex;
-    padding:3%;
+    padding:2%;
+    width:600px;
   }
    /* Start of Media Queries! */
 
@@ -180,7 +181,7 @@ html{
 2. ipad Mini (768px x 1024px)
 3. Surface Pro 7 (912px x 1368px)
 4. Nest Hub (1024px x 600px)
-5. ipad (768px x 1024px)
+5. ipad (768px x 1024px)t
 6. ipad pro (1024px x 1366px)
  */
 
@@ -223,7 +224,7 @@ html{
 @media only screen and (max-width: 480px){
   .grid{
     height:1600px;
-    grid-template-rows: 3.6% 4% 5% 12% 19.4% 24% 17% 15%;
+    grid-template-rows: 3.6% 4% 5% 12% 19.4% 23% 18% 15%;
   }
   h1{
     font-size: 2rem;
@@ -242,23 +243,19 @@ html{
   .secondSectionP{
     font-size: 1.1rem;
   }
-  .diagramImg{
-    padding-bottom:5%;
-    height:60%;
-  }
   img{
     height:80%;
   }
   .pricingBtn{
     font-size: 1.2rem;
   }
-  iframe{
-    
+  video{
+    width:350px;
   }
 }
 
 /* mobile (landscape) 915 px and smaller */
-@media only screen and (max-width: 915px) and (orientation:landscape){
+@media only screen and (max-width: 916px) and (orientation:landscape){
   .grid{
     grid-template-rows: 3.5% 4% 3% 11% 20% 18% 26.5% 14%
    }
@@ -280,10 +277,6 @@ html{
   }
   .secondSectionP{
     font-size: 1.3rem;
-  }
-  iframe{
-    width:70%;
-    height:70%;
   }
   .pricingBtn{
     font-size: 1.2rem;
