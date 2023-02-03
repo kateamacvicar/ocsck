@@ -9,7 +9,7 @@ $mailFrom = $_POST['email'];
 $message= $_POST['message'];
 
 //won't work with a gmail address
-$mailTo = "km1@wellesley.edu";
+$mailTo = "mail@ottercreeksmallcraft.com";
 $headers = "From: ".$mailFrom;
 $txt = "You have received an e-mail from ".$name.".\n\n".$message;
 
